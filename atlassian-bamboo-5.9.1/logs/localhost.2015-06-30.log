@@ -1,0 +1,26 @@
+Jun 30, 2015 11:30:18 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jun 30, 2015 11:30:19 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter has initialized
+Jun 30, 2015 11:30:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Jun 30, 2015 11:31:29 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter is being destroyed...
+Jun 30, 2015 11:31:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Jun 30, 2015 11:31:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jun 30, 2015 11:31:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jun 30, 2015 11:31:44 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter has initialized
+Jun 30, 2015 11:31:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Jun 30, 2015 11:34:21 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jun 30, 2015 1:59:34 PM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter is being destroyed...
+Jun 30, 2015 1:59:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Jun 30, 2015 1:59:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

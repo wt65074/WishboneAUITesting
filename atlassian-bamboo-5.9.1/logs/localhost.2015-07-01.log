@@ -1,0 +1,343 @@
+Jul 01, 2015 9:14:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jul 01, 2015 9:14:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 01, 2015 9:15:39 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter has initialized
+Jul 01, 2015 9:15:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Jul 01, 2015 9:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter is being destroyed...
+Jul 01, 2015 9:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Jul 01, 2015 9:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jul 01, 2015 9:18:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jul 01, 2015 9:18:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 01, 2015 9:20:01 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter has initialized
+Jul 01, 2015 9:20:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Jul 01, 2015 9:20:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jul 01, 2015 9:20:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 01, 2015 9:23:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jul 01, 2015 9:23:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 01, 2015 9:24:16 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter is being destroyed...
+Jul 01, 2015 9:24:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Jul 01, 2015 9:24:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jul 01, 2015 9:24:23 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class com.atlassian.bamboo.ww2.actions.setup.BambooContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'decoratingErrorAccessor' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'decoratedErrorDetailsFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'decoratedErrorDetailsFactory' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'agentManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'agentManager' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl#1d959de7' of type [com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl#1d959de7' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildAgentController' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildAgentController' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultProcessor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultProcessor' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' of type [com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildExecutionManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:646)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at com.atlassian.spring.container.ContainerContextLoaderListener.contextInitialized(ContainerContextLoaderListener.java:32)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5016)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5524)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'decoratedErrorDetailsFactory' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'agentManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'agentManager' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl#1d959de7' of type [com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl#1d959de7' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildAgentController' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildAgentController' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultProcessor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultProcessor' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' of type [com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildExecutionManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:646)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 27 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'agentManager' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl#1d959de7' of type [com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl#1d959de7' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildAgentController' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildAgentController' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultProcessor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultProcessor' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' of type [com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildExecutionManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:290)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.buildqueue.manager.AgentManagerImpl#1d959de7' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildAgentController' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildAgentController' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultProcessor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultProcessor' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' of type [com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildExecutionManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:646)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+	... 49 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildAgentController' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultProcessor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultProcessor' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' of type [com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildExecutionManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:646)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 57 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultProcessor' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' of type [com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildExecutionManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:290)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:646)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 69 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.v2.build.agent.LocalBuildResultProcessor#3221b403' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildExecutionManager' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:646)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+	... 81 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildExecutionManager' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'resultsSummaryManager' while setting bean property 'resultsSummaryManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 89 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManager': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 99 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resultsSummaryManagerTarget' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultsIndexer' while setting bean property 'buildResultsIndexer'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.aop.framework.ProxyFactoryBean.freshTargetSource(ProxyFactoryBean.java:577)
+	at org.springframework.aop.framework.ProxyFactoryBean.getSingletonInstance(ProxyFactoryBean.java:311)
+	at org.springframework.aop.framework.ProxyFactoryBean.getObject(ProxyFactoryBean.java:246)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 104 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultsIndexer' defined in class path resource [applicationContextManagers.xml]: Cannot create inner bean 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' of type [com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer] while setting bean property 'target'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:290)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 117 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.atlassian.bamboo.index.buildresult.DefaultBuildResultsIndexer#64b9e51d' defined in class path resource [applicationContextManagers.xml]: Cannot resolve reference to bean 'buildResultLuceneConnection' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:646)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+	... 127 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildResultLuceneConnection' defined in class path resource [applicationContextManagers.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1005)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 135 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.atlassian.bamboo.index.LuceneConnectionImpl]: Constructor threw exception; nested exception is com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:164)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:125)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:270)
+	... 144 more
+Caused by: com.atlassian.bonnie.LuceneException: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at com.atlassian.bonnie.LuceneConnection.<init>(LuceneConnection.java:112)
+	at com.atlassian.bonnie.LuceneConnection.<init>(LuceneConnection.java:120)
+	at com.atlassian.bonnie.LuceneConnection.<init>(LuceneConnection.java:135)
+	at com.atlassian.bamboo.index.LuceneConnectionImpl.<init>(LuceneConnectionImpl.java:25)
+	at sun.reflect.GeneratedConstructorAccessor72.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	... 146 more
+Caused by: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: /Users/WST/Desktop/BambooTests/index/results/write.lock
+	at org.apache.lucene.store.NativeFSLock.release(NativeFSLockFactory.java:295)
+	at org.apache.lucene.index.IndexWriter.unlock(IndexWriter.java:4458)
+	at com.atlassian.bonnie.LuceneConnection.ensureLockOnDirectory(LuceneConnection.java:692)
+	at com.atlassian.bonnie.LuceneConnection.<init>(LuceneConnection.java:102)
+	... 153 more
+
+Jul 01, 2015 9:24:23 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class com.atlassian.bamboo.upgrade.UpgradeLauncher
+java.lang.RuntimeException: Failed to upgrade
+	at com.atlassian.bamboo.upgrade.UpgradeLauncher.upgradeAndStartBamboo(UpgradeLauncher.java:161)
+	at com.atlassian.bamboo.upgrade.UpgradeLauncher.contextInitialized(UpgradeLauncher.java:40)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5016)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5524)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.atlassian.spring.container.ContainerManager.getComponent(ContainerManager.java:33)
+	at com.atlassian.bamboo.upgrade.UpgradeLauncher.upgradeAndStartBamboo(UpgradeLauncher.java:88)
+	... 10 more
+
+Jul 01, 2015 9:24:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jul 01, 2015 9:25:04 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class com.atlassian.bamboo.upgrade.UpgradeLauncher
+java.lang.RuntimeException: Failed to upgrade
+	at com.atlassian.bamboo.upgrade.UpgradeLauncher.upgradeAndStartBamboo(UpgradeLauncher.java:161)
+	at com.atlassian.bamboo.upgrade.UpgradeLauncher.contextInitialized(UpgradeLauncher.java:40)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5016)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5524)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.atlassian.bamboo.resultsummary.BuildResultsSummaryManagerImpl.getAllPendingResultSummaries(BuildResultsSummaryManagerImpl.java:366)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at com.atlassian.bamboo.security.acegi.intercept.aopalliance.AuthorityOverrideMethodSecurityInterceptor.invoke(AuthorityOverrideMethodSecurityInterceptor.java:30)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy85.getAllPendingResultSummaries(Unknown Source)
+	at com.atlassian.bamboo.container.startup.PendingBuildResultsStateRestorationImpl.restoreState(PendingBuildResultsStateRestorationImpl.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy151.restoreState(Unknown Source)
+	at com.atlassian.bamboo.container.BambooContainer.initialisePlans(BambooContainer.java:419)
+	at com.atlassian.bamboo.container.BambooContainer.start(BambooContainer.java:271)
+	at com.atlassian.bamboo.upgrade.UpgradeLauncher.upgradeAndStartBamboo(UpgradeLauncher.java:151)
+	... 10 more
+
+Jul 01, 2015 9:25:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jul 01, 2015 9:28:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jul 01, 2015 9:28:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 01, 2015 9:29:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jul 01, 2015 9:29:18 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 01, 2015 9:30:07 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter has initialized
+Jul 01, 2015 9:30:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Jul 01, 2015 9:33:58 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter is being destroyed...
+Jul 01, 2015 9:33:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Jul 01, 2015 9:33:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jul 01, 2015 9:34:39 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter has initialized
+Jul 01, 2015 9:34:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Jul 01, 2015 9:50:08 AM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter is being destroyed...
+Jul 01, 2015 9:50:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Jul 01, 2015 9:50:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
