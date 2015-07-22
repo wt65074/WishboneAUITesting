@@ -4,7 +4,7 @@
 
 #In Terminal:
 
-cd to this directory\ncd to atlassian-bamboo-5.9.1
+cd to this directory/ncd to atlassian-bamboo-5.9.1
 type "sh bin/start-bamboo.sh"
 
 In your browser go to http://localhost:8085
