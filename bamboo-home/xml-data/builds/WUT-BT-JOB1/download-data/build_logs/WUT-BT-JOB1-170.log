@@ -1,0 +1,44 @@
+simple	22-Jul-2015 10:27:43	Build Wishbone UI Testing - Build and Test - Default Job #170 (WUT-BT-JOB1-170) started building on agent Default Agent
+simple	22-Jul-2015 10:27:43	
+simple	22-Jul-2015 10:27:43	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	22-Jul-2015 10:27:43	Executing build Wishbone UI Testing - Build and Test - Default Job #170 (WUT-BT-JOB1-170)
+simple	22-Jul-2015 10:27:43	Running pre-build action: VCS Version Collector
+simple	22-Jul-2015 10:27:43	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	22-Jul-2015 10:27:43	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #170 (WUT-BT-JOB1-170)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-170-ScriptBuildTask-4403222919107847920.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-170\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=170\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-170\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-22T10:27:43.265-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-170\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	22-Jul-2015 10:27:43	===================================BuildingWishbone.app===================================
+build	22-Jul-2015 10:27:44	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	22-Jul-2015 10:27:44	
+build	22-Jul-2015 10:27:44	Check dependencies
+build	22-Jul-2015 10:27:45	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	22-Jul-2015 10:27:45	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	22-Jul-2015 10:27:45	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	22-Jul-2015 10:27:45	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	22-Jul-2015 10:27:45	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	22-Jul-2015 10:27:45	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	22-Jul-2015 10:27:45	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	22-Jul-2015 10:27:45	
+build	22-Jul-2015 10:27:45	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	22-Jul-2015 10:27:45	
+build	22-Jul-2015 10:27:45	Check dependencies
+build	22-Jul-2015 10:27:45	
+command	22-Jul-2015 10:27:46	Request to stop 'WUT-BT-JOB1-170' received from wtobey
+simple	22-Jul-2015 10:27:46	Failing task since return code of [/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-170-ScriptBuildTask-4403222919107847920.sh] was 143 while expected 0
+simple	22-Jul-2015 10:27:46	Finished task 'Build and Run' with result: Failed
+simple	22-Jul-2015 10:27:46	Running post build plugin 'npm Cache Cleanup'
+simple	22-Jul-2015 10:27:46	Running post build plugin 'NCover Results Collector'
+simple	22-Jul-2015 10:27:46	Running post build plugin 'Clover Results Collector'
+simple	22-Jul-2015 10:27:46	Running post build plugin 'Docker Container Cleanup'
+simple	22-Jul-2015 10:27:46	Running post build plugin 'Artifact Copier'
+simple	22-Jul-2015 10:27:46	Finalising the build...
+simple	22-Jul-2015 10:27:46	Stopping timer.
+simple	22-Jul-2015 10:27:46	Build WUT-BT-JOB1-170 completed.
+simple	22-Jul-2015 10:27:46	Running on server: post build plugin 'NCover Results Collector'
+simple	22-Jul-2015 10:27:46	Running on server: post build plugin 'Clover Delta Calculator'
+simple	22-Jul-2015 10:27:46	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	22-Jul-2015 10:27:46	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	22-Jul-2015 10:27:46	All post build plugins have finished
+simple	22-Jul-2015 10:27:46	Generating build results summary...
+simple	22-Jul-2015 10:27:46	Saving build results to disk...
+simple	22-Jul-2015 10:27:46	Logging substituted variables...
+simple	22-Jul-2015 10:27:46	Indexing build results...
+simple	22-Jul-2015 10:27:46	Finished building WUT-BT-JOB1-170.

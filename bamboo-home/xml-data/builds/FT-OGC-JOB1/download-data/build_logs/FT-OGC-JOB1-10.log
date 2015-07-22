@@ -1,0 +1,27 @@
+simple	29-Jun-2015 14:58:00	Build First Test - ON GT Commit - Default Job #10 (FT-OGC-JOB1-10) started building on agent Default Agent
+simple	29-Jun-2015 14:58:00	
+simple	29-Jun-2015 14:58:00	Build working directory is /Users/WST/Desktop/UIAutomation/bamboo-home/xml-data/build-dir/131073/FT-OGC-JOB1
+simple	29-Jun-2015 14:58:00	Executing build First Test - ON GT Commit - Default Job #10 (FT-OGC-JOB1-10)
+simple	29-Jun-2015 14:58:00	Running pre-build action: VCS Version Collector
+simple	29-Jun-2015 14:58:00	Starting task 'Script' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	29-Jun-2015 14:58:00	Beginning to execute external process for build 'First Test - ON GT Commit - Default Job #10 (FT-OGC-JOB1-10)'\n ... running command line: \n/bin/sh /Users/WST/atlassian-bamboo-5.9.1/temp/FT-OGC-JOB1-10-ScriptBuildTask-7010226597373622307.sh\n ... in: /Users/WST/Desktop/UIAutomation/bamboo-home/xml-data/build-dir/131073/FT-OGC-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=master\nbamboo_repository_revision_number=245d9c7c85f8235272af6ccc9a21326759fec0be\nbamboo_repository_327682_revision_number=245d9c7c85f8235272af6ccc9a21326759fec0be\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/FT-OGC-JOB1-10\nbamboo_planRepository_1_name=BambooTests\nbamboo_build_working_directory=/Users/WST/Desktop/UIAutomation/bamboo-home/xml-data/build-dir/131073/FT-OGC-JOB1\nbamboo_buildKey=FT-OGC-JOB1\nbamboo_repository_327682_git_username=wt65074\nbamboo_shortPlanName=ON GT Commit\nbamboo_planRepository_name=BambooTests\nbamboo_buildNumber=10\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/FT-OGC-JOB1-10\nbamboo_planRepository_repositoryUrl=https://github.com/wt65074/bamboo-tests.git\nbamboo_agentId=131073\nbamboo_planName=First Test - ON GT Commit\nbamboo_shortPlanKey=OGC\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=245d9c7c85f8235272af6ccc9a21326759fec0be\nbamboo_repository_previous_revision_number=d3249931eceb5ff9aa2b8d8bf62e25b44a7bc452\nbamboo_buildTimeStamp=2015-06-29T14:58:00.743-07:00\nbamboo_planRepository_previousRevision=d3249931eceb5ff9aa2b8d8bf62e25b44a7bc452\nbamboo_buildResultKey=FT-OGC-JOB1-10\nbamboo_repository_git_branch=master\nbamboo_repository_branch_name=master\nbamboo_buildPlanName=First Test - ON GT Commit - Default Job\nbamboo_planRepository_1_revision=245d9c7c85f8235272af6ccc9a21326759fec0be\nbamboo_repository_name=BambooTests\nbamboo_repository_327682_name=BambooTests\nbamboo_repository_327682_branch_name=master\nbamboo_planRepository_branch=master\nbamboo_repository_327682_git_repositoryUrl=https://github.com/wt65074/bamboo-tests.git\nbamboo_agentWorkingDirectory=/Users/WST/Desktop/UIAutomation/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=d3249931eceb5ff9aa2b8d8bf62e25b44a7bc452\nbamboo_repository_git_username=wt65074\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=master\nbamboo_repository_327682_git_branch=master\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_repository_git_repositoryUrl=https://github.com/wt65074/bamboo-tests.git\nbamboo_working_directory=/Users/WST/Desktop/UIAutomation/bamboo-home/xml-data/build-dir/131073/FT-OGC-JOB1\nbamboo_planKey=FT-OGC\nbamboo_planRepository_1_repositoryUrl=https://github.com/wt65074/bamboo-tests.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=master\nbamboo_repository_327682_previous_revision_number=d3249931eceb5ff9aa2b8d8bf62e25b44a7bc452\n
+build	29-Jun-2015 14:58:00	This shit worked :0
+simple	29-Jun-2015 14:58:00	Finished task 'Script' with result: Success
+simple	29-Jun-2015 14:58:00	Running post build plugin 'npm Cache Cleanup'
+simple	29-Jun-2015 14:58:00	Running post build plugin 'NCover Results Collector'
+simple	29-Jun-2015 14:58:00	Running post build plugin 'Clover Results Collector'
+simple	29-Jun-2015 14:58:00	Running post build plugin 'Docker Container Cleanup'
+simple	29-Jun-2015 14:58:00	Running post build plugin 'Artifact Copier'
+simple	29-Jun-2015 14:58:00	Finalising the build...
+simple	29-Jun-2015 14:58:00	Stopping timer.
+simple	29-Jun-2015 14:58:00	Build FT-OGC-JOB1-10 completed.
+simple	29-Jun-2015 14:58:00	Running on server: post build plugin 'NCover Results Collector'
+simple	29-Jun-2015 14:58:00	Running on server: post build plugin 'Clover Delta Calculator'
+simple	29-Jun-2015 14:58:00	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	29-Jun-2015 14:58:00	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	29-Jun-2015 14:58:00	All post build plugins have finished
+simple	29-Jun-2015 14:58:00	Generating build results summary...
+simple	29-Jun-2015 14:58:00	Saving build results to disk...
+simple	29-Jun-2015 14:58:00	Logging substituted variables...
+simple	29-Jun-2015 14:58:00	Indexing build results...
+simple	29-Jun-2015 14:58:00	Finished building FT-OGC-JOB1-10.

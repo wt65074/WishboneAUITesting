@@ -1,0 +1,8 @@
+Jul 17, 2015 3:18:30 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8085"]
+Jul 17, 2015 3:18:30 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 17, 2015 3:18:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8085"]
+Jul 17, 2015 3:18:36 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8085"]

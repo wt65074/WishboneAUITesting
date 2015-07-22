@@ -1,0 +1,18 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>  File &quot;parser.py&quot;, line 74</string>
+    <string>    for subtestString for subtestString in incompleteSubtests if string[1] in subtestString {</string>
+    <string>                        ^</string>
+    <string>SyntaxError: invalid syntax</string>
+  </myBuildErrors>
+  <myBuildNumber>81</myBuildNumber>
+  <myBuildDate>1437082845793</myBuildDate>
+  <myBuildDuration>29996</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

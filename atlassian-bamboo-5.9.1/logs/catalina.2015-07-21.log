@@ -1,0 +1,14 @@
+Jul 21, 2015 7:34:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wtobey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Jul 21, 2015 7:34:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+Jul 21, 2015 7:34:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 587 ms
+Jul 21, 2015 7:34:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 21, 2015 7:34:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Jul 21, 2015 7:35:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+Jul 21, 2015 7:35:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 59245 ms

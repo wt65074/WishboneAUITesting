@@ -1,0 +1,42 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Jul 17 14:13:08 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:08 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:08 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:08 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:21 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:21 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:21 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:21 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:35 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:35 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:35 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:35 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:48 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:48 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:48 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:13:48 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:15:38 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:15:38 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:15:38 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:15:38 Wills-MacBook-Pro.local instruments[4914] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>2015-07-17 14:15:52.326 instruments[4914:1071276] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>2015-07-17 14:15:52.327 instruments[4914:1071276] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 170, in &lt;module&gt;</string>
+    <string>    shutil.move(retrievedPath, path + &quot;/&quot; + subtest)</string>
+    <string>  File &quot;/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;, line 291, in move</string>
+    <string>    raise Error, &quot;Destination path &apos;%s&apos; already exists&quot; % real_dst</string>
+    <string>shutil.Error: Destination path &apos;/Users/wtobey/Desktop/AUITesting/Run 2015-07-17 21:04:58/Create View/Choose From Library/Create View &gt; Choose From Library Fri, 17 Jul 2015 21-05-28 GMT.png&apos; already exists</string>
+  </myBuildErrors>
+  <myBuildNumber>109</myBuildNumber>
+  <myBuildDate>1437167076645</myBuildDate>
+  <myBuildDuration>696977</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

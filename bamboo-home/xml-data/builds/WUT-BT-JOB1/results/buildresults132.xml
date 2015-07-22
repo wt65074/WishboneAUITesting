@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-20 22:02:31.786 instruments[1753:277113] Failed to start Instruments daemon on &apos;Will&apos;s iPhone (9.0)&apos; (The service is invalid.)</string>
+    <string>2015-07-20 22:02:32.299 instruments[1753:277111] Failed to start Instruments daemon on &apos;Will&apos;s iPhone (9.0)&apos; (The service is invalid.)</string>
+  </myBuildErrors>
+  <myBuildNumber>132</myBuildNumber>
+  <myBuildDate>1437454932625</myBuildDate>
+  <myBuildDuration>558928</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

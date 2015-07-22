@@ -1,0 +1,15 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Unknown</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Build was manually stopped.</string>
+  </myBuildErrors>
+  <myBuildNumber>167</myBuildNumber>
+  <myBuildDate>1437585566767</myBuildDate>
+  <myBuildDuration>13222</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

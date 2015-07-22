@@ -1,0 +1,17 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-21 19:36:43.490 instruments[827:43700] Failed to start Instruments daemon on &apos;Will&apos;s iPhone (9.0)&apos; (The service is invalid.)</string>
+    <string>2015-07-21 19:36:44.150 instruments[827:43693] Failed to start Instruments daemon on &apos;Will&apos;s iPhone (9.0)&apos; (The service is invalid.)</string>
+    <string>upload failed: ./ to s3://wishbone-auitesting/ [Errno 21] Is a directory: u&apos;/Users/wtobey/Desktop/AUITesting/&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>154</myBuildNumber>
+  <myBuildDate>1437532583116</myBuildDate>
+  <myBuildDuration>47400</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

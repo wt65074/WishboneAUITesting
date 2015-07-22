@@ -1,0 +1,15 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>warning: Skipping file /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 22:12:09.zip/. File does not exist.</string>
+  </myBuildErrors>
+  <myBuildNumber>147</myBuildNumber>
+  <myBuildDate>1437516706989</myBuildDate>
+  <myBuildDuration>121203</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

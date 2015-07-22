@@ -1,0 +1,15 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>AUITestingScript.sh: line 39: syntax error: unexpected end of file</string>
+  </myBuildErrors>
+  <myBuildNumber>126</myBuildNumber>
+  <myBuildDate>1437424280472</myBuildDate>
+  <myBuildDuration>662460</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

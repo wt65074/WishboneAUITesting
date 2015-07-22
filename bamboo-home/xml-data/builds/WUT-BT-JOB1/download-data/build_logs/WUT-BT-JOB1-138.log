@@ -1,0 +1,171 @@
+simple	21-Jul-2015 11:09:58	Build Wishbone UI Testing - Build and Test - Default Job #138 (WUT-BT-JOB1-138) started building on agent Default Agent
+simple	21-Jul-2015 11:09:58	
+simple	21-Jul-2015 11:09:58	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	21-Jul-2015 11:09:58	Executing build Wishbone UI Testing - Build and Test - Default Job #138 (WUT-BT-JOB1-138)
+simple	21-Jul-2015 11:09:58	Running pre-build action: VCS Version Collector
+simple	21-Jul-2015 11:09:58	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	21-Jul-2015 11:09:58	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #138 (WUT-BT-JOB1-138)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-138-ScriptBuildTask-3928961200841180208.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-138\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=138\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-138\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-21T11:09:58.556-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-138\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	21-Jul-2015 11:09:58	===================================BuildingWishbone.app===================================
+build	21-Jul-2015 11:09:59	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 11:09:59	
+build	21-Jul-2015 11:09:59	Check dependencies
+build	21-Jul-2015 11:10:00	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:10:00	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:10:00	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:10:00	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:10:00	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:10:00	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	21-Jul-2015 11:10:00	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	21-Jul-2015 11:10:00	
+build	21-Jul-2015 11:10:00	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 11:10:00	
+build	21-Jul-2015 11:10:00	Check dependencies
+build	21-Jul-2015 11:10:00	
+build	21-Jul-2015 11:10:10	** TEST SUCCEEDED **
+build	21-Jul-2015 11:10:10	
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.130 Wishbone[3764:435537] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.198 Wishbone[3764:435537] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=2CamzRn9j2lvxKJrx_0Ouw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437502209.194478&usage_tracking_enabled=1&value=1.00.
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.215 Wishbone[3764:435537] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.313 Wishbone[3764:436027] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.509 Wishbone[3764:436038] Resolved sdk-api-ssl.playhaven.com -> 48.110.179.12
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.512 Wishbone[3764:435537] AppsFlyer SDK version 2.5.3.15 started
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.598 Wishbone[3764:436039] Resolved media.playhaven.com -> 48.110.179.12
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.629 Wishbone[3764:435537] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.847 Wishbone[3764:435537] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=2CamzRn9j2lvxKJrx_0Ouw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437505809.844463&usage_tracking_enabled=1.
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.852 Wishbone[3764:436016] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	21-Jul-2015 11:10:10	    parameters =     {
+build	21-Jul-2015 11:10:10	        "&_u" = ".etno";
+build	21-Jul-2015 11:10:10	        "&_v" = "mi3.0.3c";
+build	21-Jul-2015 11:10:10	        "&an" = Wishbone;
+build	21-Jul-2015 11:10:10	        "&av" = "3.0.5";
+build	21-Jul-2015 11:10:10	        "&cd" = "Login View";
+build	21-Jul-2015 11:10:10	        "&cid" = "1e9a2431-ff8e-47a7-8ecd-594e768d2354";
+build	21-Jul-2015 11:10:10	        "&sr" = 320x568;
+build	21-Jul-2015 11:10:10	        "&t" = appview;
+build	21-Jul-2015 11:10:10	        "&tid" = "UA-48537804-1";
+build	21-Jul-2015 11:10:10	        "&ul" = en;
+build	21-Jul-2015 11:10:10	        "&v" = 1;
+build	21-Jul-2015 11:10:10	        "&z" = 10697772026820939068;
+build	21-Jul-2015 11:10:10	        gaiVersion = "3.03c";
+build	21-Jul-2015 11:10:10	    };
+build	21-Jul-2015 11:10:10	    timestamp = "2015-07-21 18:10:09 +0000";
+build	21-Jul-2015 11:10:10	}
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.883 Wishbone[3764:436027] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.891 Wishbone[3764:435537] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=8FAB9610-49B6-49AE-BC92-64985F301F1B&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=6wxGpl3QpBhmfzuIZnSP5ft03x4&plugin=ios&nonce=dopLz58ZJ_bktBernbd5xmkkSG8&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=70A86EC7-BE14-484C-9786-F5C8DF97BAD2&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.949 Wishbone[3764:436027] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	21-Jul-2015 11:10:10	Test Suite 'All tests' started at 2015-07-21 18:10:09 +0000
+build	21-Jul-2015 11:10:10	Test Suite 'WishboneTests.xctest' started at 2015-07-21 18:10:09 +0000
+build	21-Jul-2015 11:10:10	Test Suite 'WishboneTests' started at 2015-07-21 18:10:09 +0000
+build	21-Jul-2015 11:10:10	Test Case '-[WishboneTests testExample]' started.
+build	21-Jul-2015 11:10:10	Test Case '-[WishboneTests testExample]' passed (0.000 seconds).
+build	21-Jul-2015 11:10:10	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:09.961 Wishbone[3764:435537] <Google> ping successful.
+build	21-Jul-2015 11:10:10	2015-07-21 11:10:10.042 Wishbone[3764:435537] <Google> ping successful.
+build	21-Jul-2015 11:10:10	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 139.120%, values: [0.000005, 0.000001, 0.000001, 0.000000, 0.000000, 0.000001, 0.000000, 0.000001, 0.000000, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	21-Jul-2015 11:10:10	Test Case '-[WishboneTests testPerformanceExample]' passed (0.374 seconds).
+build	21-Jul-2015 11:10:10	Test Suite 'WishboneTests' passed at 2015-07-21 18:10:10 +0000.
+build	21-Jul-2015 11:10:10		 Executed 2 tests, with 0 failures (0 unexpected) in 0.374 (0.376) seconds
+build	21-Jul-2015 11:10:10	Test Suite 'WishboneTests.xctest' passed at 2015-07-21 18:10:10 +0000.
+build	21-Jul-2015 11:10:10		 Executed 2 tests, with 0 failures (0 unexpected) in 0.374 (0.377) seconds
+build	21-Jul-2015 11:10:10	Test Suite 'All tests' passed at 2015-07-21 18:10:10 +0000.
+build	21-Jul-2015 11:10:10		 Executed 2 tests, with 0 failures (0 unexpected) in 0.374 (0.378) seconds
+build	21-Jul-2015 11:10:10	===================================Building instruments.sh===================================
+build	21-Jul-2015 11:10:12	===================================Running instruments.sh===================================
+build	21-Jul-2015 11:10:16	2015-07-21 18:10:16 +0000 Start: First Screen
+build	21-Jul-2015 11:10:16	2015-07-21 18:10:16 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:10:16 GMT")
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:16 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:16 +0000 Start: First Screen > Skip Login
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:16 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Skip Login"].tap()
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:16 +0000 Pass: First Screen > Skip Login
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:16 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:10:16 GMT")
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:17 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:17 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:10:17 GMT")
+build	21-Jul-2015 11:10:17	2015-07-21 18:10:17 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:19	2015-07-21 18:10:18 +0000 Debug: target.frontMostApp().alert().cancelButton().tap()
+build	21-Jul-2015 11:10:20	2015-07-21 18:10:20 +0000 Debug: target.frontMostApp().mainWindow().pageIndicators()[0].withValueForKey("1", "isVisible").selectPage("1")
+build	21-Jul-2015 11:10:21	2015-07-21 18:10:21 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:10:21 GMT")
+build	21-Jul-2015 11:10:21	2015-07-21 18:10:21 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:21	2015-07-21 18:10:21 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].withValueForKey("1", "isVisible").scrollViews()[0].buttons()[0].tap()
+build	21-Jul-2015 11:10:23	2015-07-21 18:10:23 +0000 Pass: First Screen
+build	21-Jul-2015 11:10:23	2015-07-21 18:10:23 +0000 Start: Create View
+build	21-Jul-2015 11:10:23	2015-07-21 18:10:23 +0000 Debug: target.frontMostApp().mainWindow().buttons()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:10:23	2015-07-21 18:10:23 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:10:23 GMT")
+build	21-Jul-2015 11:10:24	2015-07-21 18:10:23 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:24	2015-07-21 18:10:23 +0000 Debug: target.frontMostApp().mainWindow().textViews()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:10:24	2015-07-21 18:10:24 +0000 Debug: target.frontMostApp().keyboard().typeString("Test Post")
+build	21-Jul-2015 11:10:27	2015-07-21 18:10:27 +0000 Debug: target.frontMostApp().mainWindow().tapWithOptions({x:"0.5", y:"0.5"})
+build	21-Jul-2015 11:10:27	2015-07-21 18:10:27 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:10:28	2015-07-21 18:10:28 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:10:28 GMT")
+build	21-Jul-2015 11:10:28	2015-07-21 18:10:28 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:28	2015-07-21 18:10:28 +0000 Start: Create View > Search Web
+build	21-Jul-2015 11:10:28	2015-07-21 18:10:28 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Search Web"].tap()
+build	21-Jul-2015 11:10:28	2015-07-21 18:10:28 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 18:10:28 GMT")
+build	21-Jul-2015 11:10:29	2015-07-21 18:10:28 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:29	2015-07-21 18:10:29 +0000 Debug: target.frontMostApp().keyboard().typeString("Cat\n")
+build	21-Jul-2015 11:10:30	2015-07-21 18:10:30 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 18:10:30 GMT")
+build	21-Jul-2015 11:10:30	2015-07-21 18:10:30 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:30	2015-07-21 18:10:30 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:10:32	2015-07-21 18:10:32 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:10:32 GMT")
+build	21-Jul-2015 11:10:32	2015-07-21 18:10:32 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:32	2015-07-21 18:10:32 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	21-Jul-2015 11:10:37	2015-07-21 18:10:37 +0000 Pass: Create View > Search Web
+build	21-Jul-2015 11:10:37	2015-07-21 18:10:37 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:10:37	2015-07-21 18:10:37 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:10:37 GMT")
+build	21-Jul-2015 11:10:37	2015-07-21 18:10:37 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:37	2015-07-21 18:10:37 +0000 Start: Create View > Add Sticker
+build	21-Jul-2015 11:10:37	2015-07-21 18:10:37 +0000 Debug: target.frontMostApp().mainWindow().images()["add-sticker.png"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:10:39	2015-07-21 18:10:39 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:10:39	2015-07-21 18:10:39 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Add Sticker Tue, 21 Jul 2015 18:10:39 GMT")
+build	21-Jul-2015 11:10:39	2015-07-21 18:10:39 +0000 Screenshot captured.
+build	21-Jul-2015 11:10:49	2015-07-21 18:10:49 +0000 Pass: Create View > Add Sticker
+build	21-Jul-2015 11:11:00	2015-07-21 18:10:59 +0000 Debug: Cannot perform action on invalid element: UIAElementNil from target.frontMostApp().mainWindow().buttons()[2].withValueForKey("1", "isVisible")
+build	21-Jul-2015 11:11:00	2015-07-21 18:11:00 +0000 Error: Script threw an uncaught JavaScript error: Cannot perform action on invalid element: UIAElementNil from target.frontMostApp().mainWindow().buttons()[2].withValueForKey("1", "isVisible") on line 595 of Wishbone.js
+build	21-Jul-2015 11:11:00	2015-07-21 18:11:00 +0000 Stopped: Script was stopped by the user
+error	21-Jul-2015 11:11:00	2015-07-21 11:11:00.431 instruments[3790:436159] Attempting to set event horizon when core is not engaged, request ignored
+error	21-Jul-2015 11:11:00	2015-07-21 11:11:00.431 instruments[3790:436158] Attempting to set event horizon when core is not engaged, request ignored
+build	21-Jul-2015 11:11:01	Instruments Trace Complete (Duration : 47.287880s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+error	21-Jul-2015 11:11:01	CoreTestingScript.sh: line 29: instruments.sh: command not found
+build	21-Jul-2015 11:11:01	===================================Running Parser.py===================================
+build	21-Jul-2015 11:11:01	The current working directory is /Users/wtobey/Desktop/AUITesting
+build	21-Jul-2015 11:11:01	opt
+build	21-Jul-2015 11:11:01	iOS 8.4, iPhone 6, iOS Simulator
+build	21-Jul-2015 11:11:01	iOS 8.4, iPhone 6, iOS Simulator
+build	21-Jul-2015 11:11:01	['First Screen', 'Create View']
+build	21-Jul-2015 11:11:01	['First Screen']
+build	21-Jul-2015 11:11:01	(0, 'First Screen > Skip Login')
+build	21-Jul-2015 11:11:01	(0, 'Create View > Search Web')
+build	21-Jul-2015 11:11:01	(1, 'Create View > Add Sticker')
+build	21-Jul-2015 11:11:01	['/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-16 GMT 2.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-16 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-17 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-21 GMT.png']
+build	21-Jul-2015 11:11:01	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-16 GMT 2.png
+build	21-Jul-2015 11:11:01	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-16 GMT.png
+build	21-Jul-2015 11:11:01	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-17 GMT.png
+build	21-Jul-2015 11:11:01	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-10-21 GMT.png
+build	21-Jul-2015 11:11:01	===================================Removing Trace===================================
+build	21-Jul-2015 11:11:01	===================================Shutting Down Simulators===================================
+build	21-Jul-2015 11:11:02	===================================Erasing Simulators===================================
+build	21-Jul-2015 11:11:04	===================================Quitting Simulators===================================
+build	21-Jul-2015 11:11:04	FAILURE
+error	21-Jul-2015 11:11:04	sh: CoreTestingScript.sh: No such file or directory
+build	21-Jul-2015 11:11:04	ERROR DETECTED
+build	21-Jul-2015 11:11:07	opt
+build	21-Jul-2015 11:11:07	/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:10:16/RunSummary.txt
+build	21-Jul-2015 11:11:07	/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:10:16/RunSummary.txt
+simple	21-Jul-2015 11:11:07	Finished task 'Build and Run' with result: Success
+simple	21-Jul-2015 11:11:07	Running post build plugin 'npm Cache Cleanup'
+simple	21-Jul-2015 11:11:07	Running post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 11:11:07	Running post build plugin 'Clover Results Collector'
+simple	21-Jul-2015 11:11:07	Running post build plugin 'Docker Container Cleanup'
+simple	21-Jul-2015 11:11:07	Running post build plugin 'Artifact Copier'
+simple	21-Jul-2015 11:11:07	Finalising the build...
+simple	21-Jul-2015 11:11:07	Stopping timer.
+simple	21-Jul-2015 11:11:07	Build WUT-BT-JOB1-138 completed.
+simple	21-Jul-2015 11:11:07	Running on server: post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 11:11:07	Running on server: post build plugin 'Clover Delta Calculator'
+simple	21-Jul-2015 11:11:07	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	21-Jul-2015 11:11:07	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	21-Jul-2015 11:11:07	All post build plugins have finished
+simple	21-Jul-2015 11:11:07	Generating build results summary...
+simple	21-Jul-2015 11:11:07	Saving build results to disk...
+simple	21-Jul-2015 11:11:07	Logging substituted variables...
+simple	21-Jul-2015 11:11:07	Indexing build results...
+simple	21-Jul-2015 11:11:07	Finished building WUT-BT-JOB1-138.

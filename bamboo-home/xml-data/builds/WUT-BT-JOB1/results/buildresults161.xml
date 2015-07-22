@@ -1,0 +1,15 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>AUITestingScript.sh: line 12: test: Run: binary operator expected</string>
+  </myBuildErrors>
+  <myBuildNumber>161</myBuildNumber>
+  <myBuildDate>1437583498039</myBuildDate>
+  <myBuildDuration>39469</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

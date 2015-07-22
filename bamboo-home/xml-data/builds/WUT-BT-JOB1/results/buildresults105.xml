@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-17 13:09:48.921 instruments[4098:885080] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>python: can&apos;t open file &apos;parser.py&apos;: [Errno 2] No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>105</myBuildNumber>
+  <myBuildDate>1437163760983</myBuildDate>
+  <myBuildDuration>36736</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

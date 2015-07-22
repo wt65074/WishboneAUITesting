@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-21 19:47:38.667 instruments[1487:59241] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>grep: RunSummary.txt: No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>159</myBuildNumber>
+  <myBuildDate>1437533234544</myBuildDate>
+  <myBuildDuration>40845</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

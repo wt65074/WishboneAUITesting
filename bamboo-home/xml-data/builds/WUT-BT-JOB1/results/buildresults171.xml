@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>AUITestingScript.sh: line 20: syntax error near unexpected token `|&apos;</string>
+    <string>AUITestingScript.sh: line 20: ` | cut -d &quot;)&quot; -f1 | xargs -I {} xcrun simctl shutdown &quot;{}&quot;&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>171</myBuildNumber>
+  <myBuildDate>1437586375133</myBuildDate>
+  <myBuildDuration>656771</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

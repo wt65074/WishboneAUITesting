@@ -1,0 +1,410 @@
+simple	21-Jul-2015 19:43:40	Build Wishbone UI Testing - Build and Test - Default Job #157 (WUT-BT-JOB1-157) started building on agent Default Agent
+simple	21-Jul-2015 19:43:40	
+simple	21-Jul-2015 19:43:40	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	21-Jul-2015 19:43:40	Executing build Wishbone UI Testing - Build and Test - Default Job #157 (WUT-BT-JOB1-157)
+simple	21-Jul-2015 19:43:40	Running pre-build action: VCS Version Collector
+simple	21-Jul-2015 19:43:40	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	21-Jul-2015 19:43:40	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #157 (WUT-BT-JOB1-157)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-157-ScriptBuildTask-9194492383298095873.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-157\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=157\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-157\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-21T19:43:40.820-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-157\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	21-Jul-2015 19:43:40	===================================BuildingWishbone.app===================================
+build	21-Jul-2015 19:43:41	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 19:43:41	
+build	21-Jul-2015 19:43:41	Check dependencies
+build	21-Jul-2015 19:43:42	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 19:43:42	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 19:43:42	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 19:43:42	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 19:43:42	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 19:43:42	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	21-Jul-2015 19:43:42	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	21-Jul-2015 19:43:42	
+build	21-Jul-2015 19:43:43	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 19:43:43	
+build	21-Jul-2015 19:43:43	Check dependencies
+build	21-Jul-2015 19:43:43	
+build	21-Jul-2015 19:43:51	** TEST SUCCEEDED **
+build	21-Jul-2015 19:43:51	
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.391 Wishbone[1270:52249] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.452 Wishbone[1270:52249] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=_8uj4xaq7s3u1_0H1vedJA&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437533030.449117&usage_tracking_enabled=1&value=1.00.
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.469 Wishbone[1270:52249] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.541 Wishbone[1270:52613] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.779 Wishbone[1270:52624] Resolved sdk-api-ssl.playhaven.com -> 48.78.219.19
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.781 Wishbone[1270:52249] AppsFlyer SDK version 2.5.3.15 started
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.894 Wishbone[1270:52249] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.914 Wishbone[1270:52625] Resolved media.playhaven.com -> 48.78.219.19
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.920 Wishbone[1270:52249] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=_8uj4xaq7s3u1_0H1vedJA&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437536630.917118&usage_tracking_enabled=1.
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:50.949 Wishbone[1270:52249] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=A27A6C76-E15A-4693-BD18-9DDB3993D9E8&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=5FTeaP1MaN-R6tQBBaxzVlLzQps&plugin=ios&nonce=dkDhI8JnyOwQs93yaJkib6oebVg&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=B6A7DD9C-B00D-47B8-8F7C-75D5C43462A6&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:51.070 Wishbone[1270:52613] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:51.144 Wishbone[1270:52597] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	21-Jul-2015 19:43:51	    parameters =     {
+build	21-Jul-2015 19:43:51	        "&_u" = ".etno";
+build	21-Jul-2015 19:43:51	        "&_v" = "mi3.0.3c";
+build	21-Jul-2015 19:43:51	        "&an" = Wishbone;
+build	21-Jul-2015 19:43:51	        "&av" = "3.0.5";
+build	21-Jul-2015 19:43:51	        "&cd" = "Login View";
+build	21-Jul-2015 19:43:51	        "&cid" = "9d5c5224-9aab-4131-8805-d1ab99423d17";
+build	21-Jul-2015 19:43:51	        "&sr" = 320x568;
+build	21-Jul-2015 19:43:51	        "&t" = appview;
+build	21-Jul-2015 19:43:51	        "&tid" = "UA-48537804-1";
+build	21-Jul-2015 19:43:51	        "&ul" = en;
+build	21-Jul-2015 19:43:51	        "&v" = 1;
+build	21-Jul-2015 19:43:51	        "&z" = 11379662786993966548;
+build	21-Jul-2015 19:43:51	        gaiVersion = "3.03c";
+build	21-Jul-2015 19:43:51	    };
+build	21-Jul-2015 19:43:51	    timestamp = "2015-07-22 02:43:51 +0000";
+build	21-Jul-2015 19:43:51	}
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:51.175 Wishbone[1270:52249] <Google> ping successful.
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:51.178 Wishbone[1270:52249] <Google> ping successful.
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:51.187 Wishbone[1270:52613] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	21-Jul-2015 19:43:51	Test Suite 'All tests' started at 2015-07-22 02:43:51 +0000
+build	21-Jul-2015 19:43:51	Test Suite 'WishboneTests.xctest' started at 2015-07-22 02:43:51 +0000
+build	21-Jul-2015 19:43:51	Test Suite 'WishboneTests' started at 2015-07-22 02:43:51 +0000
+build	21-Jul-2015 19:43:51	Test Case '-[WishboneTests testExample]' started.
+build	21-Jul-2015 19:43:51	Test Case '-[WishboneTests testExample]' passed (0.002 seconds).
+build	21-Jul-2015 19:43:51	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:51.313 Wishbone[1270:52249] [PlayHaven-2.0.2] Request recieved HTTP response: 200
+build	21-Jul-2015 19:43:51	2015-07-21 19:43:51.313 Wishbone[1270:52249] [PlayHaven-2.0.2] Request finished!
+build	21-Jul-2015 19:43:51	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 83.369%, values: [0.000003, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	21-Jul-2015 19:43:51	Test Case '-[WishboneTests testPerformanceExample]' passed (0.375 seconds).
+build	21-Jul-2015 19:43:51	Test Suite 'WishboneTests' passed at 2015-07-22 02:43:51 +0000.
+build	21-Jul-2015 19:43:51		 Executed 2 tests, with 0 failures (0 unexpected) in 0.377 (0.379) seconds
+build	21-Jul-2015 19:43:51	Test Suite 'WishboneTests.xctest' passed at 2015-07-22 02:43:51 +0000.
+build	21-Jul-2015 19:43:51		 Executed 2 tests, with 0 failures (0 unexpected) in 0.377 (0.382) seconds
+build	21-Jul-2015 19:43:51	Test Suite 'All tests' passed at 2015-07-22 02:43:51 +0000.
+build	21-Jul-2015 19:43:51		 Executed 2 tests, with 0 failures (0 unexpected) in 0.377 (0.390) seconds
+build	21-Jul-2015 19:43:51	===================================Building instruments.sh===================================
+build	21-Jul-2015 19:43:53	===================================Running instruments.sh===================================
+error	21-Jul-2015 19:43:53	2015-07-21 19:43:53.744 instruments[1296:52742] Failed to start Instruments daemon on 'Will's iPhone (9.0)' (The service is invalid.)
+error	21-Jul-2015 19:44:03	2015-07-21 19:44:03.352 instruments[1296:52730] Failed to start Instruments daemon on 'Will's iPhone (9.0)' (The service is invalid.)
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Start: First Screen
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Wed, 22 Jul 2015 02:44:06 GMT")
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Screenshot captured.
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Start: First Screen > Skip Login
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Skip Login"].tap()
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Pass: First Screen > Skip Login
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Wed, 22 Jul 2015 02:44:06 GMT")
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Screenshot captured.
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Wed, 22 Jul 2015 02:44:06 GMT")
+build	21-Jul-2015 19:44:06	2015-07-22 02:44:06 +0000 Screenshot captured.
+build	21-Jul-2015 19:44:08	2015-07-22 02:44:08 +0000 Debug: target.frontMostApp().alert().cancelButton().tap()
+build	21-Jul-2015 19:44:09	2015-07-22 02:44:09 +0000 Debug: target.frontMostApp().mainWindow().pageIndicators()[0].withValueForKey("1", "isVisible").selectPage("1")
+build	21-Jul-2015 19:44:11	2015-07-22 02:44:10 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Wed, 22 Jul 2015 02:44:10 GMT")
+build	21-Jul-2015 19:44:11	2015-07-22 02:44:11 +0000 Screenshot captured.
+build	21-Jul-2015 19:44:11	2015-07-22 02:44:11 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].withValueForKey("1", "isVisible").scrollViews()[0].buttons()[0].tap()
+build	21-Jul-2015 19:44:13	2015-07-22 02:44:13 +0000 Pass: First Screen
+build	21-Jul-2015 19:44:14	2015-07-22 02:44:13 +0000 logElementTree:
+build	21-Jul-2015 19:44:14	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	21-Jul-2015 19:44:14	elements: {
+build	21-Jul-2015 19:44:14		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	21-Jul-2015 19:44:14		elements: {
+build	21-Jul-2015 19:44:14			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	21-Jul-2015 19:44:14			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 19:44:14			elements: {
+build	21-Jul-2015 19:44:14				UIATableView "(null)" {{0, -224.3125}, {375, 283.59375}}
+build	21-Jul-2015 19:44:14				elements: {
+build	21-Jul-2015 19:44:14					UIATableCell "My Wishbones" {{0, -224.3125}, {375, 51.5625}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "My Wishbones" {{23.4375, -202.046875}, {328.125, 24.609375}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Find Friends" {{0, -172.75}, {375, 51.5625}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Find Friends" {{23.4375, -150.484375}, {328.125, 24.609375}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "About Wishbone" {{0, -121.1875}, {375, 51.5625}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "About Wishbone" {{23.4375, -98.921875}, {328.125, 24.609375}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Share with a Friend" {{0, -69.625}, {375, 51.5625}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Share with a Friend" {{23.4375, -47.359375}, {328.125, 24.609375}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Contact Us" {{0, -18.0625}, {375, 51.5625}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Contact Us" {{23.4375, 4.203125}, {328.125, 24.609375}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14				}
+build	21-Jul-2015 19:44:14				UIAImage "menu.png" {{17.578125, 39.359375}, {23.4375, 9.375}}
+build	21-Jul-2015 19:44:14				UIASegmentedControl "(null)" {{62.109375, 26.46875}, {251.953125, 33.984375}}
+build	21-Jul-2015 19:44:14				elements: {
+build	21-Jul-2015 19:44:14					UIAButton "Trending" {{62.109375, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 19:44:14					UIAButton "Friends" {{188.671875, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 19:44:14				}
+build	21-Jul-2015 19:44:14				UIAImage "Nav-Header-Logo" {{179.296875, 33.5}, {17.578125, 21.09375}}
+build	21-Jul-2015 19:44:14				UIAButton "create card" {{314.0625, 26.46875}, {51.5625, 35.15625}}
+build	21-Jul-2015 19:44:14				UIATableView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14				elements: {
+build	21-Jul-2015 19:44:14					UIATableCell "Johnny Depp as Jack Sparrow or as Edward Scissorhands? " {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Johnny Depp as Jack Sparrow or as Edward Scissorhands? " {{18.75, 83.890625}, {337.5, 45.1171875}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Films&TV " {{73.828125, 569.046875}, {168.75, 24.609375}}
+build	21-Jul-2015 19:44:14						UIAStaticText "1/12" {{169.921875, 142.484375}, {31.640625, 19.921875}}
+build	21-Jul-2015 19:44:14						UIAStaticText "226829 votes" {{250.78125, 567.875}, {105.46875, 24.609375}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{317.578125, 491.703125}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Would you be really tiny or super big? " {{0, 666.3125}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Would you be really tiny or super big? " {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 19:44:14						UIAStaticText "2/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "225365 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Would you rather have a tail or a horn?" {{0, 1267.484375}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Would you rather have a tail or a horn?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 19:44:14						UIAStaticText "3/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "223583 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Would you rather be a hoarder or a neat freak?" {{0, 1868.65625}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Would you rather be a hoarder or a neat freak?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 19:44:14						UIAStaticText "4/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "222084 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Which job is riskier? Police officers or firefighters?" {{0, 2469.828125}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Which job is riskier? Police officers or firefighters?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 19:44:14						UIAStaticText "5/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "220441 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Would you rather be a gang member or an Amish person?" {{0, 3071}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Would you rather be a gang member or an Amish person?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 19:44:14						UIAStaticText "6/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "216602 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "DDR or Guitar Hero?" {{0, 3672.171875}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "DDR or Guitar Hero?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 19:44:14						UIAStaticText "7/12" {{0, 0}, {27.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "215379 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Which is worse? Stinky feet or ugly toes?" {{0, 4273.34375}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Which is worse? Stinky feet or ugly toes?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 19:44:14						UIAStaticText "8/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Weird Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "215472 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Ellie Golding or Ed Sheeran?" {{0, 4874.515625}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Ellie Golding or Ed Sheeran?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 19:44:14						UIAStaticText "9/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Follow The Music" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "214249 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Who is funnier? Brian or Mr. Hankey?" {{0, 5475.6875}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Who is funnier? Brian or Mr. Hankey?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 19:44:14						UIAStaticText "10/12" {{0, 0}, {35.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "208759 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Travel to another planet or travel through time?" {{0, 6076.859375}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Travel to another planet or travel through time?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 19:44:14						UIAStaticText "11/12" {{0, 0}, {33.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "DestinationStation" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "207870 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIATableCell "Would you rather not speak or not wear clothes?" {{0, 6678.03125}, {375, 601.171875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "Would you rather not speak or not wear clothes?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 19:44:14						UIAStaticText "12/12" {{0, 0}, {34.5, 17}}
+build	21-Jul-2015 19:44:14						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 19:44:14						UIAStaticText "204312 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 19:44:14						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIAStaticText "Your Nightly Dozen" {{56.25, 7362.40625}, {295.3125, 35.15625}}
+build	21-Jul-2015 19:44:14					UIAStaticText "0 of 12 complete" {{56.25, 7406.9375}, {295.3125, 24.609375}}
+build	21-Jul-2015 19:44:14					UIAButton "1   Not Filled" {{56.25, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "2   Not Filled" {{101.953125, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "3   Not Filled" {{147.65625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "4   Not Filled" {{193.359375, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "5   Not Filled" {{239.0625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "6   Not Filled" {{284.765625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "7   Not Filled" {{56.25, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "8   Not Filled" {{101.953125, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "9   Not Filled" {{147.65625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "10   Not Filled" {{193.359375, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "11   Not Filled" {{239.0625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "12   Not Filled" {{284.765625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					UIAButton "13   Not Filled" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAImage "13 - Not Filled.png" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIAButton "14   Not Filled" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAImage "14 - Not Filled.png" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIAButton "Share" {{56.25, 7643.65625}, {263.671875, 64.453125}}
+build	21-Jul-2015 19:44:14					UIAButton "watch a 10 seconds video" {{93.75, 7717.484375}, {215.625, 51.5625}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAStaticText "watch a 10 seconds video" {{98.4375, 7732.71875}, {206.8359375, 21.09375}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14					UIAStaticText "or" {{71.484375, 7731.546875}, {17.578125, 24.609375}}
+build	21-Jul-2015 19:44:14					UIAStaticText "to earn 2 bonus questions" {{56.25, 7743.265625}, {267.1875, 24.609375}}
+build	21-Jul-2015 19:44:14					UIAButton "gear" {{166.40625, 7772.5625}, {46.875, 46.875}}
+build	21-Jul-2015 19:44:14					elements: {
+build	21-Jul-2015 19:44:14						UIAImage "gear.png" {{174.0234375, 7780.1796875}, {31.0546875, 31.0546875}}
+build	21-Jul-2015 19:44:14					}
+build	21-Jul-2015 19:44:14				}
+build	21-Jul-2015 19:44:14				UIAStaticText "Nightly Dozen" {{9.375, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 19:44:14				UIAStaticText "Community" {{196.875, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 19:44:14			}
+build	21-Jul-2015 19:44:14			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 19:44:14			elements: {
+build	21-Jul-2015 19:44:14				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	21-Jul-2015 19:44:14				elements: {
+build	21-Jul-2015 19:44:14					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	21-Jul-2015 19:44:14					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	21-Jul-2015 19:44:14					UIAElement "7:44 PM" {{160.546875, 0.6875}, {53.90625, 23.4375}}
+build	21-Jul-2015 19:44:14					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	21-Jul-2015 19:44:14				}
+build	21-Jul-2015 19:44:14			}
+build	21-Jul-2015 19:44:14		}
+build	21-Jul-2015 19:44:14	}
+build	21-Jul-2015 19:44:14	
+build	21-Jul-2015 19:44:17	Instruments Trace Complete (Duration : 12.768852s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+build	21-Jul-2015 19:44:17	===================================Running Parser.py===================================
+build	21-Jul-2015 19:44:17	(0, 'First Screen > Skip Login')
+build	21-Jul-2015 19:44:17	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Wed, 22 Jul 2015 02-44-06 GMT 2.png
+build	21-Jul-2015 19:44:17	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Wed, 22 Jul 2015 02-44-06 GMT 3.png
+build	21-Jul-2015 19:44:17	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Wed, 22 Jul 2015 02-44-06 GMT.png
+build	21-Jul-2015 19:44:17	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Wed, 22 Jul 2015 02-44-10 GMT.png
+build	21-Jul-2015 19:44:17	===================================Removing Trace===================================
+build	21-Jul-2015 19:44:17	===================================Shutting Down Simulators===================================
+build	21-Jul-2015 19:44:20	===================================Erasing Simulators===================================
+build	21-Jul-2015 19:44:22	===================================Quitting Simulators===================================
+build	21-Jul-2015 19:44:22	TESTS SUCCEEDED
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/ (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/Automation Results.plist (deflated 91%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/ (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAApplication- name-Wishbone rect-{{0, 24}, {375, 642}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-create card rect-{{314, 26}, {52, 35}}.png (deflated 9%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Friends value- rect-{{189, 26}, {125, 34}}.png (deflated 4%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 10.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 11.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 2.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 3.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 4.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 5.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 6.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 7.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 8.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 9.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}}.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{318, 492}, {48, 48}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Trending value- rect-{{62, 26}, {125, 34}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-100% battery power rect-{{340, 1}, {29, 23}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-3 of 3 Wi-Fi bars rect-{{57, 1}, {15, 23}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-7-44 PM rect-{{161, 1}, {54, 23}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top rect-{{7, 1}, {45, 23}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-menu.png rect-{{18, 39}, {23, 9}}.png (deflated 2%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-Nav-Header-Logo rect-{{179, 34}, {18, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIASegmentedControl- rect-{{62, 26}, {252, 34}}.png (deflated 6%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-1:12 value-1:12 rect-{{170, 142}, {32, 20}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-10:12 value-10:12 rect-{{0, 0}, {36, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-11:12 value-11:12 rect-{{0, 0}, {34, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-12:12 value-12:12 rect-{{0, 0}, {34, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-2:12 value-2:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-204312 votes value-204312 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-207870 votes value-207870 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-208759 votes value-208759 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-214249 votes value-214249 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-215379 votes value-215379 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-215472 votes value-215472 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-216602 votes value-216602 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-220441 votes value-220441 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-222084 votes value-222084 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-223583 votes value-223583 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-225365 votes value-225365 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-226829 votes value-226829 votes rect-{{251, 568}, {105, 25}}.png (deflated 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-3:12 value-3:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-4:12 value-4:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-5:12 value-5:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-6:12 value-6:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-7:12 value-7:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-8:12 value-8:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-9:12 value-9:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Community value-Community rect-{{197, 625}, {169, 25}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Contact Us value-Contact Us rect-{{23, 4}, {328, 25}}.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-DDR or Guitar Hero? value-DDR or Guitar Hero? rect-{{0, 0}, {288, 19}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-DestinationStation value-DestinationStation rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Ellie Golding or Ed Sheeran? value-Ellie Golding or Ed Sheeran? rect-{{0, 0}, {288, 19}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{74, 569}, {169, 25}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Follow The Music value-Follow The Music rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Johnny Depp as Jack Sparrow or as Edward Scissorhands?  value-Johnny Depp as Jack Sparrow or as Edward Scissorhands?  rect-{{19, 84}, {338, 45}}.png (deflated 2%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 2.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Nightly Dozen value-Nightly Dozen rect-{{9, 625}, {169, 25}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Travel to another planet or travel through time? value-Travel to another planet or travel through time? rect-{{0, 0}, {288, 38}}.png (deflated 6%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Weird Posts value-Weird Posts rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which is worse? Stinky feet or ugly toes? value-Which is worse? Stinky feet or ugly toes? rect-{{0, 0}, {288, 38}}.png (deflated 6%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which job is riskier? Police officers or firefighters? value-Which job is riskier? Police officers or firefighters? rect-{{0, 0}, {288, 38}}.png (deflated 6%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Who is funnier? Brian or Mr. Hankey? value-Who is funnier? Brian or Mr. Hankey? rect-{{0, 0}, {288, 19}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you be really tiny or super big?  value-Would you be really tiny or super big?  rect-{{0, 0}, {288, 19}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather be a gang member or an Amish person? value-Would you rather be a gang member or an Amish person? rect-{{0, 0}, {288, 38}}.png (deflated 6%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather be a hoarder or a neat freak? value-Would you rather be a hoarder or a neat freak? rect-{{0, 0}, {288, 38}}.png (deflated 6%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather have a tail or a horn? value-Would you rather have a tail or a horn? rect-{{0, 0}, {288, 19}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather not speak or not wear clothes? value-Would you rather not speak or not wear clothes? rect-{{0, 0}, {288, 38}}.png (deflated 6%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}} 2.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}} 3.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}} 4.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}} 5.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStatusBar- rect-{{0, 1}, {375, 23}}.png (deflated 5%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Contact Us value- rect-{{0, -18}, {375, 52}}.png (deflated 7%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Johnny Depp as Jack Sparrow or as Edward Scissorhands?  value- rect-{{0, 65}, {375, 601}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Would you be really tiny or super big?  value- rect-{{0, 666}, {375, 601}}.png (deflated 4%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-moved to row 1 of 12 rect-{{0, 65}, {375, 601}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-rows 1 to 5 of 5 rect-{{0, -224}, {375, 284}}.png (deflated 8%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 0}, {375, 667}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}} 2.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/ArchivedRun 2015-07-22 02:44:06/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/First Screen/ (stored 0%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/First Screen/First Screen Wed, 22 Jul 2015 02-44-06 GMT 2.png (deflated 37%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/First Screen/First Screen Wed, 22 Jul 2015 02-44-06 GMT 3.png (deflated 22%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/First Screen/First Screen Wed, 22 Jul 2015 02-44-06 GMT.png (deflated 37%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/First Screen/First Screen Wed, 22 Jul 2015 02-44-10 GMT.png (deflated 1%)
+build	21-Jul-2015 19:44:22	  adding: Run 2015-07-22 02:44:06/RunSummary.txt (deflated 16%)
+build	21-Jul-2015 19:44:22	Run 2015-07-22 02:44:06
+build	21-Jul-2015 19:44:22	Run 2015-07-22 02:44:06.zip
+build	21-Jul-2015 19:44:22	~/Desktop/AUITesting/Run 2015-07-22 02:44:06.zip
+build	21-Jul-2015 19:44:27	upload: ./Run 2015-07-22 02:44:06.zip to s3://wishbone-auitesting/Run 2015-07-22 02:44:06.zip
+build	21-Jul-2015 19:44:27	===================================Running Mailer.py===================================
+simple	21-Jul-2015 19:44:31	Finished task 'Build and Run' with result: Success
+simple	21-Jul-2015 19:44:31	Running post build plugin 'npm Cache Cleanup'
+simple	21-Jul-2015 19:44:31	Running post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 19:44:31	Running post build plugin 'Clover Results Collector'
+simple	21-Jul-2015 19:44:31	Running post build plugin 'Docker Container Cleanup'
+simple	21-Jul-2015 19:44:31	Running post build plugin 'Artifact Copier'
+simple	21-Jul-2015 19:44:31	Finalising the build...
+simple	21-Jul-2015 19:44:31	Stopping timer.
+simple	21-Jul-2015 19:44:31	Build WUT-BT-JOB1-157 completed.
+simple	21-Jul-2015 19:44:31	Running on server: post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 19:44:31	Running on server: post build plugin 'Clover Delta Calculator'
+simple	21-Jul-2015 19:44:31	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	21-Jul-2015 19:44:31	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	21-Jul-2015 19:44:31	All post build plugins have finished
+simple	21-Jul-2015 19:44:31	Generating build results summary...
+simple	21-Jul-2015 19:44:31	Saving build results to disk...
+simple	21-Jul-2015 19:44:31	Logging substituted variables...
+simple	21-Jul-2015 19:44:31	Indexing build results...
+simple	21-Jul-2015 19:44:31	Finished building WUT-BT-JOB1-157.

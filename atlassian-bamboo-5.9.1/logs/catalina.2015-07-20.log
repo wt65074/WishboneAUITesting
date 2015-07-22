@@ -1,0 +1,36 @@
+Jul 20, 2015 9:59:44 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wtobey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Jul 20, 2015 9:59:44 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+Jul 20, 2015 9:59:44 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 634 ms
+Jul 20, 2015 9:59:44 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 20, 2015 9:59:44 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Jul 20, 2015 10:00:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+Jul 20, 2015 10:00:47 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 63302 ms
+Jul 20, 2015 3:16:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8085"]
+Jul 20, 2015 3:16:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 20, 2015 3:16:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8085"]
+Jul 20, 2015 3:16:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8085"]
+Jul 20, 2015 7:18:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wtobey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Jul 20, 2015 7:18:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+Jul 20, 2015 7:18:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 582 ms
+Jul 20, 2015 7:18:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 20, 2015 7:18:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Jul 20, 2015 7:19:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+Jul 20, 2015 7:19:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 65545 ms

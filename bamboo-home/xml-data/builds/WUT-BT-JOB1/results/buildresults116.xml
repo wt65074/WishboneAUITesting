@@ -1,0 +1,18 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 28, in &lt;module&gt;</string>
+    <string>    if seperator in value[1][&apos;Message&apos;]:</string>
+    <string>KeyError: &apos;Message&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>116</myBuildNumber>
+  <myBuildDate>1437170535495</myBuildDate>
+  <myBuildDuration>669899</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

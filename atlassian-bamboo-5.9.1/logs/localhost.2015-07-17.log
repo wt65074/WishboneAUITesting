@@ -1,0 +1,6 @@
+Jul 17, 2015 3:18:30 PM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter is being destroyed...
+Jul 17, 2015 3:18:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Jul 17, 2015 3:18:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

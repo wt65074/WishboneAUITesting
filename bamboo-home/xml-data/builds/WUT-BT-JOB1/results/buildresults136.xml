@@ -1,0 +1,28 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 29, in &lt;module&gt;</string>
+    <string>    main(sys.argv[1:])</string>
+    <string>  File &quot;parser.py&quot;, line 26, in main</string>
+    <string>    print inputFile</string>
+    <string>NameError: global name &apos;inputFile&apos; is not defined</string>
+    <string>grep: RunSummary.txt: No such file or directory</string>
+    <string>sh: CoreTestingScript.sh: No such file or directory</string>
+    <string>diff: Run 1/RunSummary.txt: No such file or directory</string>
+    <string>diff: Run 1/RunSummary.txt: No such file or directory</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;mailer.py&quot;, line 33, in &lt;module&gt;</string>
+    <string>    summary = open(inputFile, &apos;r&apos;)</string>
+    <string>IOError: [Errno 2] No such file or directory: &apos;/Users/wtobey/Desktop/AUITesting/Run 1/RunSummary.txt&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>136</myBuildNumber>
+  <myBuildDate>1437501202805</myBuildDate>
+  <myBuildDuration>671755</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

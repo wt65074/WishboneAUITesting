@@ -1,0 +1,18 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Unknown</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-22 11:45:29.765 instruments[4603:370249] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>2015-07-22 11:45:29.765 instruments[4603:370249] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>2015-07-22 11:46:22.118 instruments[4742:374751] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>Build was manually stopped.</string>
+  </myBuildErrors>
+  <myBuildNumber>176</myBuildNumber>
+  <myBuildDate>1437590688882</myBuildDate>
+  <myBuildDuration>209793</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

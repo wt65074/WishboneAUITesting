@@ -1,0 +1,21 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Unknown</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-16 11:42:39.717 xcodebuild[4193:587323]  iPhoneSimulator: Timed out waiting 120 seconds for simulator to boot, current state is 1.</string>
+    <string></string>
+    <string>Testing failed:</string>
+    <string>	Test target WishboneTests encountered an error (Timed out waiting 120 seconds for simulator to boot, current state is 1. If you believe this error represents a bug, please attach the log file at /var/folders/b8/sxxrbckd267gcwv0zfdbkzzr0000gn/T/com.apple.dt.XCTest-status/Session-2015-07-16_11:40:39-d0kvrn.log)</string>
+    <string>** TEST FAILED **</string>
+    <string></string>
+    <string>Build was manually stopped.</string>
+  </myBuildErrors>
+  <myBuildNumber>76</myBuildNumber>
+  <myBuildDate>1437072038515</myBuildDate>
+  <myBuildDuration>149335</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

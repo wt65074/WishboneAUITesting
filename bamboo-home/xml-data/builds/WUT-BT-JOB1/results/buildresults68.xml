@@ -1,0 +1,15 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>delete.sh: line 1: /Users/wtobey//.Trash/Wishbone.app/Users/wtobey//Library/Developer/CoreSimulator/Devices/895A471B-7581-47E8-A0F7-264E9BEB33E1/data/Containers/Bundle/Application/2D8CB2CA-358A-48F7-B218-728993B77D16/Wishbone.app/Users/wtobey//Library/Developer/CoreSimulator/Devices/895A471B-7581-47E8-A0F7-264E9BEB33E1/data/Containers/Bundle/Application/31B95327-ED2C-4603-B95C-89A612959539/Wishbone.app: No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>68</myBuildNumber>
+  <myBuildDate>1436995575716</myBuildDate>
+  <myBuildDuration>652786</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

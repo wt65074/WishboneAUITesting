@@ -1,0 +1,22 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Jul 17 10:25:50 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:25:50 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:25:50 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:25:50 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:26:02 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:26:02 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:26:02 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:26:02 Wills-MacBook-Pro.local instruments[1735] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+  </myBuildErrors>
+  <myBuildNumber>90</myBuildNumber>
+  <myBuildDate>1437153440099</myBuildDate>
+  <myBuildDuration>753906</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

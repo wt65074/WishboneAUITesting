@@ -1,0 +1,25 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-16 11:21:49.729 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/41A01DB8-D081-43A6-B979-F017502E1495.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.730 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/56D4294A-87B1-4CD2-8837-233B2E37981A.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.730 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/4C86A357-465F-4B81-9D47-C930581680BD.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.730 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/BA951038-0D20-4D16-A6C4-0D31603D1820.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.730 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/932EE47B-0383-4886-A7E3-5EFB761ED9D7.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.730 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/01A1EEEA-D458-4B3B-A0B8-DC6C7C029E7E.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.731 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/50C326F3-1259-452A-A84E-BD56E7CBA78D.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.731 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/B9A293F5-EE25-4801-9CE1-E65F0B24F660.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>2015-07-16 11:21:49.731 xcodebuild[3315:507691] [MT] IDELogStore: Log record&apos;s backing file (&quot;/Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Logs/Build/5B59EEC7-0EB3-4F61-81D4-94D07FC50C1E.xcactivitylog&quot;) is missing. Skipping.</string>
+    <string>delete.sh: line 1: -n: command not found</string>
+    <string>delete.sh: line 2: /Users/wtobey//.Trash/7BBD2A11-27E0-4C07-9C0F-69743A3E8730/Wishbone.app: is a directory</string>
+  </myBuildErrors>
+  <myBuildNumber>75</myBuildNumber>
+  <myBuildDate>1437070908679</myBuildDate>
+  <myBuildDuration>716943</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

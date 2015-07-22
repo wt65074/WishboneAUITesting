@@ -1,0 +1,832 @@
+simple	21-Jul-2015 11:24:05	Build Wishbone UI Testing - Build and Test - Default Job #142 (WUT-BT-JOB1-142) started building on agent Default Agent
+simple	21-Jul-2015 11:24:05	
+simple	21-Jul-2015 11:24:05	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	21-Jul-2015 11:24:05	Executing build Wishbone UI Testing - Build and Test - Default Job #142 (WUT-BT-JOB1-142)
+simple	21-Jul-2015 11:24:05	Running pre-build action: VCS Version Collector
+simple	21-Jul-2015 11:24:05	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	21-Jul-2015 11:24:05	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #142 (WUT-BT-JOB1-142)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-142-ScriptBuildTask-6982852320732331699.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-142\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=142\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-142\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-21T11:24:05.423-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-142\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	21-Jul-2015 11:24:05	===================================BuildingWishbone.app===================================
+build	21-Jul-2015 11:24:06	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 11:24:06	
+build	21-Jul-2015 11:24:06	Check dependencies
+build	21-Jul-2015 11:24:07	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:24:07	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:24:07	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:24:07	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:24:07	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:24:07	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	21-Jul-2015 11:24:07	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	21-Jul-2015 11:24:07	
+build	21-Jul-2015 11:24:07	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 11:24:07	
+build	21-Jul-2015 11:24:07	Check dependencies
+build	21-Jul-2015 11:24:07	
+build	21-Jul-2015 11:24:17	** TEST SUCCEEDED **
+build	21-Jul-2015 11:24:17	
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:15.618 Wishbone[4113:449130] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:15.689 Wishbone[4113:449130] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=Imz8VBnqEqHcRfN9C6KU7g&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437503055.680389&usage_tracking_enabled=1&value=1.00.
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:15.719 Wishbone[4113:449130] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:15.806 Wishbone[4113:449470] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.015 Wishbone[4113:449130] AppsFlyer SDK version 2.5.3.15 started
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.015 Wishbone[4113:449485] Resolved sdk-api-ssl.playhaven.com -> 48.222.81.12
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.015 Wishbone[4113:449486] Resolved media.playhaven.com -> 48.222.81.12
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.126 Wishbone[4113:449130] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.151 Wishbone[4113:449130] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=Imz8VBnqEqHcRfN9C6KU7g&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437506656.150271&usage_tracking_enabled=1.
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.173 Wishbone[4113:449130] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=BA12ABA9-F360-42D7-B601-17DC4536DAAD&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=WGfkvZlDNdIIRxipmHqyvY_23I0&plugin=ios&nonce=2pedSrbQ7e1gDP1rV1sUZKxoruI&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=7C2B8AD2-1931-4FE0-9886-A849D5E3F475&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.305 Wishbone[4113:449130] <Google> ping successful.
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.321 Wishbone[4113:449130] <Google> ping successful.
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.328 Wishbone[4113:449470] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.342 Wishbone[4113:449456] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	21-Jul-2015 11:24:17	    parameters =     {
+build	21-Jul-2015 11:24:17	        "&_u" = ".etno";
+build	21-Jul-2015 11:24:17	        "&_v" = "mi3.0.3c";
+build	21-Jul-2015 11:24:17	        "&an" = Wishbone;
+build	21-Jul-2015 11:24:17	        "&av" = "3.0.5";
+build	21-Jul-2015 11:24:17	        "&cd" = "Login View";
+build	21-Jul-2015 11:24:17	        "&cid" = "f6a057fc-01f6-402f-b6ba-84ddea6e5489";
+build	21-Jul-2015 11:24:17	        "&sr" = 320x568;
+build	21-Jul-2015 11:24:17	        "&t" = appview;
+build	21-Jul-2015 11:24:17	        "&tid" = "UA-48537804-1";
+build	21-Jul-2015 11:24:17	        "&ul" = en;
+build	21-Jul-2015 11:24:17	        "&v" = 1;
+build	21-Jul-2015 11:24:17	        "&z" = 5121348175029820741;
+build	21-Jul-2015 11:24:17	        gaiVersion = "3.03c";
+build	21-Jul-2015 11:24:17	    };
+build	21-Jul-2015 11:24:17	    timestamp = "2015-07-21 18:24:16 +0000";
+build	21-Jul-2015 11:24:17	}
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.423 Wishbone[4113:449130] [PlayHaven-2.0.2] Request recieved HTTP response: 200
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.423 Wishbone[4113:449130] [PlayHaven-2.0.2] Request finished!
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.443 Wishbone[4113:449470] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	21-Jul-2015 11:24:17	Test Suite 'All tests' started at 2015-07-21 18:24:16 +0000
+build	21-Jul-2015 11:24:17	Test Suite 'WishboneTests.xctest' started at 2015-07-21 18:24:16 +0000
+build	21-Jul-2015 11:24:17	Test Suite 'WishboneTests' started at 2015-07-21 18:24:16 +0000
+build	21-Jul-2015 11:24:17	Test Case '-[WishboneTests testExample]' started.
+build	21-Jul-2015 11:24:17	Test Case '-[WishboneTests testExample]' passed (0.000 seconds).
+build	21-Jul-2015 11:24:17	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.749 Wishbone[4113:449130] AppsFlyer: sent information to server
+build	21-Jul-2015 11:24:17	2015-07-21 11:24:16.749 Wishbone[4113:449130] Cache size 0
+build	21-Jul-2015 11:24:17	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 78.838%, values: [0.000003, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	21-Jul-2015 11:24:17	Test Case '-[WishboneTests testPerformanceExample]' passed (0.357 seconds).
+build	21-Jul-2015 11:24:17	Test Suite 'WishboneTests' passed at 2015-07-21 18:24:16 +0000.
+build	21-Jul-2015 11:24:17		 Executed 2 tests, with 0 failures (0 unexpected) in 0.357 (0.358) seconds
+build	21-Jul-2015 11:24:17	Test Suite 'WishboneTests.xctest' passed at 2015-07-21 18:24:16 +0000.
+build	21-Jul-2015 11:24:17		 Executed 2 tests, with 0 failures (0 unexpected) in 0.357 (0.359) seconds
+build	21-Jul-2015 11:24:17	Test Suite 'All tests' passed at 2015-07-21 18:24:16 +0000.
+build	21-Jul-2015 11:24:17		 Executed 2 tests, with 0 failures (0 unexpected) in 0.357 (0.359) seconds
+build	21-Jul-2015 11:24:17	===================================Building instruments.sh===================================
+build	21-Jul-2015 11:24:18	===================================Running instruments.sh===================================
+build	21-Jul-2015 11:24:22	2015-07-21 18:24:22 +0000 Start: First Screen
+build	21-Jul-2015 11:24:22	2015-07-21 18:24:22 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:24:22 GMT")
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:22 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:22 +0000 Start: First Screen > Skip Login
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:22 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Skip Login"].tap()
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:23 +0000 Pass: First Screen > Skip Login
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:23 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:24:23 GMT")
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:23 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:23 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:24:23 GMT")
+build	21-Jul-2015 11:24:23	2015-07-21 18:24:23 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:25	2015-07-21 18:24:25 +0000 Debug: target.frontMostApp().alert().cancelButton().tap()
+build	21-Jul-2015 11:24:26	2015-07-21 18:24:26 +0000 Debug: target.frontMostApp().mainWindow().pageIndicators()[0].withValueForKey("1", "isVisible").selectPage("1")
+build	21-Jul-2015 11:24:27	2015-07-21 18:24:27 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:24:27 GMT")
+build	21-Jul-2015 11:24:27	2015-07-21 18:24:27 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:27	2015-07-21 18:24:27 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].withValueForKey("1", "isVisible").scrollViews()[0].buttons()[0].tap()
+build	21-Jul-2015 11:24:29	2015-07-21 18:24:29 +0000 Pass: First Screen
+build	21-Jul-2015 11:24:29	2015-07-21 18:24:29 +0000 Start: Create View
+build	21-Jul-2015 11:24:29	2015-07-21 18:24:29 +0000 Debug: target.frontMostApp().mainWindow().buttons()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:29	2015-07-21 18:24:29 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:24:29 GMT")
+build	21-Jul-2015 11:24:30	2015-07-21 18:24:29 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:30	2015-07-21 18:24:29 +0000 Debug: target.frontMostApp().mainWindow().textViews()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:30	2015-07-21 18:24:30 +0000 Debug: target.frontMostApp().keyboard().typeString("Test Post")
+build	21-Jul-2015 11:24:33	2015-07-21 18:24:33 +0000 Debug: target.frontMostApp().mainWindow().tapWithOptions({x:"0.5", y:"0.5"})
+build	21-Jul-2015 11:24:33	2015-07-21 18:24:33 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:34	2015-07-21 18:24:34 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:24:34 GMT")
+build	21-Jul-2015 11:24:34	2015-07-21 18:24:34 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:34	2015-07-21 18:24:34 +0000 Start: Create View > Search Web
+build	21-Jul-2015 11:24:34	2015-07-21 18:24:34 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Search Web"].tap()
+build	21-Jul-2015 11:24:35	2015-07-21 18:24:34 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 18:24:34 GMT")
+build	21-Jul-2015 11:24:35	2015-07-21 18:24:34 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:35	2015-07-21 18:24:35 +0000 Debug: target.frontMostApp().keyboard().typeString("Cat\n")
+build	21-Jul-2015 11:24:36	2015-07-21 18:24:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 18:24:36 GMT")
+build	21-Jul-2015 11:24:36	2015-07-21 18:24:36 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:37	2015-07-21 18:24:37 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:39	2015-07-21 18:24:38 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:24:38 GMT")
+build	21-Jul-2015 11:24:39	2015-07-21 18:24:38 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:39	2015-07-21 18:24:38 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	21-Jul-2015 11:24:44	2015-07-21 18:24:44 +0000 Pass: Create View > Search Web
+build	21-Jul-2015 11:24:44	2015-07-21 18:24:44 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:44	2015-07-21 18:24:44 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:24:44 GMT")
+build	21-Jul-2015 11:24:44	2015-07-21 18:24:44 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:44	2015-07-21 18:24:44 +0000 Start: Create View > Add Sticker
+build	21-Jul-2015 11:24:44	2015-07-21 18:24:44 +0000 Debug: target.frontMostApp().mainWindow().images()["add-sticker.png"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:46	2015-07-21 18:24:46 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:46	2015-07-21 18:24:46 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Add Sticker Tue, 21 Jul 2015 18:24:46 GMT")
+build	21-Jul-2015 11:24:46	2015-07-21 18:24:46 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:46	2015-07-21 18:24:46 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:24:46 GMT")
+build	21-Jul-2015 11:24:46	2015-07-21 18:24:46 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:46	2015-07-21 18:24:46 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	21-Jul-2015 11:24:52	2015-07-21 18:24:52 +0000 Pass: Create View > Add Sticker
+build	21-Jul-2015 11:24:52	2015-07-21 18:24:52 +0000 Debug: target.frontMostApp().mainWindow().buttons()[2].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:52	2015-07-21 18:24:52 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:24:52 GMT")
+build	21-Jul-2015 11:24:52	2015-07-21 18:24:52 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:52	2015-07-21 18:24:52 +0000 Start: Create View > Choose From Library
+build	21-Jul-2015 11:24:52	2015-07-21 18:24:52 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Choose from library"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:53	2015-07-21 18:24:52 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:24:52 GMT")
+build	21-Jul-2015 11:24:53	2015-07-21 18:24:52 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:54	2015-07-21 18:24:54 +0000 Debug: target.frontMostApp().alert().defaultButton().tap()
+build	21-Jul-2015 11:24:55	2015-07-21 18:24:55 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:56	2015-07-21 18:24:56 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:24:56 GMT")
+build	21-Jul-2015 11:24:56	2015-07-21 18:24:56 +0000 Screenshot captured.
+build	21-Jul-2015 11:24:56	2015-07-21 18:24:56 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].visibleCells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:24:57	2015-07-21 18:24:57 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:24:57 GMT")
+build	21-Jul-2015 11:24:57	2015-07-21 18:24:57 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:07	2015-07-21 18:25:07 +0000 Pass: Create View > Choose From Library
+build	21-Jul-2015 11:25:07	2015-07-21 18:25:07 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:25:07 GMT")
+build	21-Jul-2015 11:25:07	2015-07-21 18:25:07 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:07	2015-07-21 18:25:07 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Done"].tap()
+build	21-Jul-2015 11:25:17	2015-07-21 18:25:17 +0000 Debug: Cannot perform action on invalid element: UIAElementNil from target.frontMostApp().mainWindow().buttons()["create share done"]
+build	21-Jul-2015 11:25:17	2015-07-21 18:25:17 +0000 Error: Script threw an uncaught JavaScript error: Cannot perform action on invalid element: UIAElementNil from target.frontMostApp().mainWindow().buttons()["create share done"] on line 686 of Wishbone.js
+build	21-Jul-2015 11:25:17	2015-07-21 18:25:17 +0000 Stopped: Script was stopped by the user
+error	21-Jul-2015 11:25:18	2015-07-21 11:25:18.057 instruments[4137:450595] Attempting to set event horizon when core is not engaged, request ignored
+error	21-Jul-2015 11:25:18	2015-07-21 11:25:18.058 instruments[4137:450595] Attempting to set event horizon when core is not engaged, request ignored
+build	21-Jul-2015 11:25:19	Instruments Trace Complete (Duration : 59.383739s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+build	21-Jul-2015 11:25:19	===================================Running Parser.py===================================
+build	21-Jul-2015 11:25:20	The current working directory is /Users/wtobey/Desktop/AUITesting
+build	21-Jul-2015 11:25:20	opt
+build	21-Jul-2015 11:25:20	iOS 8.4, iPhone 6, iOS Simulator
+build	21-Jul-2015 11:25:20	iOS 8.4, iPhone 6, iOS Simulator
+build	21-Jul-2015 11:25:20	['First Screen', 'Create View']
+build	21-Jul-2015 11:25:20	['First Screen']
+build	21-Jul-2015 11:25:20	(0, 'First Screen > Skip Login')
+build	21-Jul-2015 11:25:20	(0, 'Create View > Search Web')
+build	21-Jul-2015 11:25:20	(1, 'Create View > Add Sticker')
+build	21-Jul-2015 11:25:20	(2, 'Create View > Choose From Library')
+build	21-Jul-2015 11:25:20	['/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-22 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-23 GMT 2.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-23 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-27 GMT.png']
+build	21-Jul-2015 11:25:20	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-22 GMT.png
+build	21-Jul-2015 11:25:20	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-23 GMT 2.png
+build	21-Jul-2015 11:25:20	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-23 GMT.png
+build	21-Jul-2015 11:25:20	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-24-27 GMT.png
+build	21-Jul-2015 11:25:20	===================================Removing Trace===================================
+build	21-Jul-2015 11:25:20	===================================Shutting Down Simulators===================================
+build	21-Jul-2015 11:25:21	===================================Erasing Simulators===================================
+build	21-Jul-2015 11:25:23	===================================Quitting Simulators===================================
+build	21-Jul-2015 11:25:23	FAILURE
+build	21-Jul-2015 11:25:23	===================================BuildingWishbone.app===================================
+build	21-Jul-2015 11:25:24	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 11:25:24	
+build	21-Jul-2015 11:25:24	Check dependencies
+build	21-Jul-2015 11:25:25	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:25:25	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:25:25	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:25:25	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:25:25	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 11:25:25	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	21-Jul-2015 11:25:25	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	21-Jul-2015 11:25:25	
+build	21-Jul-2015 11:25:25	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 11:25:25	
+build	21-Jul-2015 11:25:25	Check dependencies
+build	21-Jul-2015 11:25:25	
+build	21-Jul-2015 11:25:33	** TEST SUCCEEDED **
+build	21-Jul-2015 11:25:33	
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.407 Wishbone[4241:451727] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.464 Wishbone[4241:451727] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=SyoqeM8_sTrg6B-mSqkRlw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437503132.460986&usage_tracking_enabled=1&value=1.00.
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.479 Wishbone[4241:451727] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.553 Wishbone[4241:452005] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.731 Wishbone[4241:452026] Resolved media.playhaven.com -> 48.158.12.21
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.731 Wishbone[4241:452025] Resolved sdk-api-ssl.playhaven.com -> 48.158.12.21
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.735 Wishbone[4241:451727] AppsFlyer SDK version 2.5.3.15 started
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.836 Wishbone[4241:451727] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:32.986 Wishbone[4241:452005] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.004 Wishbone[4241:451727] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=SyoqeM8_sTrg6B-mSqkRlw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437506733.002391&usage_tracking_enabled=1.
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.006 Wishbone[4241:451995] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	21-Jul-2015 11:25:33	    parameters =     {
+build	21-Jul-2015 11:25:33	        "&_u" = ".etno";
+build	21-Jul-2015 11:25:33	        "&_v" = "mi3.0.3c";
+build	21-Jul-2015 11:25:33	        "&an" = Wishbone;
+build	21-Jul-2015 11:25:33	        "&av" = "3.0.5";
+build	21-Jul-2015 11:25:33	        "&cd" = "Login View";
+build	21-Jul-2015 11:25:33	        "&cid" = "c0a77e2d-e4b5-44ce-ae48-b58ce8e54a5c";
+build	21-Jul-2015 11:25:33	        "&sr" = 320x568;
+build	21-Jul-2015 11:25:33	        "&t" = appview;
+build	21-Jul-2015 11:25:33	        "&tid" = "UA-48537804-1";
+build	21-Jul-2015 11:25:33	        "&ul" = en;
+build	21-Jul-2015 11:25:33	        "&v" = 1;
+build	21-Jul-2015 11:25:33	        "&z" = 14136286232254827437;
+build	21-Jul-2015 11:25:33	        gaiVersion = "3.03c";
+build	21-Jul-2015 11:25:33	    };
+build	21-Jul-2015 11:25:33	    timestamp = "2015-07-21 18:25:33 +0000";
+build	21-Jul-2015 11:25:33	}
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.027 Wishbone[4241:451727] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=5B9B9371-8078-43D8-A508-9B4A0DBC2A8D&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=UuxCIBWoq-c95xVgC44_8HS9NvM&plugin=ios&nonce=s_ttV6HwSFH9ppV8ZvCEJVB41g4&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=70EFE401-33A2-416D-88DF-E9EDB352A5E9&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.060 Wishbone[4241:452005] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.081 Wishbone[4241:451727] <Google> ping successful.
+build	21-Jul-2015 11:25:33	Test Suite 'All tests' started at 2015-07-21 18:25:33 +0000
+build	21-Jul-2015 11:25:33	Test Suite 'WishboneTests.xctest' started at 2015-07-21 18:25:33 +0000
+build	21-Jul-2015 11:25:33	Test Suite 'WishboneTests' started at 2015-07-21 18:25:33 +0000
+build	21-Jul-2015 11:25:33	Test Case '-[WishboneTests testExample]' started.
+build	21-Jul-2015 11:25:33	Test Case '-[WishboneTests testExample]' passed (0.000 seconds).
+build	21-Jul-2015 11:25:33	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.194 Wishbone[4241:451727] <Google> ping successful.
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.197 Wishbone[4241:451727] [PlayHaven-2.0.2] Request recieved HTTP response: 200
+build	21-Jul-2015 11:25:33	2015-07-21 11:25:33.197 Wishbone[4241:451727] [PlayHaven-2.0.2] Request finished!
+build	21-Jul-2015 11:25:33	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 82.352%, values: [0.000003, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	21-Jul-2015 11:25:33	Test Case '-[WishboneTests testPerformanceExample]' passed (0.369 seconds).
+build	21-Jul-2015 11:25:33	Test Suite 'WishboneTests' passed at 2015-07-21 18:25:33 +0000.
+build	21-Jul-2015 11:25:33		 Executed 2 tests, with 0 failures (0 unexpected) in 0.369 (0.370) seconds
+build	21-Jul-2015 11:25:33	Test Suite 'WishboneTests.xctest' passed at 2015-07-21 18:25:33 +0000.
+build	21-Jul-2015 11:25:33		 Executed 2 tests, with 0 failures (0 unexpected) in 0.369 (0.371) seconds
+build	21-Jul-2015 11:25:33	Test Suite 'All tests' passed at 2015-07-21 18:25:33 +0000.
+build	21-Jul-2015 11:25:33		 Executed 2 tests, with 0 failures (0 unexpected) in 0.369 (0.372) seconds
+build	21-Jul-2015 11:25:33	===================================Building instruments.sh===================================
+build	21-Jul-2015 11:25:34	===================================Running instruments.sh===================================
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Start: First Screen
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:25:39 GMT")
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Start: First Screen > Skip Login
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Skip Login"].tap()
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Pass: First Screen > Skip Login
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:25:39 GMT")
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:39	2015-07-21 18:25:39 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:25:39 GMT")
+build	21-Jul-2015 11:25:40	2015-07-21 18:25:39 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:41	2015-07-21 18:25:41 +0000 Debug: target.frontMostApp().alert().cancelButton().tap()
+build	21-Jul-2015 11:25:42	2015-07-21 18:25:42 +0000 Debug: target.frontMostApp().mainWindow().pageIndicators()[0].withValueForKey("1", "isVisible").selectPage("1")
+build	21-Jul-2015 11:25:44	2015-07-21 18:25:43 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 18:25:43 GMT")
+build	21-Jul-2015 11:25:44	2015-07-21 18:25:44 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:44	2015-07-21 18:25:44 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].withValueForKey("1", "isVisible").scrollViews()[0].buttons()[0].tap()
+build	21-Jul-2015 11:25:46	2015-07-21 18:25:46 +0000 Pass: First Screen
+build	21-Jul-2015 11:25:46	2015-07-21 18:25:46 +0000 Start: Create View
+build	21-Jul-2015 11:25:46	2015-07-21 18:25:46 +0000 Debug: target.frontMostApp().mainWindow().buttons()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:25:46	2015-07-21 18:25:46 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:25:46 GMT")
+build	21-Jul-2015 11:25:46	2015-07-21 18:25:46 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:46	2015-07-21 18:25:46 +0000 Debug: target.frontMostApp().mainWindow().textViews()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:25:47	2015-07-21 18:25:47 +0000 Debug: target.frontMostApp().keyboard().typeString("Test Post")
+build	21-Jul-2015 11:25:50	2015-07-21 18:25:50 +0000 Debug: target.frontMostApp().mainWindow().tapWithOptions({x:"0.5", y:"0.5"})
+build	21-Jul-2015 11:25:50	2015-07-21 18:25:50 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:25:50	2015-07-21 18:25:50 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:25:50 GMT")
+build	21-Jul-2015 11:25:51	2015-07-21 18:25:50 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:51	2015-07-21 18:25:50 +0000 Start: Create View > Search Web
+build	21-Jul-2015 11:25:51	2015-07-21 18:25:50 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Search Web"].tap()
+build	21-Jul-2015 11:25:51	2015-07-21 18:25:51 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 18:25:51 GMT")
+build	21-Jul-2015 11:25:51	2015-07-21 18:25:51 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:51	2015-07-21 18:25:51 +0000 Debug: target.frontMostApp().keyboard().typeString("Cat\n")
+build	21-Jul-2015 11:25:53	2015-07-21 18:25:52 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 18:25:52 GMT")
+build	21-Jul-2015 11:25:53	2015-07-21 18:25:53 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:53	2015-07-21 18:25:53 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:25:54	2015-07-21 18:25:54 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:25:54 GMT")
+build	21-Jul-2015 11:25:55	2015-07-21 18:25:54 +0000 Screenshot captured.
+build	21-Jul-2015 11:25:55	2015-07-21 18:25:54 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	21-Jul-2015 11:26:00	2015-07-21 18:26:00 +0000 Pass: Create View > Search Web
+build	21-Jul-2015 11:26:00	2015-07-21 18:26:00 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:00	2015-07-21 18:26:00 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:26:00 GMT")
+build	21-Jul-2015 11:26:00	2015-07-21 18:26:00 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:00	2015-07-21 18:26:00 +0000 Start: Create View > Add Sticker
+build	21-Jul-2015 11:26:00	2015-07-21 18:26:00 +0000 Debug: target.frontMostApp().mainWindow().images()["add-sticker.png"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:02	2015-07-21 18:26:02 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:02	2015-07-21 18:26:02 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Add Sticker Tue, 21 Jul 2015 18:26:02 GMT")
+build	21-Jul-2015 11:26:02	2015-07-21 18:26:02 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:02	2015-07-21 18:26:02 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:26:02 GMT")
+build	21-Jul-2015 11:26:03	2015-07-21 18:26:02 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:03	2015-07-21 18:26:02 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	21-Jul-2015 11:26:08	2015-07-21 18:26:08 +0000 Pass: Create View > Add Sticker
+build	21-Jul-2015 11:26:08	2015-07-21 18:26:08 +0000 Debug: target.frontMostApp().mainWindow().buttons()[2].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:08	2015-07-21 18:26:08 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:26:08 GMT")
+build	21-Jul-2015 11:26:08	2015-07-21 18:26:08 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:08	2015-07-21 18:26:08 +0000 Start: Create View > Choose From Library
+build	21-Jul-2015 11:26:08	2015-07-21 18:26:08 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Choose from library"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:09	2015-07-21 18:26:09 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:26:09 GMT")
+build	21-Jul-2015 11:26:09	2015-07-21 18:26:09 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:10	2015-07-21 18:26:10 +0000 Debug: target.frontMostApp().alert().defaultButton().tap()
+build	21-Jul-2015 11:26:12	2015-07-21 18:26:12 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:12	2015-07-21 18:26:12 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:26:12 GMT")
+build	21-Jul-2015 11:26:12	2015-07-21 18:26:12 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:12	2015-07-21 18:26:12 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].visibleCells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:13	2015-07-21 18:26:13 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:26:13 GMT")
+build	21-Jul-2015 11:26:13	2015-07-21 18:26:13 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:23	2015-07-21 18:26:23 +0000 Pass: Create View > Choose From Library
+build	21-Jul-2015 11:26:23	2015-07-21 18:26:23 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:26:23 GMT")
+build	21-Jul-2015 11:26:23	2015-07-21 18:26:23 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:23	2015-07-21 18:26:23 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Done"].tap()
+build	21-Jul-2015 11:26:25	2015-07-21 18:26:25 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create share done"].tap()
+build	21-Jul-2015 11:26:26	2015-07-21 18:26:26 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 18:26:26 GMT")
+build	21-Jul-2015 11:26:26	2015-07-21 18:26:26 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:26	2015-07-21 18:26:26 +0000 Pass: Create View
+build	21-Jul-2015 11:26:27	2015-07-21 18:26:26 +0000 logElementTree:
+build	21-Jul-2015 11:26:27	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	21-Jul-2015 11:26:27	elements: {
+build	21-Jul-2015 11:26:27		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	21-Jul-2015 11:26:27		elements: {
+build	21-Jul-2015 11:26:27			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	21-Jul-2015 11:26:27			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 11:26:27			elements: {
+build	21-Jul-2015 11:26:27				UIATableView "(null)" {{0, -224.3125}, {375, 283.59375}}
+build	21-Jul-2015 11:26:27				elements: {
+build	21-Jul-2015 11:26:27					UIATableCell "My Wishbones" {{0, -224.3125}, {375, 51.5625}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "My Wishbones" {{23.4375, -202.046875}, {328.125, 24.609375}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Find Friends" {{0, -172.75}, {375, 51.5625}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Find Friends" {{23.4375, -150.484375}, {328.125, 24.609375}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "About Wishbone" {{0, -121.1875}, {375, 51.5625}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "About Wishbone" {{23.4375, -98.921875}, {328.125, 24.609375}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Share with a Friend" {{0, -69.625}, {375, 51.5625}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Share with a Friend" {{23.4375, -47.359375}, {328.125, 24.609375}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Contact Us" {{0, -18.0625}, {375, 51.5625}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Contact Us" {{23.4375, 4.203125}, {328.125, 24.609375}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27				}
+build	21-Jul-2015 11:26:27				UIAImage "menu.png" {{17.578125, 39.359375}, {23.4375, 9.375}}
+build	21-Jul-2015 11:26:27				UIASegmentedControl "(null)" {{62.109375, 26.46875}, {251.953125, 33.984375}}
+build	21-Jul-2015 11:26:27				elements: {
+build	21-Jul-2015 11:26:27					UIAButton "Trending" {{62.109375, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 11:26:27					UIAButton "Friends" {{188.671875, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 11:26:27				}
+build	21-Jul-2015 11:26:27				UIAImage "Nav-Header-Logo" {{179.296875, 33.5}, {17.578125, 21.09375}}
+build	21-Jul-2015 11:26:27				UIAButton "create card" {{314.0625, 26.46875}, {51.5625, 35.15625}}
+build	21-Jul-2015 11:26:27				UIATableView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27				elements: {
+build	21-Jul-2015 11:26:27					UIATableCell "Which disney princess set is better?" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Which disney princess set is better?" {{18.75, 94.4375}, {337.5, 22.5}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Films&TV " {{73.828125, 569.046875}, {168.75, 24.609375}}
+build	21-Jul-2015 11:26:27						UIAStaticText "1/12" {{169.921875, 142.484375}, {31.640625, 19.921875}}
+build	21-Jul-2015 11:26:27						UIAStaticText "327790 votes" {{250.78125, 567.875}, {105.46875, 24.609375}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{317.578125, 491.703125}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Do you have more fun with your family or friends?" {{0, 666.3125}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Do you have more fun with your family or friends?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 11:26:27						UIAStaticText "2/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "324879 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Would you rather go water rafting or cliff diving? " {{0, 1267.484375}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Would you rather go water rafting or cliff diving? " {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 11:26:27						UIAStaticText "3/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "323069 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Would you rather be a firefly or a butterfly?" {{0, 1868.65625}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Would you rather be a firefly or a butterfly?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 11:26:27						UIAStaticText "4/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Animal Friendly " {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "320319 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "What's worse, clumpy lashes or lipstick on teeth?" {{0, 2469.828125}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "What's worse, clumpy lashes or lipstick on teeth?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 11:26:27						UIAStaticText "5/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Fashion" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "318960 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Sexy or classy?" {{0, 3071}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Sexy or classy?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 11:26:27						UIAStaticText "6/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Hot or Not" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "314943 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Who's hotter?" {{0, 3672.171875}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Who's hotter?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 11:26:27						UIAStaticText "7/12" {{0, 0}, {27.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Celeb Obsessed " {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "310598 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Neck or foot massages?" {{0, 4273.34375}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Neck or foot massages?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 11:26:27						UIAStaticText "8/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "313412 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "What's worse peeling or being burned? " {{0, 4874.515625}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "What's worse peeling or being burned? " {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 11:26:27						UIAStaticText "9/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "311926 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Which mean girls quote?" {{0, 5475.6875}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Which mean girls quote?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 11:26:27						UIAStaticText "10/12" {{0, 0}, {35.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "309583 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Do you prefer humid or dry weather?" {{0, 6076.859375}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Do you prefer humid or dry weather?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 11:26:27						UIAStaticText "11/12" {{0, 0}, {33.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "304406 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIATableCell "Be in a freezing bath or boiling hot bath?" {{0, 6678.03125}, {375, 601.171875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "Be in a freezing bath or boiling hot bath?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 11:26:27						UIAStaticText "12/12" {{0, 0}, {34.5, 17}}
+build	21-Jul-2015 11:26:27						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 11:26:27						UIAStaticText "298534 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 11:26:27						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIAStaticText "Your Daily Dozen" {{56.25, 7362.40625}, {295.3125, 35.15625}}
+build	21-Jul-2015 11:26:27					UIAStaticText "0 of 12 complete" {{56.25, 7406.9375}, {295.3125, 24.609375}}
+build	21-Jul-2015 11:26:27					UIAButton "1   Not Filled" {{56.25, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "2   Not Filled" {{101.953125, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "3   Not Filled" {{147.65625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "4   Not Filled" {{193.359375, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "5   Not Filled" {{239.0625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "6   Not Filled" {{284.765625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "7   Not Filled" {{56.25, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "8   Not Filled" {{101.953125, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "9   Not Filled" {{147.65625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "10   Not Filled" {{193.359375, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "11   Not Filled" {{239.0625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "12   Not Filled" {{284.765625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					UIAButton "13   Not Filled" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAImage "13 - Not Filled.png" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIAButton "14   Not Filled" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAImage "14 - Not Filled.png" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIAButton "Share" {{56.25, 7643.65625}, {263.671875, 64.453125}}
+build	21-Jul-2015 11:26:27					UIAButton "watch a 10 seconds video" {{93.75, 7717.484375}, {215.625, 51.5625}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAStaticText "watch a 10 seconds video" {{98.4375, 7732.71875}, {206.8359375, 21.09375}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27					UIAStaticText "or" {{71.484375, 7731.546875}, {17.578125, 24.609375}}
+build	21-Jul-2015 11:26:27					UIAStaticText "to earn 2 bonus questions" {{56.25, 7743.265625}, {267.1875, 24.609375}}
+build	21-Jul-2015 11:26:27					UIAButton "gear" {{166.40625, 7772.5625}, {46.875, 46.875}}
+build	21-Jul-2015 11:26:27					elements: {
+build	21-Jul-2015 11:26:27						UIAImage "gear.png" {{174.0234375, 7780.1796875}, {31.0546875, 31.0546875}}
+build	21-Jul-2015 11:26:27					}
+build	21-Jul-2015 11:26:27				}
+build	21-Jul-2015 11:26:27				UIAStaticText "Daily Dozen" {{9.375, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 11:26:27				UIAStaticText "Community" {{196.875, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 11:26:27				UIAToolbar "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	21-Jul-2015 11:26:27				elements: {
+build	21-Jul-2015 11:26:27					UIAImage "(null)" {{0, 665.7265625}, {375, 0.5859375}}
+build	21-Jul-2015 11:26:27					UIAImage "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	21-Jul-2015 11:26:27				}
+build	21-Jul-2015 11:26:27				UIAImage "create-share-mark.png" {{164.0625, 738.96875}, {46.875, 44.53125}}
+build	21-Jul-2015 11:26:27				UIAStaticText "WISHBONE CREATED" {{46.875, 830.375}, {281.25, 24.609375}}
+build	21-Jul-2015 11:26:27				UIAStaticText "We get many cards submitted everyday, so cross your fingers we select yours to be featured!" {{21.09375, 877.25}, {333.984375, 59.765625}}
+build	21-Jul-2015 11:26:27				UIAStaticText "Poll your friends now to get instant votes and increase your odds of getting selected!" {{21.09375, 1012.015625}, {333.984375, 38.671875}}
+build	21-Jul-2015 11:26:27				UIAStaticText "POLL WITH" {{18.75, 1074.125}, {337.5, 24.609375}}
+build	21-Jul-2015 11:26:27				UIAButton "create share msg" {{21.09375, 1124.515625}, {105.46875, 105.46875}}
+build	21-Jul-2015 11:26:27				UIAButton "create share tw" {{134.765625, 1124.515625}, {105.46875, 105.46875}}
+build	21-Jul-2015 11:26:27				UIAButton "create share insta" {{249.609375, 1124.515625}, {106.640625, 105.46875}}
+build	21-Jul-2015 11:26:27				UIAButton "create share done" {{21.09375, 1244.046875}, {333.984375, 64.453125}}
+build	21-Jul-2015 11:26:27			}
+build	21-Jul-2015 11:26:27			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 11:26:27			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 11:26:27			elements: {
+build	21-Jul-2015 11:26:27				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	21-Jul-2015 11:26:27				elements: {
+build	21-Jul-2015 11:26:27					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	21-Jul-2015 11:26:27					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	21-Jul-2015 11:26:27					UIAElement "11:26 AM" {{158.203125, 0.6875}, {59.765625, 23.4375}}
+build	21-Jul-2015 11:26:27					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	21-Jul-2015 11:26:27				}
+build	21-Jul-2015 11:26:27			}
+build	21-Jul-2015 11:26:27		}
+build	21-Jul-2015 11:26:27	}
+build	21-Jul-2015 11:26:27	
+build	21-Jul-2015 11:26:27	2015-07-21 18:26:26 +0000 Start: Menu
+build	21-Jul-2015 11:26:31	2015-07-21 18:26:31 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	21-Jul-2015 11:26:36	2015-07-21 18:26:36 +0000 Start: Menu > My Wishbones
+build	21-Jul-2015 11:26:36	2015-07-21 18:26:36 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:37	2015-07-21 18:26:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:26:36 GMT")
+build	21-Jul-2015 11:26:37	2015-07-21 18:26:36 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:38	2015-07-21 18:26:38 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].buttons()["edit profile"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:38	2015-07-21 18:26:38 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:26:38 GMT")
+build	21-Jul-2015 11:26:38	2015-07-21 18:26:38 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:38	2015-07-21 18:26:38 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].buttons()["Edit"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:39	2015-07-21 18:26:38 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:26:38 GMT")
+build	21-Jul-2015 11:26:39	2015-07-21 18:26:38 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:39	2015-07-21 18:26:38 +0000 Start: Create View > Choose From Library
+build	21-Jul-2015 11:26:39	2015-07-21 18:26:38 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Choose from library"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:39	2015-07-21 18:26:39 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:26:39 GMT")
+build	21-Jul-2015 11:26:39	2015-07-21 18:26:39 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:39	2015-07-21 18:26:39 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:40	2015-07-21 18:26:40 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:26:40 GMT")
+build	21-Jul-2015 11:26:40	2015-07-21 18:26:40 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:41	2015-07-21 18:26:40 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].visibleCells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:41	2015-07-21 18:26:41 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 18:26:41 GMT")
+build	21-Jul-2015 11:26:41	2015-07-21 18:26:41 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:51	2015-07-21 18:26:51 +0000 Pass: Create View > Choose From Library
+build	21-Jul-2015 11:26:51	2015-07-21 18:26:51 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[4].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:51	2015-07-21 18:26:51 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:26:51 GMT")
+build	21-Jul-2015 11:26:51	2015-07-21 18:26:51 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:51	2015-07-21 18:26:51 +0000 Debug: target.frontMostApp().actionSheet().collectionViews()[0].cells()["Male"].buttons()["Male"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:55	2015-07-21 18:26:55 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[5].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:26:55	2015-07-21 18:26:55 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:26:55 GMT")
+build	21-Jul-2015 11:26:55	2015-07-21 18:26:55 +0000 Screenshot captured.
+build	21-Jul-2015 11:26:56	2015-07-21 18:26:55 +0000 logElementTree:
+build	21-Jul-2015 11:26:56	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	21-Jul-2015 11:26:56	elements: {
+build	21-Jul-2015 11:26:56		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	21-Jul-2015 11:26:56		elements: {
+build	21-Jul-2015 11:26:56			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	21-Jul-2015 11:26:56			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 11:26:56			elements: {
+build	21-Jul-2015 11:26:56				UIAButton "create back" {{1.171875, 18.265625}, {46.875, 46.875}}
+build	21-Jul-2015 11:26:56				UIAStaticText "Edit Profile" {{80.859375, 28.8125}, {214.453125, 24.609375}}
+build	21-Jul-2015 11:26:56				UIAButton "Done" {{307.03125, 24.125}, {53.90625, 35.15625}}
+build	21-Jul-2015 11:26:56				UIAScrollView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 11:26:56				elements: {
+build	21-Jul-2015 11:26:56					UIAImage "(null)" {{18.75, 9.4765625}, {70.3125, 70.3125}}
+build	21-Jul-2015 11:26:56					UIATextField "(null)" {{139.453125, 5.9609375}, {187.5, 35.15625}}
+build	21-Jul-2015 11:26:56					elements: {
+build	21-Jul-2015 11:26:56						UIATextField "(null)" {{139.453125, 5.9609375}, {187.5, 35.15625}}
+build	21-Jul-2015 11:26:56					}
+build	21-Jul-2015 11:26:56					UIAImage "user-handle-img.png" {{117.1875, 24.7109375}, {12.890625, 16.40625}}
+build	21-Jul-2015 11:26:56					UIAImage "available-mark.png" {{342.1875, 17.6796875}, {10.546875, 10.546875}}
+build	21-Jul-2015 11:26:56					UIATextField "(null)" {{139.453125, 55.1796875}, {216.796875, 35.15625}}
+build	21-Jul-2015 11:26:56					elements: {
+build	21-Jul-2015 11:26:56						UIATextField "(null)" {{139.453125, 55.1796875}, {216.796875, 35.15625}}
+build	21-Jul-2015 11:26:56					}
+build	21-Jul-2015 11:26:56					UIAButton "Edit" {{26.953125, 80.9609375}, {53.90625, 35.15625}}
+build	21-Jul-2015 11:26:56					UIAImage "user-name-img.png" {{117.1875, 75.1015625}, {15.234375, 15.234375}}
+build	21-Jul-2015 11:26:56					UIAStaticText "Private Information" {{18.75, 134.8671875}, {337.5, 24.609375}}
+build	21-Jul-2015 11:26:56					UIATextField "(null)" {{46.875, 160.6484375}, {309.375, 35.15625}}
+build	21-Jul-2015 11:26:56					elements: {
+build	21-Jul-2015 11:26:56						UIATextField "(null)" {{46.875, 160.6484375}, {309.375, 35.15625}}
+build	21-Jul-2015 11:26:56					}
+build	21-Jul-2015 11:26:56					UIAImage "email-img.png" {{18.75, 182.9140625}, {17.578125, 12.890625}}
+build	21-Jul-2015 11:26:56					UIATextField "(null)" {{46.875, 216.8984375}, {308.203125, 35.15625}}
+build	21-Jul-2015 11:26:56					elements: {
+build	21-Jul-2015 11:26:56						UIATextField "(null)" {{46.875, 208.109375}, {308.203125, 35.15625}}
+build	21-Jul-2015 11:26:56					}
+build	21-Jul-2015 11:26:56					UIAImage "phone-img.png" {{18.75, 226.859375}, {11.71875, 16.40625}}
+build	21-Jul-2015 11:26:56					UIATextField "(null)" {{46.875, 264.359375}, {308.203125, 35.15625}}
+build	21-Jul-2015 11:26:56					elements: {
+build	21-Jul-2015 11:26:56						UIATextField "(null)" {{46.875, 264.359375}, {308.203125, 35.15625}}
+build	21-Jul-2015 11:26:56					}
+build	21-Jul-2015 11:26:56					UIAImage "gender-img.png" {{18.75, 283.109375}, {12.890625, 16.40625}}
+build	21-Jul-2015 11:26:56					UIATextField "(null)" {{46.875, 321.78125}, {308.203125, 35.15625}}
+build	21-Jul-2015 11:26:56					elements: {
+build	21-Jul-2015 11:26:56						UIATextField "(null)" {{46.875, 321.78125}, {308.203125, 35.15625}}
+build	21-Jul-2015 11:26:56					}
+build	21-Jul-2015 11:26:56					UIAImage "age-img.png" {{18.75, 339.359375}, {12.890625, 16.40625}}
+build	21-Jul-2015 11:26:56					UIAButton "profile gear" {{328.125, 531.546875}, {46.875, 46.875}}
+build	21-Jul-2015 11:26:56					UIAImage "(null)" {{366.796875, 575.4921875}, {8.203125, 2.9296875}}
+build	21-Jul-2015 11:26:56					UIAImage "(null)" {{372.0703125, 570.21875}, {2.9296875, 8.203125}}
+build	21-Jul-2015 11:26:56				}
+build	21-Jul-2015 11:26:56			}
+build	21-Jul-2015 11:26:56			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 11:26:56			elements: {
+build	21-Jul-2015 11:26:56				UIAToolbar "(null)" {{0, 361.625}, {375, 51.5625}}
+build	21-Jul-2015 11:26:56				elements: {
+build	21-Jul-2015 11:26:56					UIAImage "(null)" {{0, 361.0390625}, {375, 0.5859375}}
+build	21-Jul-2015 11:26:56					UIAImage "(null)" {{0, 361.625}, {375, 51.5625}}
+build	21-Jul-2015 11:26:56					UIAButton "Done" {{3.515625, 363.96875}, {59.765625, 46.875}}
+build	21-Jul-2015 11:26:56				}
+build	21-Jul-2015 11:26:56				UIAPicker "(null)" {{0, 413.1875}, {375, 253.125}}
+build	21-Jul-2015 11:26:56				elements: {
+build	21-Jul-2015 11:26:56					UIAPickerWheel "(null)" {{33.984375, 369.2421875}, {157.03125, 341.015625}}
+build	21-Jul-2015 11:26:56					UIAPickerWheel "(null)" {{196.875, 369.2421875}, {53.90625, 341.015625}}
+build	21-Jul-2015 11:26:56					UIAPickerWheel "(null)" {{256.640625, 369.2421875}, {84.375, 341.015625}}
+build	21-Jul-2015 11:26:56				}
+build	21-Jul-2015 11:26:56			}
+build	21-Jul-2015 11:26:56			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 11:26:56			elements: {
+build	21-Jul-2015 11:26:56				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	21-Jul-2015 11:26:56				elements: {
+build	21-Jul-2015 11:26:56					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	21-Jul-2015 11:26:56					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	21-Jul-2015 11:26:56					UIAElement "11:26 AM" {{158.203125, 0.6875}, {59.765625, 23.4375}}
+build	21-Jul-2015 11:26:56					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	21-Jul-2015 11:26:56				}
+build	21-Jul-2015 11:26:56			}
+build	21-Jul-2015 11:26:56		}
+build	21-Jul-2015 11:26:56	}
+build	21-Jul-2015 11:26:56	
+build	21-Jul-2015 11:26:56	2015-07-21 18:26:55 +0000 Default: index 0
+build	21-Jul-2015 11:26:56	2015-07-21 18:26:55 +0000 Default: index 1
+build	21-Jul-2015 11:26:56	2015-07-21 18:26:55 +0000 Default: index 2
+build	21-Jul-2015 11:26:56	2015-07-21 18:26:56 +0000 Default: index 3
+build	21-Jul-2015 11:27:09	2015-07-21 18:27:09 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:27:09 GMT")
+build	21-Jul-2015 11:27:09	2015-07-21 18:27:09 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:09	2015-07-21 18:27:09 +0000 Debug: target.frontMostApp().windows()[2].toolbar().buttons()["Done"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:10	2015-07-21 18:27:09 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:27:09 GMT")
+build	21-Jul-2015 11:27:10	2015-07-21 18:27:09 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:10	2015-07-21 18:27:09 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[2].tap()
+build	21-Jul-2015 11:27:10	2015-07-21 18:27:10 +0000 Debug: target.frontMostApp().keyboard().typeString("wtobey@science-inc.com")
+build	21-Jul-2015 11:27:15	2015-07-21 18:27:15 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:27:15 GMT")
+build	21-Jul-2015 11:27:15	2015-07-21 18:27:15 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:15	2015-07-21 18:27:15 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Done"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:15	2015-07-21 18:27:15 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 18:27:15 GMT")
+build	21-Jul-2015 11:27:15	2015-07-21 18:27:15 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:17	2015-07-21 18:27:17 +0000 Debug: target.frontMostApp().alert().buttons()[0].tap()
+build	21-Jul-2015 11:27:18	2015-07-21 18:27:18 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:18	2015-07-21 18:27:18 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu Tue, 21 Jul 2015 18:27:18 GMT")
+build	21-Jul-2015 11:27:18	2015-07-21 18:27:18 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:18	2015-07-21 18:27:18 +0000 Pass: Menu > My Wishbones
+build	21-Jul-2015 11:27:20	2015-07-21 18:27:20 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	21-Jul-2015 11:27:20	2015-07-21 18:27:20 +0000 Start: Menu > Find Friends
+build	21-Jul-2015 11:27:20	2015-07-21 18:27:20 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[1].tap()
+build	21-Jul-2015 11:27:26	2015-07-21 18:27:26 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 18:27:26 GMT")
+build	21-Jul-2015 11:27:26	2015-07-21 18:27:26 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:26	2015-07-21 18:27:26 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].searchBars()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:26	2015-07-21 18:27:26 +0000 Debug: target.frontMostApp().keyboard().withValueForKey("1", "isVisible").typeString("Abc\n")
+build	21-Jul-2015 11:27:30	2015-07-21 18:27:30 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 18:27:30 GMT")
+build	21-Jul-2015 11:27:30	2015-07-21 18:27:30 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:30	2015-07-21 18:27:30 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 18:27:37 GMT")
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].buttons()["follow"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 18:27:37 GMT")
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create back"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 18:27:37 GMT")
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:37	2015-07-21 18:27:37 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:38	2015-07-21 18:27:38 +0000 Pass: Menu > Find Friends
+build	21-Jul-2015 11:27:40	2015-07-21 18:27:40 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	21-Jul-2015 11:27:40	2015-07-21 18:27:40 +0000 Default: Select About Wishbone from dropdown menu
+build	21-Jul-2015 11:27:40	2015-07-21 18:27:40 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[2].tap()
+build	21-Jul-2015 11:27:42	2015-07-21 18:27:42 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 11:27:42	2015-07-21 18:27:42 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu Tue, 21 Jul 2015 18:27:42 GMT")
+build	21-Jul-2015 11:27:42	2015-07-21 18:27:42 +0000 Screenshot captured.
+build	21-Jul-2015 11:27:42	2015-07-21 18:27:42 +0000 Pass: Menu
+build	21-Jul-2015 11:27:46	Instruments Trace Complete (Duration : 127.569771s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+build	21-Jul-2015 11:27:46	===================================Running Parser.py===================================
+build	21-Jul-2015 11:27:47	The current working directory is /Users/wtobey/Desktop/AUITesting
+build	21-Jul-2015 11:27:47	opt
+build	21-Jul-2015 11:27:47	iOS 8.4, iPhone 6, iOS Simulator
+build	21-Jul-2015 11:27:47	iOS 8.4, iPhone 6, iOS Simulator
+build	21-Jul-2015 11:27:47	['First Screen', 'Create View', 'Menu']
+build	21-Jul-2015 11:27:47	['First Screen', 'Create View', 'Menu']
+build	21-Jul-2015 11:27:47	(0, 'First Screen > Skip Login')
+build	21-Jul-2015 11:27:47	(0, 'Create View > Search Web')
+build	21-Jul-2015 11:27:47	(1, 'Create View > Add Sticker')
+build	21-Jul-2015 11:27:47	(2, 'Create View > Choose From Library')
+build	21-Jul-2015 11:27:47	(3, 'Create View > Choose From Library')
+build	21-Jul-2015 11:27:47	(0, 'Menu > My Wishbones')
+build	21-Jul-2015 11:27:47	(1, 'Menu > Find Friends')
+build	21-Jul-2015 11:27:47	['/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-39 GMT 2.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-39 GMT 3.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-39 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-43 GMT.png']
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-39 GMT 2.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-39 GMT 3.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-39 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 18-25-43 GMT.png
+build	21-Jul-2015 11:27:47	['/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Add Sticker Tue, 21 Jul 2015 18-26-02 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-09 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-12 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-13 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-39 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-40 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-41 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Search Web Tue, 21 Jul 2015 18-25-51 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Search Web Tue, 21 Jul 2015 18-25-52 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-25-46 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-25-50 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-25-54 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-00 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-02 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-08 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-23 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-26 GMT.png']
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Add Sticker Tue, 21 Jul 2015 18-26-02 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Add Sticker
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Add Sticker
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Add StickerCreate View > Add Sticker Tue, 21 Jul 2015 18-26-02 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-09 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From LibraryCreate View > Choose From Library Tue, 21 Jul 2015 18-26-09 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-12 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From LibraryCreate View > Choose From Library Tue, 21 Jul 2015 18-26-12 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-13 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From LibraryCreate View > Choose From Library Tue, 21 Jul 2015 18-26-13 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-39 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From LibraryCreate View > Choose From Library Tue, 21 Jul 2015 18-26-39 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-40 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From LibraryCreate View > Choose From Library Tue, 21 Jul 2015 18-26-40 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 18-26-41 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From LibraryCreate View > Choose From Library Tue, 21 Jul 2015 18-26-41 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	matchingCreate View > Choose From Library
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Choose From Library
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Search Web Tue, 21 Jul 2015 18-25-51 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Search Web
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Search Web
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Search WebCreate View > Search Web Tue, 21 Jul 2015 18-25-51 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Search Web Tue, 21 Jul 2015 18-25-52 GMT.png
+build	21-Jul-2015 11:27:47	matchingCreate View > Search Web
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Search Web
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Create View/Search WebCreate View > Search Web Tue, 21 Jul 2015 18-25-52 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-25-46 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-25-50 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-25-54 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-00 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-02 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-08 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-23 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 18-26-26 GMT.png
+build	21-Jul-2015 11:27:47	['/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-26 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-30 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT 2.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT 3.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-36 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-38 GMT 2.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-38 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-51 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-55 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-09 GMT 2.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-09 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-15 GMT 2.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-15 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu Tue, 21 Jul 2015 18-27-18 GMT.png', '/Users/wtobey/Desktop/AUITesting/Run 1/Menu Tue, 21 Jul 2015 18-27-42 GMT.png']
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-26 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > Find Friends
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find Friends
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find FriendsMenu > Find Friends Tue, 21 Jul 2015 18-27-26 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-30 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > Find Friends
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find Friends
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find FriendsMenu > Find Friends Tue, 21 Jul 2015 18-27-30 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT 2.png
+build	21-Jul-2015 11:27:47	matchingMenu > Find Friends
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find Friends
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find FriendsMenu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT 2.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT 3.png
+build	21-Jul-2015 11:27:47	matchingMenu > Find Friends
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find Friends
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find FriendsMenu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT 3.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > Find Friends
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find Friends
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/Find FriendsMenu > Find Friends Tue, 21 Jul 2015 18-27-37 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-36 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-26-36 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-38 GMT 2.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-26-38 GMT 2.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-38 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-26-38 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-51 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-26-51 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-26-55 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-26-55 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-09 GMT 2.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-27-09 GMT 2.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-09 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-27-09 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-15 GMT 2.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-27-15 GMT 2.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 18-27-15 GMT.png
+build	21-Jul-2015 11:27:47	matchingMenu > My Wishbones
+build	21-Jul-2015 11:27:47	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My Wishbones
+build	21-Jul-2015 11:27:47	Path: /Users/wtobey/Desktop/AUITesting/Run 2015-07-21 18:25:39/Menu/My WishbonesMenu > My Wishbones Tue, 21 Jul 2015 18-27-15 GMT.pngNOT FOUND, MAKING NEW FILE
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu Tue, 21 Jul 2015 18-27-18 GMT.png
+build	21-Jul-2015 11:27:47	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu Tue, 21 Jul 2015 18-27-42 GMT.png
+build	21-Jul-2015 11:27:47	===================================Removing Trace===================================
+build	21-Jul-2015 11:27:47	===================================Shutting Down Simulators===================================
+build	21-Jul-2015 11:27:48	===================================Erasing Simulators===================================
+build	21-Jul-2015 11:27:50	===================================Quitting Simulators===================================
+build	21-Jul-2015 11:27:50	===================================Running Mailer.py===================================
+simple	21-Jul-2015 11:27:54	Finished task 'Build and Run' with result: Success
+simple	21-Jul-2015 11:27:54	Running post build plugin 'npm Cache Cleanup'
+simple	21-Jul-2015 11:27:54	Running post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 11:27:54	Running post build plugin 'Clover Results Collector'
+simple	21-Jul-2015 11:27:54	Running post build plugin 'Docker Container Cleanup'
+simple	21-Jul-2015 11:27:54	Running post build plugin 'Artifact Copier'
+simple	21-Jul-2015 11:27:54	Finalising the build...
+simple	21-Jul-2015 11:27:54	Stopping timer.
+simple	21-Jul-2015 11:27:54	Build WUT-BT-JOB1-142 completed.
+simple	21-Jul-2015 11:27:54	Running on server: post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 11:27:54	Running on server: post build plugin 'Clover Delta Calculator'
+simple	21-Jul-2015 11:27:54	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	21-Jul-2015 11:27:54	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	21-Jul-2015 11:27:54	All post build plugins have finished
+simple	21-Jul-2015 11:27:54	Generating build results summary...
+simple	21-Jul-2015 11:27:54	Saving build results to disk...
+simple	21-Jul-2015 11:27:54	Logging substituted variables...
+simple	21-Jul-2015 11:27:54	Indexing build results...
+simple	21-Jul-2015 11:27:54	Finished building WUT-BT-JOB1-142.

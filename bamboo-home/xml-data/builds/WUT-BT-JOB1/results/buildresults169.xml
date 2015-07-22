@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Unknown</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>AUITestingScript.sh: line 12: [-f: command not found</string>
+    <string>Build was manually stopped.</string>
+  </myBuildErrors>
+  <myBuildNumber>169</myBuildNumber>
+  <myBuildDate>1437585744552</myBuildDate>
+  <myBuildDuration>10857</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

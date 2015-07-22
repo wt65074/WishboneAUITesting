@@ -1,0 +1,53 @@
+simple	16-Jul-2015 11:40:38	Build Wishbone UI Testing - Build and Test - Default Job #76 (WUT-BT-JOB1-76) started building on agent Default Agent
+simple	16-Jul-2015 11:40:38	
+simple	16-Jul-2015 11:40:38	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	16-Jul-2015 11:40:38	Executing build Wishbone UI Testing - Build and Test - Default Job #76 (WUT-BT-JOB1-76)
+simple	16-Jul-2015 11:40:38	Running pre-build action: VCS Version Collector
+simple	16-Jul-2015 11:40:38	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	16-Jul-2015 11:40:38	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #76 (WUT-BT-JOB1-76)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-76-ScriptBuildTask-2422326996859967534.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-76\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=76\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-76\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-16T11:40:38.457-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-76\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	16-Jul-2015 11:40:38	===================================Building Wishbone.app===================================
+build	16-Jul-2015 11:40:39	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	16-Jul-2015 11:40:39	
+build	16-Jul-2015 11:40:39	Check dependencies
+build	16-Jul-2015 11:40:40	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	16-Jul-2015 11:40:40	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	16-Jul-2015 11:40:40	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	16-Jul-2015 11:40:40	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	16-Jul-2015 11:40:40	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	16-Jul-2015 11:40:40	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	16-Jul-2015 11:40:40	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	16-Jul-2015 11:40:40	
+build	16-Jul-2015 11:40:40	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	16-Jul-2015 11:40:40	
+build	16-Jul-2015 11:40:40	Check dependencies
+build	16-Jul-2015 11:40:40	
+error	16-Jul-2015 11:42:39	2015-07-16 11:42:39.717 xcodebuild[4193:587323]  iPhoneSimulator: Timed out waiting 120 seconds for simulator to boot, current state is 1.
+error	16-Jul-2015 11:42:39	
+error	16-Jul-2015 11:42:39	Testing failed:
+error	16-Jul-2015 11:42:39		Test target WishboneTests encountered an error (Timed out waiting 120 seconds for simulator to boot, current state is 1. If you believe this error represents a bug, please attach the log file at /var/folders/b8/sxxrbckd267gcwv0zfdbkzzr0000gn/T/com.apple.dt.XCTest-status/Session-2015-07-16_11:40:39-d0kvrn.log)
+error	16-Jul-2015 11:42:39	** TEST FAILED **
+error	16-Jul-2015 11:42:39	
+build	16-Jul-2015 11:42:39	===================================Building instruments.sh===================================
+build	16-Jul-2015 11:42:44	===================================Running instruments.sh===================================
+build	16-Jul-2015 11:42:45	Waiting for device to boot...
+command	16-Jul-2015 11:43:07	Request to stop 'WUT-BT-JOB1-76' received from wtobey
+simple	16-Jul-2015 11:43:07	Failing task since return code of [/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-76-ScriptBuildTask-2422326996859967534.sh] was 143 while expected 0
+simple	16-Jul-2015 11:43:07	Finished task 'Build and Run' with result: Failed
+simple	16-Jul-2015 11:43:07	Running post build plugin 'npm Cache Cleanup'
+simple	16-Jul-2015 11:43:07	Running post build plugin 'NCover Results Collector'
+simple	16-Jul-2015 11:43:07	Running post build plugin 'Clover Results Collector'
+simple	16-Jul-2015 11:43:07	Running post build plugin 'Docker Container Cleanup'
+simple	16-Jul-2015 11:43:07	Running post build plugin 'Artifact Copier'
+simple	16-Jul-2015 11:43:07	Finalising the build...
+simple	16-Jul-2015 11:43:07	Stopping timer.
+simple	16-Jul-2015 11:43:07	Build WUT-BT-JOB1-76 completed.
+simple	16-Jul-2015 11:43:07	Running on server: post build plugin 'NCover Results Collector'
+simple	16-Jul-2015 11:43:07	Running on server: post build plugin 'Clover Delta Calculator'
+simple	16-Jul-2015 11:43:07	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	16-Jul-2015 11:43:07	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	16-Jul-2015 11:43:07	All post build plugins have finished
+simple	16-Jul-2015 11:43:07	Generating build results summary...
+simple	16-Jul-2015 11:43:07	Saving build results to disk...
+simple	16-Jul-2015 11:43:07	Logging substituted variables...
+simple	16-Jul-2015 11:43:07	Indexing build results...
+simple	16-Jul-2015 11:43:07	Finished building WUT-BT-JOB1-76.

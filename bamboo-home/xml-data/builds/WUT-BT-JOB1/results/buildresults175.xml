@@ -1,0 +1,35 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>[]</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>[]</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>upload failed: ./Run 2015-07-22 18:21:57.zip to s3://wishbone-auitesting/Run 2015-07-22 18:21:57.zip</string>
+    <string>(32, &apos;Broken pipe&apos;)</string>
+    <string>rm: No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>175</myBuildNumber>
+  <myBuildDate>1437589296686</myBuildDate>
+  <myBuildDuration>841579</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

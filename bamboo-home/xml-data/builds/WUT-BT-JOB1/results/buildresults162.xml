@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>AUITestingScript.sh: line 12: test: Run: binary operator expected</string>
+    <string>upload failed: ./ to s3://wishbone-auitesting/ [Errno 21] Is a directory: u&apos;/Users/wtobey/Desktop/AUITesting/&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>162</myBuildNumber>
+  <myBuildDate>1437583782325</myBuildDate>
+  <myBuildDuration>38842</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

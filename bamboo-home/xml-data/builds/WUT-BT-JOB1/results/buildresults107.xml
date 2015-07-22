@@ -1,0 +1,36 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Jul 17 13:43:09 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:09 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:09 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:09 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:21 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:21 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:21 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:21 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:35 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:35 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:35 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:35 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:48 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:48 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:48 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:43:48 Wills-MacBook-Pro.local instruments[4548] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 169, in &lt;module&gt;</string>
+    <string>    shutil.move(retrievedPath, path + &quot;/&quot; + subtest)</string>
+    <string>  File &quot;/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;, line 291, in move</string>
+    <string>    raise Error, &quot;Destination path &apos;%s&apos; already exists&quot; % real_dst</string>
+    <string>shutil.Error: Destination path &apos;/Users/wtobey/Desktop/AUITesting/Run 2015-07-17 20:35:08/Create View/Choose From Library/Create View &gt; Choose From Library Fri, 17 Jul 2015 20-35-38 GMT.png&apos; already exists</string>
+  </myBuildErrors>
+  <myBuildNumber>107</myBuildNumber>
+  <myBuildDate>1437165282446</myBuildDate>
+  <myBuildDuration>868304</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

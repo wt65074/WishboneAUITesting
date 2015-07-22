@@ -1,0 +1,66 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Jul 17 10:40:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:46 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:46 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:46 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:46 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:40:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:42:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:42:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:42:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:42:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:01 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:01 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:01 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:01 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:15 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:15 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:15 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:15 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:28 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:28 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:28 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:43:28 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:19 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:31 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:45 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:45 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:45 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:45 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:45:58 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:47:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:47:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:47:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 10:47:49 Wills-MacBook-Pro.local instruments[1911] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+  </myBuildErrors>
+  <myBuildNumber>91</myBuildNumber>
+  <myBuildDate>1437154303187</myBuildDate>
+  <myBuildDuration>1192916</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

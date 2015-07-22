@@ -1,0 +1,19 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>rm: No such file or directory</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;mailer.py&quot;, line 29, in &lt;module&gt;</string>
+    <string>    summary = open(inputFile, &apos;r&apos;)</string>
+    <string>IOError: [Errno 2] No such file or directory: &apos;/Users/wtobey/Desktop/AUITesting/Run 2015-07-22 18:09:05/RunSummary.txt&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>174</myBuildNumber>
+  <myBuildDate>1437588524185</myBuildDate>
+  <myBuildDuration>687153</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

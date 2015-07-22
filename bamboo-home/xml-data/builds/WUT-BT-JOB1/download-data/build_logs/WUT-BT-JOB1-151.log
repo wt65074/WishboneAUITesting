@@ -1,0 +1,793 @@
+simple	21-Jul-2015 15:27:46	Build Wishbone UI Testing - Build and Test - Default Job #151 (WUT-BT-JOB1-151) started building on agent Default Agent
+simple	21-Jul-2015 15:27:46	
+simple	21-Jul-2015 15:27:46	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	21-Jul-2015 15:27:46	Executing build Wishbone UI Testing - Build and Test - Default Job #151 (WUT-BT-JOB1-151)
+simple	21-Jul-2015 15:27:46	Running pre-build action: VCS Version Collector
+simple	21-Jul-2015 15:27:46	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	21-Jul-2015 15:27:46	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #151 (WUT-BT-JOB1-151)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-151-ScriptBuildTask-3374609053775095468.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-151\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=151\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-151\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-21T15:27:46.344-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-151\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	21-Jul-2015 15:27:46	===================================BuildingWishbone.app===================================
+build	21-Jul-2015 15:27:47	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 15:27:47	
+build	21-Jul-2015 15:27:47	Check dependencies
+build	21-Jul-2015 15:27:48	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 15:27:48	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 15:27:48	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 15:27:48	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 15:27:48	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 15:27:48	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	21-Jul-2015 15:27:48	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	21-Jul-2015 15:27:48	
+build	21-Jul-2015 15:27:48	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 15:27:48	
+build	21-Jul-2015 15:27:48	Check dependencies
+build	21-Jul-2015 15:27:48	
+build	21-Jul-2015 15:28:02	** TEST SUCCEEDED **
+build	21-Jul-2015 15:28:02	
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:00.282 Wishbone[6781:661731] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:00.396 Wishbone[6781:661731] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=lZwxYnCsz7Bqo8umeRLpYw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437517680.389591&usage_tracking_enabled=1&value=1.00.
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:00.421 Wishbone[6781:661731] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:00.604 Wishbone[6781:662107] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:00.988 Wishbone[6781:661731] AppsFlyer SDK version 2.5.3.15 started
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:00.990 Wishbone[6781:662127] Resolved sdk-api-ssl.playhaven.com -> 48.62.157.17
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:00.990 Wishbone[6781:662128] Resolved media.playhaven.com -> 48.62.157.17
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.048 Wishbone[6781:662107] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.111 Wishbone[6781:662107] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.112 Wishbone[6781:661731] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.140 Wishbone[6781:661731] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=lZwxYnCsz7Bqo8umeRLpYw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437521281.138851&usage_tracking_enabled=1.
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.162 Wishbone[6781:661731] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=CE952853-7B8F-4E49-BC37-0DB76643FBAB&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=9toc7ZKDrO88ui2o_ixJZzzKC7Y&plugin=ios&nonce=em9qfVasKNvo4V1VgdfIXJGg8m0&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=D73C00D4-CCC5-43A1-A353-816A01F2EF20&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.296 Wishbone[6781:661731] <Google> ping successful.
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.298 Wishbone[6781:661731] <Google> ping successful.
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.412 Wishbone[6781:662092] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	21-Jul-2015 15:28:02	    parameters =     {
+build	21-Jul-2015 15:28:02	        "&_u" = ".etno";
+build	21-Jul-2015 15:28:02	        "&_v" = "mi3.0.3c";
+build	21-Jul-2015 15:28:02	        "&an" = Wishbone;
+build	21-Jul-2015 15:28:02	        "&av" = "3.0.5";
+build	21-Jul-2015 15:28:02	        "&cd" = "Login View";
+build	21-Jul-2015 15:28:02	        "&cid" = "0b2e02b7-ed8b-408d-be79-4cc0a78a6802";
+build	21-Jul-2015 15:28:02	        "&sr" = 320x568;
+build	21-Jul-2015 15:28:02	        "&t" = appview;
+build	21-Jul-2015 15:28:02	        "&tid" = "UA-48537804-1";
+build	21-Jul-2015 15:28:02	        "&ul" = en;
+build	21-Jul-2015 15:28:02	        "&v" = 1;
+build	21-Jul-2015 15:28:02	        "&z" = 17548997455973356830;
+build	21-Jul-2015 15:28:02	        gaiVersion = "3.03c";
+build	21-Jul-2015 15:28:02	    };
+build	21-Jul-2015 15:28:02	    timestamp = "2015-07-21 22:28:01 +0000";
+build	21-Jul-2015 15:28:02	}
+build	21-Jul-2015 15:28:02	Test Suite 'All tests' started at 2015-07-21 22:28:01 +0000
+build	21-Jul-2015 15:28:02	Test Suite 'WishboneTests.xctest' started at 2015-07-21 22:28:01 +0000
+build	21-Jul-2015 15:28:02	Test Suite 'WishboneTests' started at 2015-07-21 22:28:01 +0000
+build	21-Jul-2015 15:28:02	Test Case '-[WishboneTests testExample]' started.
+build	21-Jul-2015 15:28:02	Test Case '-[WishboneTests testExample]' passed (0.000 seconds).
+build	21-Jul-2015 15:28:02	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.635 Wishbone[6781:661731] [PlayHaven-2.0.2] Request recieved HTTP response: 200
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.637 Wishbone[6781:661731] [PlayHaven-2.0.2] Request finished!
+build	21-Jul-2015 15:28:02	2015-07-21 15:28:01.982 Wishbone[6781:662107] ADCOLONY 2.4.13.11 [info] Ads are ready for zone vz28b7f3058a8a4bbb94
+build	21-Jul-2015 15:28:02	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 79.784%, values: [0.000003, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	21-Jul-2015 15:28:02	Test Case '-[WishboneTests testPerformanceExample]' passed (0.393 seconds).
+build	21-Jul-2015 15:28:02	Test Suite 'WishboneTests' passed at 2015-07-21 22:28:02 +0000.
+build	21-Jul-2015 15:28:02		 Executed 2 tests, with 0 failures (0 unexpected) in 0.394 (0.395) seconds
+build	21-Jul-2015 15:28:02	Test Suite 'WishboneTests.xctest' passed at 2015-07-21 22:28:02 +0000.
+build	21-Jul-2015 15:28:02		 Executed 2 tests, with 0 failures (0 unexpected) in 0.394 (0.395) seconds
+build	21-Jul-2015 15:28:02	Test Suite 'All tests' passed at 2015-07-21 22:28:02 +0000.
+build	21-Jul-2015 15:28:02		 Executed 2 tests, with 0 failures (0 unexpected) in 0.394 (0.396) seconds
+build	21-Jul-2015 15:28:02	===================================Building instruments.sh===================================
+build	21-Jul-2015 15:28:04	===================================Running instruments.sh===================================
+build	21-Jul-2015 15:28:08	2015-07-21 22:28:08 +0000 Start: First Screen
+build	21-Jul-2015 15:28:08	2015-07-21 22:28:08 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 22:28:08 GMT")
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Screenshot captured.
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Start: First Screen > Skip Login
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Skip Login"].tap()
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Pass: First Screen > Skip Login
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 22:28:08 GMT")
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Screenshot captured.
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 22:28:08 GMT")
+build	21-Jul-2015 15:28:09	2015-07-21 22:28:08 +0000 Screenshot captured.
+build	21-Jul-2015 15:28:10	2015-07-21 22:28:10 +0000 Debug: target.frontMostApp().alert().cancelButton().tap()
+build	21-Jul-2015 15:28:12	2015-07-21 22:28:11 +0000 Debug: target.frontMostApp().mainWindow().pageIndicators()[0].withValueForKey("1", "isVisible").selectPage("1")
+build	21-Jul-2015 15:28:13	2015-07-21 22:28:13 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 22:28:13 GMT")
+build	21-Jul-2015 15:28:13	2015-07-21 22:28:13 +0000 Screenshot captured.
+build	21-Jul-2015 15:28:13	2015-07-21 22:28:13 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].withValueForKey("1", "isVisible").scrollViews()[0].buttons()[0].tap()
+build	21-Jul-2015 15:28:15	2015-07-21 22:28:15 +0000 Pass: First Screen
+build	21-Jul-2015 15:28:16	2015-07-21 22:28:15 +0000 logElementTree:
+build	21-Jul-2015 15:28:16	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	21-Jul-2015 15:28:16	elements: {
+build	21-Jul-2015 15:28:16		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	21-Jul-2015 15:28:16		elements: {
+build	21-Jul-2015 15:28:16			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	21-Jul-2015 15:28:16			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 15:28:16			elements: {
+build	21-Jul-2015 15:28:16				UIATableView "(null)" {{0, -224.3125}, {375, 283.59375}}
+build	21-Jul-2015 15:28:16				elements: {
+build	21-Jul-2015 15:28:16					UIATableCell "My Wishbones" {{0, -224.3125}, {375, 51.5625}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "My Wishbones" {{23.4375, -202.046875}, {328.125, 24.609375}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Find Friends" {{0, -172.75}, {375, 51.5625}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Find Friends" {{23.4375, -150.484375}, {328.125, 24.609375}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "About Wishbone" {{0, -121.1875}, {375, 51.5625}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "About Wishbone" {{23.4375, -98.921875}, {328.125, 24.609375}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Share with a Friend" {{0, -69.625}, {375, 51.5625}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Share with a Friend" {{23.4375, -47.359375}, {328.125, 24.609375}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Contact Us" {{0, -18.0625}, {375, 51.5625}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Contact Us" {{23.4375, 4.203125}, {328.125, 24.609375}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16				}
+build	21-Jul-2015 15:28:16				UIAImage "menu.png" {{17.578125, 39.359375}, {23.4375, 9.375}}
+build	21-Jul-2015 15:28:16				UIASegmentedControl "(null)" {{62.109375, 26.46875}, {251.953125, 33.984375}}
+build	21-Jul-2015 15:28:16				elements: {
+build	21-Jul-2015 15:28:16					UIAButton "Trending" {{62.109375, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 15:28:16					UIAButton "Friends" {{188.671875, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 15:28:16				}
+build	21-Jul-2015 15:28:16				UIAImage "Nav-Header-Logo" {{179.296875, 33.5}, {17.578125, 21.09375}}
+build	21-Jul-2015 15:28:16				UIAButton "create card" {{314.0625, 26.46875}, {51.5625, 35.15625}}
+build	21-Jul-2015 15:28:16				UIATableView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16				elements: {
+build	21-Jul-2015 15:28:16					UIATableCell "Which disney princess set is better?" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Which disney princess set is better?" {{18.75, 94.4375}, {337.5, 22.5}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Films&TV " {{73.828125, 569.046875}, {168.75, 24.609375}}
+build	21-Jul-2015 15:28:16						UIAStaticText "1/12" {{169.921875, 142.484375}, {31.640625, 19.921875}}
+build	21-Jul-2015 15:28:16						UIAStaticText "435190 votes" {{250.78125, 567.875}, {105.46875, 24.609375}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{317.578125, 491.703125}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Do you have more fun with your family or friends?" {{0, 666.3125}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Do you have more fun with your family or friends?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 15:28:16						UIAStaticText "2/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "431202 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Would you rather go water rafting or cliff diving? " {{0, 1267.484375}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Would you rather go water rafting or cliff diving? " {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 15:28:16						UIAStaticText "3/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "428543 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Would you rather be a firefly or a butterfly?" {{0, 1868.65625}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Would you rather be a firefly or a butterfly?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 15:28:16						UIAStaticText "4/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Animal Friendly " {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "424821 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "What's worse, clumpy lashes or lipstick on teeth?" {{0, 2469.828125}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "What's worse, clumpy lashes or lipstick on teeth?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 15:28:16						UIAStaticText "5/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Fashion" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "423029 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Sexy or classy?" {{0, 3071}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Sexy or classy?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 15:28:16						UIAStaticText "6/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Hot or Not" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "417795 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Who's hotter?" {{0, 3672.171875}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Who's hotter?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 15:28:16						UIAStaticText "7/12" {{0, 0}, {27.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Celeb Obsessed " {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "411676 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Neck or foot massages?" {{0, 4273.34375}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Neck or foot massages?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 15:28:16						UIAStaticText "8/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "415571 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "What's worse peeling or being burned? " {{0, 4874.515625}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "What's worse peeling or being burned? " {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 15:28:16						UIAStaticText "9/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "413565 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Which mean girls quote?" {{0, 5475.6875}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Which mean girls quote?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 15:28:16						UIAStaticText "10/12" {{0, 0}, {35.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "410396 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Do you prefer humid or dry weather?" {{0, 6076.859375}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Do you prefer humid or dry weather?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 15:28:16						UIAStaticText "11/12" {{0, 0}, {33.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "403329 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIATableCell "Be in a freezing bath or boiling hot bath?" {{0, 6678.03125}, {375, 601.171875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "Be in a freezing bath or boiling hot bath?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 15:28:16						UIAStaticText "12/12" {{0, 0}, {34.5, 17}}
+build	21-Jul-2015 15:28:16						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 15:28:16						UIAStaticText "395564 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 15:28:16						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIAStaticText "Your Daily Dozen" {{56.25, 7362.40625}, {295.3125, 35.15625}}
+build	21-Jul-2015 15:28:16					UIAStaticText "0 of 12 complete" {{56.25, 7406.9375}, {295.3125, 24.609375}}
+build	21-Jul-2015 15:28:16					UIAButton "1   Not Filled" {{56.25, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "2   Not Filled" {{101.953125, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "3   Not Filled" {{147.65625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "4   Not Filled" {{193.359375, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "5   Not Filled" {{239.0625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "6   Not Filled" {{284.765625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "7   Not Filled" {{56.25, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "8   Not Filled" {{101.953125, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "9   Not Filled" {{147.65625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "10   Not Filled" {{193.359375, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "11   Not Filled" {{239.0625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "12   Not Filled" {{284.765625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					UIAButton "13   Not Filled" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAImage "13 - Not Filled.png" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIAButton "14   Not Filled" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAImage "14 - Not Filled.png" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIAButton "Share" {{56.25, 7643.65625}, {263.671875, 64.453125}}
+build	21-Jul-2015 15:28:16					UIAButton "watch a 10 seconds video" {{93.75, 7717.484375}, {215.625, 51.5625}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAStaticText "watch a 10 seconds video" {{98.4375, 7732.71875}, {206.8359375, 21.09375}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16					UIAStaticText "or" {{71.484375, 7731.546875}, {17.578125, 24.609375}}
+build	21-Jul-2015 15:28:16					UIAStaticText "to earn 2 bonus questions" {{56.25, 7743.265625}, {267.1875, 24.609375}}
+build	21-Jul-2015 15:28:16					UIAButton "gear" {{166.40625, 7772.5625}, {46.875, 46.875}}
+build	21-Jul-2015 15:28:16					elements: {
+build	21-Jul-2015 15:28:16						UIAImage "gear.png" {{174.0234375, 7780.1796875}, {31.0546875, 31.0546875}}
+build	21-Jul-2015 15:28:16					}
+build	21-Jul-2015 15:28:16				}
+build	21-Jul-2015 15:28:16				UIAStaticText "Daily Dozen" {{9.375, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 15:28:16				UIAStaticText "Community" {{196.875, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 15:28:16			}
+build	21-Jul-2015 15:28:16			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 15:28:16			elements: {
+build	21-Jul-2015 15:28:16				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	21-Jul-2015 15:28:16				elements: {
+build	21-Jul-2015 15:28:16					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	21-Jul-2015 15:28:16					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	21-Jul-2015 15:28:16					UIAElement "3:28 PM" {{160.546875, 0.6875}, {55.078125, 23.4375}}
+build	21-Jul-2015 15:28:16					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	21-Jul-2015 15:28:16				}
+build	21-Jul-2015 15:28:16			}
+build	21-Jul-2015 15:28:16		}
+build	21-Jul-2015 15:28:16	}
+build	21-Jul-2015 15:28:16	
+build	21-Jul-2015 15:28:18	Instruments Trace Complete (Duration : 12.564315s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+build	21-Jul-2015 15:28:18	===================================Running Parser.py===================================
+build	21-Jul-2015 15:28:18	(0, 'First Screen > Skip Login')
+build	21-Jul-2015 15:28:18	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 22-28-08 GMT 2.png
+build	21-Jul-2015 15:28:18	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 22-28-08 GMT 3.png
+build	21-Jul-2015 15:28:18	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 22-28-08 GMT.png
+build	21-Jul-2015 15:28:18	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 22-28-13 GMT.png
+build	21-Jul-2015 15:28:18	===================================Removing Trace===================================
+build	21-Jul-2015 15:28:18	===================================Shutting Down Simulators===================================
+build	21-Jul-2015 15:28:24	===================================Erasing Simulators===================================
+build	21-Jul-2015 15:28:26	===================================Quitting Simulators===================================
+build	21-Jul-2015 15:28:26	TESTS SUCCEEDED
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/ (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/Automation Results.plist (deflated 91%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/ (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAApplication- name-Wishbone rect-{{0, 24}, {375, 642}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-create card rect-{{314, 26}, {52, 35}}.png (deflated 9%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Friends value- rect-{{189, 26}, {125, 34}}.png (deflated 4%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 10.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 11.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 2.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 3.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 4.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 5.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 6.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 7.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 8.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 9.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}}.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{318, 492}, {48, 48}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Trending value- rect-{{62, 26}, {125, 34}}.png (deflated 1%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-100% battery power rect-{{340, 1}, {29, 23}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-3 of 3 Wi-Fi bars rect-{{57, 1}, {15, 23}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-3-28 PM rect-{{161, 1}, {55, 23}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top rect-{{7, 1}, {45, 23}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-menu.png rect-{{18, 39}, {23, 9}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-Nav-Header-Logo rect-{{179, 34}, {18, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIASegmentedControl- rect-{{62, 26}, {252, 34}}.png (deflated 6%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-1:12 value-1:12 rect-{{170, 142}, {32, 20}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-10:12 value-10:12 rect-{{0, 0}, {36, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-11:12 value-11:12 rect-{{0, 0}, {34, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-12:12 value-12:12 rect-{{0, 0}, {34, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-2:12 value-2:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-3:12 value-3:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-395564 votes value-395564 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-4:12 value-4:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-403329 votes value-403329 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-410396 votes value-410396 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-411676 votes value-411676 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-413565 votes value-413565 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-415571 votes value-415571 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-417795 votes value-417795 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-423029 votes value-423029 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-424821 votes value-424821 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-428543 votes value-428543 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-431202 votes value-431202 votes rect-{{0, 0}, {90, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-435190 votes value-435190 votes rect-{{251, 568}, {105, 25}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-5:12 value-5:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-6:12 value-6:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-7:12 value-7:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-8:12 value-8:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-9:12 value-9:12 rect-{{0, 0}, {28, 17}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Animal Friendly  value-Animal Friendly  rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Be in a freezing bath or boiling hot bath? value-Be in a freezing bath or boiling hot bath? rect-{{0, 0}, {288, 38}}.png (deflated 8%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Celeb Obsessed  value-Celeb Obsessed  rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Community value-Community rect-{{197, 625}, {169, 25}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Contact Us value-Contact Us rect-{{23, 4}, {328, 25}}.png (deflated 5%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Daily Dozen value-Daily Dozen rect-{{9, 625}, {169, 25}}.png (deflated 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Do you have more fun with your family or friends? value-Do you have more fun with your family or friends? rect-{{0, 0}, {288, 38}}.png (deflated 8%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Do you prefer humid or dry weather? value-Do you prefer humid or dry weather? rect-{{0, 0}, {288, 19}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Fashion value-Fashion rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{74, 569}, {169, 25}}.png (deflated 1%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Hot or Not value-Hot or Not rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 2.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 3.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 4.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Neck or foot massages? value-Neck or foot massages? rect-{{0, 0}, {288, 19}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Sexy or classy? value-Sexy or classy? rect-{{0, 0}, {288, 19}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-What's worse peeling or being burned?  value-What's worse peeling or being burned?  rect-{{0, 0}, {288, 38}}.png (deflated 8%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-What's worse, clumpy lashes or lipstick on teeth? value-What's worse, clumpy lashes or lipstick on teeth? rect-{{0, 0}, {288, 38}}.png (deflated 8%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which disney princess set is better? value-Which disney princess set is better? rect-{{19, 94}, {338, 22}}.png (deflated 1%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which mean girls quote? value-Which mean girls quote? rect-{{0, 0}, {288, 19}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Who's hotter? value-Who's hotter? rect-{{0, 0}, {288, 19}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather be a firefly or a butterfly? value-Would you rather be a firefly or a butterfly? rect-{{0, 0}, {288, 38}}.png (deflated 8%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather go water rafting or cliff diving?  value-Would you rather go water rafting or cliff diving?  rect-{{0, 0}, {288, 38}}.png (deflated 8%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}} 2.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}}.png (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStatusBar- rect-{{0, 1}, {375, 23}}.png (deflated 6%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Contact Us value- rect-{{0, -18}, {375, 52}}.png (deflated 9%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Do you have more fun with your family or friends? value- rect-{{0, 666}, {375, 601}}.png (deflated 4%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Which disney princess set is better? value- rect-{{0, 65}, {375, 601}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-moved to row 1 of 12 rect-{{0, 65}, {375, 601}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-rows 1 to 5 of 5 rect-{{0, -224}, {375, 284}}.png (deflated 9%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 0}, {375, 667}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}} 2.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/ArchivedRun 2015-07-21 22:28:08/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}.png (deflated 2%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/First Screen/ (stored 0%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/First Screen/First Screen Tue, 21 Jul 2015 22-28-08 GMT 2.png (deflated 37%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/First Screen/First Screen Tue, 21 Jul 2015 22-28-08 GMT 3.png (deflated 28%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/First Screen/First Screen Tue, 21 Jul 2015 22-28-08 GMT.png (deflated 37%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/First Screen/First Screen Tue, 21 Jul 2015 22-28-13 GMT.png (deflated 1%)
+build	21-Jul-2015 15:28:27	  adding: Run 2015-07-21 22:28:08/RunSummary.txt (deflated 17%)
+build	21-Jul-2015 15:28:27	Run 2015-07-21 22:28:08
+build	21-Jul-2015 15:28:27	
+build	21-Jul-2015 15:28:29	upload: ./.DS_Store to s3://wishbone-auitesting/.DS_Store
+build	21-Jul-2015 15:28:29	Completed 1 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/COMMIT_EDITMSG to s3://wishbone-auitesting/.git/COMMIT_EDITMSG
+build	21-Jul-2015 15:28:29	Completed 2 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/config to s3://wishbone-auitesting/.git/config
+build	21-Jul-2015 15:28:29	Completed 3 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/HEAD to s3://wishbone-auitesting/.git/HEAD
+build	21-Jul-2015 15:28:29	Completed 4 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/FETCH_HEAD to s3://wishbone-auitesting/.git/FETCH_HEAD
+build	21-Jul-2015 15:28:29	Completed 5 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/description to s3://wishbone-auitesting/.git/description
+build	21-Jul-2015 15:28:29	Completed 6 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/hooks/pre-applypatch.sample to s3://wishbone-auitesting/.git/hooks/pre-applypatch.sample
+build	21-Jul-2015 15:28:29	Completed 7 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/hooks/applypatch-msg.sample to s3://wishbone-auitesting/.git/hooks/applypatch-msg.sample
+build	21-Jul-2015 15:28:29	Completed 8 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/hooks/post-update.sample to s3://wishbone-auitesting/.git/hooks/post-update.sample
+build	21-Jul-2015 15:28:29	Completed 9 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/hooks/commit-msg.sample to s3://wishbone-auitesting/.git/hooks/commit-msg.sample
+build	21-Jul-2015 15:28:29	Completed 10 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/hooks/pre-commit.sample to s3://wishbone-auitesting/.git/hooks/pre-commit.sample
+build	21-Jul-2015 15:28:29	Completed 11 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/hooks/pre-rebase.sample to s3://wishbone-auitesting/.git/hooks/pre-rebase.sample
+build	21-Jul-2015 15:28:29	Completed 12 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:29	upload: .git/logs/HEAD to s3://wishbone-auitesting/.git/logs/HEAD
+build	21-Jul-2015 15:28:29	Completed 13 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/logs/refs/heads/master to s3://wishbone-auitesting/.git/logs/refs/heads/master
+build	21-Jul-2015 15:28:30	Completed 14 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/info/exclude to s3://wishbone-auitesting/.git/info/exclude
+build	21-Jul-2015 15:28:30	Completed 15 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/hooks/update.sample to s3://wishbone-auitesting/.git/hooks/update.sample
+build	21-Jul-2015 15:28:30	Completed 16 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/ORIG_HEAD to s3://wishbone-auitesting/.git/ORIG_HEAD
+build	21-Jul-2015 15:28:30	Completed 17 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/hooks/pre-push.sample to s3://wishbone-auitesting/.git/hooks/pre-push.sample
+build	21-Jul-2015 15:28:30	Completed 18 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/hooks/prepare-commit-msg.sample to s3://wishbone-auitesting/.git/hooks/prepare-commit-msg.sample
+build	21-Jul-2015 15:28:30	Completed 19 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/index to s3://wishbone-auitesting/.git/index
+build	21-Jul-2015 15:28:30	Completed 20 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/00/0c065635f189ba79e3566e1e9dbbdeec126dca to s3://wishbone-auitesting/.git/objects/00/0c065635f189ba79e3566e1e9dbbdeec126dca
+build	21-Jul-2015 15:28:30	Completed 21 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/00/0c4eb0ae32c50d4e3f3c76f4f01eb7e7d4db13 to s3://wishbone-auitesting/.git/objects/00/0c4eb0ae32c50d4e3f3c76f4f01eb7e7d4db13
+build	21-Jul-2015 15:28:30	Completed 22 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/logs/refs/remotes/origin/master to s3://wishbone-auitesting/.git/logs/refs/remotes/origin/master
+build	21-Jul-2015 15:28:30	Completed 23 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/00/256723953be3b6898b9c9cf1faf2722e22d87d to s3://wishbone-auitesting/.git/objects/00/256723953be3b6898b9c9cf1faf2722e22d87d
+build	21-Jul-2015 15:28:30	Completed 24 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/00/1f9bb2f3832c7222adb933e53c83dcd8d3943c to s3://wishbone-auitesting/.git/objects/00/1f9bb2f3832c7222adb933e53c83dcd8d3943c
+build	21-Jul-2015 15:28:30	Completed 25 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/00/8261a7d91f4fba09720987306c0ddff7c2e3bb to s3://wishbone-auitesting/.git/objects/00/8261a7d91f4fba09720987306c0ddff7c2e3bb
+build	21-Jul-2015 15:28:30	Completed 26 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/00/6baba21f2cb37045286b86afc06efcc8bfcf8a to s3://wishbone-auitesting/.git/objects/00/6baba21f2cb37045286b86afc06efcc8bfcf8a
+build	21-Jul-2015 15:28:30	Completed 27 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/48fa84e2eca31a89494261811a4eb0b8357b28 to s3://wishbone-auitesting/.git/objects/01/48fa84e2eca31a89494261811a4eb0b8357b28
+build	21-Jul-2015 15:28:30	Completed 28 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/00/9a63052943133227cac6481f9910c59c07d0b4 to s3://wishbone-auitesting/.git/objects/00/9a63052943133227cac6481f9910c59c07d0b4
+build	21-Jul-2015 15:28:30	Completed 29 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/5153cf918b2629482629ea0ea814fa87af08f3 to s3://wishbone-auitesting/.git/objects/01/5153cf918b2629482629ea0ea814fa87af08f3
+build	21-Jul-2015 15:28:30	Completed 30 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/68c7a8310cf057d91744610d42255bd08df9a6 to s3://wishbone-auitesting/.git/objects/01/68c7a8310cf057d91744610d42255bd08df9a6
+build	21-Jul-2015 15:28:30	Completed 31 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/5169dc71f06832714d21b67970ff8a7970d5b4 to s3://wishbone-auitesting/.git/objects/01/5169dc71f06832714d21b67970ff8a7970d5b4
+build	21-Jul-2015 15:28:30	Completed 32 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/9fc5d30a38f8c9ad962e4e3939b2885a1a555f to s3://wishbone-auitesting/.git/objects/01/9fc5d30a38f8c9ad962e4e3939b2885a1a555f
+build	21-Jul-2015 15:28:30	Completed 33 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/c634ed4b5592140bd3a17297efea9bd354cc0f to s3://wishbone-auitesting/.git/objects/01/c634ed4b5592140bd3a17297efea9bd354cc0f
+build	21-Jul-2015 15:28:30	Completed 34 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/dcfe662728531029c82bfd290cf9432656139b to s3://wishbone-auitesting/.git/objects/01/dcfe662728531029c82bfd290cf9432656139b
+build	21-Jul-2015 15:28:30	Completed 35 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:30	upload: .git/objects/01/c7477c3f6968ed614d719b44e88b1434386757 to s3://wishbone-auitesting/.git/objects/01/c7477c3f6968ed614d719b44e88b1434386757
+build	21-Jul-2015 15:28:30	Completed 36 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/38940df2ac5ff3407f2aa0c625cc3118ff6c16 to s3://wishbone-auitesting/.git/objects/02/38940df2ac5ff3407f2aa0c625cc3118ff6c16
+build	21-Jul-2015 15:28:31	Completed 37 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/0d80da41e95cdea921c97a1b5ce239e9176a2f to s3://wishbone-auitesting/.git/objects/02/0d80da41e95cdea921c97a1b5ce239e9176a2f
+build	21-Jul-2015 15:28:31	Completed 38 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/47f3a6c7a53f620ff2c11ea50d8c9d47cce4ca to s3://wishbone-auitesting/.git/objects/02/47f3a6c7a53f620ff2c11ea50d8c9d47cce4ca
+build	21-Jul-2015 15:28:31	Completed 39 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/4f8432a9cfdf835bb801a0b13df72c45d61861 to s3://wishbone-auitesting/.git/objects/02/4f8432a9cfdf835bb801a0b13df72c45d61861
+build	21-Jul-2015 15:28:31	Completed 40 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/5ff3f37e70e6171c7f418097c26fe6eebc4e58 to s3://wishbone-auitesting/.git/objects/02/5ff3f37e70e6171c7f418097c26fe6eebc4e58
+build	21-Jul-2015 15:28:31	Completed 41 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/77e4bc1ca3e932b3c3eef616e6b45c8c87ae65 to s3://wishbone-auitesting/.git/objects/02/77e4bc1ca3e932b3c3eef616e6b45c8c87ae65
+build	21-Jul-2015 15:28:31	Completed 42 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/81e7b8221e1b0547af566d344a96549e123255 to s3://wishbone-auitesting/.git/objects/02/81e7b8221e1b0547af566d344a96549e123255
+build	21-Jul-2015 15:28:31	Completed 43 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/76421777242deda7db7b421bd35fdaa4800a49 to s3://wishbone-auitesting/.git/objects/02/76421777242deda7db7b421bd35fdaa4800a49
+build	21-Jul-2015 15:28:31	Completed 44 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/9ffb7097132da9407ad7ef7d92dc6451286d86 to s3://wishbone-auitesting/.git/objects/02/9ffb7097132da9407ad7ef7d92dc6451286d86
+build	21-Jul-2015 15:28:31	Completed 45 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/9f20dd8423d690d24e62f347de119baae8e507 to s3://wishbone-auitesting/.git/objects/02/9f20dd8423d690d24e62f347de119baae8e507
+build	21-Jul-2015 15:28:31	Completed 46 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/b89095fbf57a797cf6741baec38e5ced3500be to s3://wishbone-auitesting/.git/objects/02/b89095fbf57a797cf6741baec38e5ced3500be
+build	21-Jul-2015 15:28:31	Completed 47 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/ee0356e3422d06285c10e0285a1bbb44f1e33a to s3://wishbone-auitesting/.git/objects/02/ee0356e3422d06285c10e0285a1bbb44f1e33a
+build	21-Jul-2015 15:28:31	Completed 48 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/04281ac671be4cd6a7bdccb36eb9de5ca742e5 to s3://wishbone-auitesting/.git/objects/03/04281ac671be4cd6a7bdccb36eb9de5ca742e5
+build	21-Jul-2015 15:28:31	Completed 49 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/02/f09c1097df4f4ff8bc21964b6218f8674d174e to s3://wishbone-auitesting/.git/objects/02/f09c1097df4f4ff8bc21964b6218f8674d174e
+build	21-Jul-2015 15:28:31	Completed 50 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/08f8448a0d1b50370dc4039744da3f4e047401 to s3://wishbone-auitesting/.git/objects/03/08f8448a0d1b50370dc4039744da3f4e047401
+build	21-Jul-2015 15:28:31	Completed 51 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/5db44f664c22ebb29d87942ec809c0b0e00740 to s3://wishbone-auitesting/.git/objects/03/5db44f664c22ebb29d87942ec809c0b0e00740
+build	21-Jul-2015 15:28:31	Completed 52 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/667213f3d7d233d04e513abf83a4e690294d02 to s3://wishbone-auitesting/.git/objects/03/667213f3d7d233d04e513abf83a4e690294d02
+build	21-Jul-2015 15:28:31	Completed 53 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/950479b1e2bdf8b4ae6a4072b00eb9e58b2660 to s3://wishbone-auitesting/.git/objects/03/950479b1e2bdf8b4ae6a4072b00eb9e58b2660
+build	21-Jul-2015 15:28:31	Completed 54 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/7ba1a1eea3cc010ddc373d0bff9b119b20c6f0 to s3://wishbone-auitesting/.git/objects/03/7ba1a1eea3cc010ddc373d0bff9b119b20c6f0
+build	21-Jul-2015 15:28:31	Completed 55 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/be6e99166aabe5a2f27f9f30d8bd6926756edb to s3://wishbone-auitesting/.git/objects/03/be6e99166aabe5a2f27f9f30d8bd6926756edb
+build	21-Jul-2015 15:28:31	Completed 56 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:31	upload: .git/objects/03/d44c0cdc6afbec526961afba9d8f99d0ec9d26 to s3://wishbone-auitesting/.git/objects/03/d44c0cdc6afbec526961afba9d8f99d0ec9d26
+build	21-Jul-2015 15:28:31	Completed 57 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/03/d5da4575c49e5907f4895b815b7bce4ee011ae to s3://wishbone-auitesting/.git/objects/03/d5da4575c49e5907f4895b815b7bce4ee011ae
+build	21-Jul-2015 15:28:32	Completed 58 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/04/1ee29d8875831591d77fb957e67feee51eaade to s3://wishbone-auitesting/.git/objects/04/1ee29d8875831591d77fb957e67feee51eaade
+build	21-Jul-2015 15:28:32	Completed 59 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/04/63a18ce7df45d3f3cddb59f62ab71285c828d6 to s3://wishbone-auitesting/.git/objects/04/63a18ce7df45d3f3cddb59f62ab71285c828d6
+build	21-Jul-2015 15:28:32	Completed 60 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/03/e5448a1ab7e8d7e4c117e2afce531638b7a6da to s3://wishbone-auitesting/.git/objects/03/e5448a1ab7e8d7e4c117e2afce531638b7a6da
+build	21-Jul-2015 15:28:32	Completed 61 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/04/f5b84499777605571b7c1980fe23d176b69e1f to s3://wishbone-auitesting/.git/objects/04/f5b84499777605571b7c1980fe23d176b69e1f
+build	21-Jul-2015 15:28:32	Completed 62 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/04/49f39c01262c15991015d567c5358e93099038 to s3://wishbone-auitesting/.git/objects/04/49f39c01262c15991015d567c5358e93099038
+build	21-Jul-2015 15:28:32	Completed 63 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/04/e55edd918ce97894396e8acd258246a62bd8b4 to s3://wishbone-auitesting/.git/objects/04/e55edd918ce97894396e8acd258246a62bd8b4
+build	21-Jul-2015 15:28:32	Completed 64 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/4ac66393b54321460a7e85ff65fa820c64456b to s3://wishbone-auitesting/.git/objects/05/4ac66393b54321460a7e85ff65fa820c64456b
+build	21-Jul-2015 15:28:32	Completed 65 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/22b279899f70c499267afa81b73441f5db2d87 to s3://wishbone-auitesting/.git/objects/05/22b279899f70c499267afa81b73441f5db2d87
+build	21-Jul-2015 15:28:32	Completed 66 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/04/ec9d2f856397b1296f1c52e4b658fbefb6da32 to s3://wishbone-auitesting/.git/objects/04/ec9d2f856397b1296f1c52e4b658fbefb6da32
+build	21-Jul-2015 15:28:32	Completed 67 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/52cbb811fa3b5e8c6e37db3dcb00bc8dd88110 to s3://wishbone-auitesting/.git/objects/05/52cbb811fa3b5e8c6e37db3dcb00bc8dd88110
+build	21-Jul-2015 15:28:32	Completed 68 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/57471768b865f1330e45dcff24d2c6d93c05b9 to s3://wishbone-auitesting/.git/objects/05/57471768b865f1330e45dcff24d2c6d93c05b9
+build	21-Jul-2015 15:28:32	Completed 69 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/7469e2b8c4b6c98851e642cf73e2c99d7bc511 to s3://wishbone-auitesting/.git/objects/05/7469e2b8c4b6c98851e642cf73e2c99d7bc511
+build	21-Jul-2015 15:28:32	Completed 70 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/6ecd3a741e0e8e9e68054110c63f72d35d8095 to s3://wishbone-auitesting/.git/objects/05/6ecd3a741e0e8e9e68054110c63f72d35d8095
+build	21-Jul-2015 15:28:32	Completed 71 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/aac8b381b18be5fcab547bfb9863b3a7b79804 to s3://wishbone-auitesting/.git/objects/05/aac8b381b18be5fcab547bfb9863b3a7b79804
+build	21-Jul-2015 15:28:32	Completed 72 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/06/65a09583097ec4a6ab72a54e7e9e8f390f2a7f to s3://wishbone-auitesting/.git/objects/06/65a09583097ec4a6ab72a54e7e9e8f390f2a7f
+build	21-Jul-2015 15:28:32	Completed 73 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/06/5cfbe2242a004e3a56410ef5d6a13cf400e3f9 to s3://wishbone-auitesting/.git/objects/06/5cfbe2242a004e3a56410ef5d6a13cf400e3f9
+build	21-Jul-2015 15:28:32	Completed 74 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/06/3c85f6e8448ddf724f0bca92bed3acfac2e48c to s3://wishbone-auitesting/.git/objects/06/3c85f6e8448ddf724f0bca92bed3acfac2e48c
+build	21-Jul-2015 15:28:32	Completed 75 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/06/7029f1f1821ab22633e9958d45286ddead45d0 to s3://wishbone-auitesting/.git/objects/06/7029f1f1821ab22633e9958d45286ddead45d0
+build	21-Jul-2015 15:28:32	Completed 76 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/06/7cb58fe9fcb5d6bda0906325588a30230e9e9d to s3://wishbone-auitesting/.git/objects/06/7cb58fe9fcb5d6bda0906325588a30230e9e9d
+build	21-Jul-2015 15:28:32	Completed 77 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:32	upload: .git/objects/05/fbc7adcb5c116e9199071344d3112c9fbe21d6 to s3://wishbone-auitesting/.git/objects/05/fbc7adcb5c116e9199071344d3112c9fbe21d6
+build	21-Jul-2015 15:28:32	Completed 78 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/06/9f54202d61d4fef9d5c2b3cf20efaebfd1fe56 to s3://wishbone-auitesting/.git/objects/06/9f54202d61d4fef9d5c2b3cf20efaebfd1fe56
+build	21-Jul-2015 15:28:33	Completed 79 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/06/bba03aeb0401ec32b3fda4537fe61f2d790d07 to s3://wishbone-auitesting/.git/objects/06/bba03aeb0401ec32b3fda4537fe61f2d790d07
+build	21-Jul-2015 15:28:33	Completed 80 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/06/b63895e619401189023ddaa6369c4729b098c4 to s3://wishbone-auitesting/.git/objects/06/b63895e619401189023ddaa6369c4729b098c4
+build	21-Jul-2015 15:28:33	Completed 81 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/01ae034359dce452705050076138f952e86399 to s3://wishbone-auitesting/.git/objects/07/01ae034359dce452705050076138f952e86399
+build	21-Jul-2015 15:28:33	Completed 82 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/069d1061f8c1d78392b2563d683935a47270ea to s3://wishbone-auitesting/.git/objects/07/069d1061f8c1d78392b2563d683935a47270ea
+build	21-Jul-2015 15:28:33	Completed 83 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/1394a7010cce72afa55a4e86599514437a98d7 to s3://wishbone-auitesting/.git/objects/07/1394a7010cce72afa55a4e86599514437a98d7
+build	21-Jul-2015 15:28:33	Completed 84 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/336e5c59d6f6a7a6e0f9636020a4d38759be5b to s3://wishbone-auitesting/.git/objects/07/336e5c59d6f6a7a6e0f9636020a4d38759be5b
+build	21-Jul-2015 15:28:33	Completed 85 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/2ab660fa255886e5563be04f5ef2a856003486 to s3://wishbone-auitesting/.git/objects/07/2ab660fa255886e5563be04f5ef2a856003486
+build	21-Jul-2015 15:28:33	Completed 86 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/06/e8eaa0335a2161ac6942ef3cce181d8e442ad1 to s3://wishbone-auitesting/.git/objects/06/e8eaa0335a2161ac6942ef3cce181d8e442ad1
+build	21-Jul-2015 15:28:33	Completed 87 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/dd42d454fc2c42c9598bdb097f006cde2ee04e to s3://wishbone-auitesting/.git/objects/07/dd42d454fc2c42c9598bdb097f006cde2ee04e
+build	21-Jul-2015 15:28:33	Completed 88 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/b30352609637a84be92739c9d14fb6fbdbf1f7 to s3://wishbone-auitesting/.git/objects/07/b30352609637a84be92739c9d14fb6fbdbf1f7
+build	21-Jul-2015 15:28:33	Completed 89 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/f558c2dac1b3ddfb4214603fdf5f60c0a16d78 to s3://wishbone-auitesting/.git/objects/07/f558c2dac1b3ddfb4214603fdf5f60c0a16d78
+build	21-Jul-2015 15:28:33	Completed 90 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/07/8ff4c4f75b92b3a8e0be84d054ed2794608407 to s3://wishbone-auitesting/.git/objects/07/8ff4c4f75b92b3a8e0be84d054ed2794608407
+build	21-Jul-2015 15:28:33	Completed 91 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/08/1a0c93cfb54776ecf37064eff06b7e5b05a9d0 to s3://wishbone-auitesting/.git/objects/08/1a0c93cfb54776ecf37064eff06b7e5b05a9d0
+build	21-Jul-2015 15:28:33	Completed 92 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/06/9b1548b7400e10e4384800f20998fb633aabb9 to s3://wishbone-auitesting/.git/objects/06/9b1548b7400e10e4384800f20998fb633aabb9
+build	21-Jul-2015 15:28:33	Completed 93 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:33	upload: .git/objects/08/0b1248693ff3ff6694e54c1fe9dba6d18e3812 to s3://wishbone-auitesting/.git/objects/08/0b1248693ff3ff6694e54c1fe9dba6d18e3812
+build	21-Jul-2015 15:28:33	Completed 94 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/483ae32080990e6b8d21df3d389d5e2a7e2de3 to s3://wishbone-auitesting/.git/objects/08/483ae32080990e6b8d21df3d389d5e2a7e2de3
+build	21-Jul-2015 15:28:34	Completed 95 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/4eed92474e904c43d3cdc682a05d34bd81118f to s3://wishbone-auitesting/.git/objects/08/4eed92474e904c43d3cdc682a05d34bd81118f
+build	21-Jul-2015 15:28:34	Completed 96 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/5ccaecaf5fa5c34bc14cd2c2ed5cbbd8e25dcb to s3://wishbone-auitesting/.git/objects/08/5ccaecaf5fa5c34bc14cd2c2ed5cbbd8e25dcb
+build	21-Jul-2015 15:28:34	Completed 97 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/7aa364e5e7679434a4fabceec8ee62c574ec29 to s3://wishbone-auitesting/.git/objects/08/7aa364e5e7679434a4fabceec8ee62c574ec29
+build	21-Jul-2015 15:28:34	Completed 98 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/b3ab475b8df6bbed1bf7a7512bf00da2722165 to s3://wishbone-auitesting/.git/objects/08/b3ab475b8df6bbed1bf7a7512bf00da2722165
+build	21-Jul-2015 15:28:34	Completed 99 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/cd14bb38d6ce44e3dbb967875f57de12cbde8f to s3://wishbone-auitesting/.git/objects/08/cd14bb38d6ce44e3dbb967875f57de12cbde8f
+build	21-Jul-2015 15:28:34	Completed 100 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/b45d47bf3da11565128290552249ef468d9901 to s3://wishbone-auitesting/.git/objects/08/b45d47bf3da11565128290552249ef468d9901
+build	21-Jul-2015 15:28:34	Completed 101 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/fd0e85f11c9c1f26da0c697b53001a361366cc to s3://wishbone-auitesting/.git/objects/08/fd0e85f11c9c1f26da0c697b53001a361366cc
+build	21-Jul-2015 15:28:34	Completed 102 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/1ba9d961af8305bb76371c8174a0737752364c to s3://wishbone-auitesting/.git/objects/09/1ba9d961af8305bb76371c8174a0737752364c
+build	21-Jul-2015 15:28:34	Completed 103 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/08/f6ba281c302c81adc5ea3b1166e5a423058607 to s3://wishbone-auitesting/.git/objects/08/f6ba281c302c81adc5ea3b1166e5a423058607
+build	21-Jul-2015 15:28:34	Completed 104 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/220189c2c4c2bc0094636a15cd64d729634b80 to s3://wishbone-auitesting/.git/objects/09/220189c2c4c2bc0094636a15cd64d729634b80
+build	21-Jul-2015 15:28:34	Completed 105 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/2485fc28ebc19683353c546c891bb78e95f124 to s3://wishbone-auitesting/.git/objects/09/2485fc28ebc19683353c546c891bb78e95f124
+build	21-Jul-2015 15:28:34	Completed 106 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/1498c9642d5dc5a4c88bde88af09f4671560af to s3://wishbone-auitesting/.git/objects/09/1498c9642d5dc5a4c88bde88af09f4671560af
+build	21-Jul-2015 15:28:34	Completed 107 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/5dfe1c98c6b663a29236c83b9cc3d24149fdec to s3://wishbone-auitesting/.git/objects/09/5dfe1c98c6b663a29236c83b9cc3d24149fdec
+build	21-Jul-2015 15:28:34	Completed 108 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/702af1f446dda46fd7149a3a54b1d47bffc915 to s3://wishbone-auitesting/.git/objects/09/702af1f446dda46fd7149a3a54b1d47bffc915
+build	21-Jul-2015 15:28:34	Completed 109 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/9f4e9b1c97d85db1d8d06153f6424e474efbb5 to s3://wishbone-auitesting/.git/objects/09/9f4e9b1c97d85db1d8d06153f6424e474efbb5
+build	21-Jul-2015 15:28:34	Completed 110 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/a22f1f2e1e936ca28d6e5927119b5d5c203429 to s3://wishbone-auitesting/.git/objects/09/a22f1f2e1e936ca28d6e5927119b5d5c203429
+build	21-Jul-2015 15:28:34	Completed 111 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/c5c92db746614cc320145835c7967661e2de8a to s3://wishbone-auitesting/.git/objects/09/c5c92db746614cc320145835c7967661e2de8a
+build	21-Jul-2015 15:28:34	Completed 112 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:34	upload: .git/objects/09/d723a3a755c21dc67b14db2139f83214438029 to s3://wishbone-auitesting/.git/objects/09/d723a3a755c21dc67b14db2139f83214438029
+build	21-Jul-2015 15:28:34	Completed 113 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0a/65f4d4a126e80b559f7d3eb89943e781857d87 to s3://wishbone-auitesting/.git/objects/0a/65f4d4a126e80b559f7d3eb89943e781857d87
+build	21-Jul-2015 15:28:35	Completed 114 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0a/55fdbdb735e69e0082b0136b84e1ea4a71e7e8 to s3://wishbone-auitesting/.git/objects/0a/55fdbdb735e69e0082b0136b84e1ea4a71e7e8
+build	21-Jul-2015 15:28:35	Completed 115 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/09/e0f50085140e7b3c8423184525be743217e957 to s3://wishbone-auitesting/.git/objects/09/e0f50085140e7b3c8423184525be743217e957
+build	21-Jul-2015 15:28:35	Completed 116 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0a/71a42601d860e53bc7bf5ea1ecf6cb07e53d30 to s3://wishbone-auitesting/.git/objects/0a/71a42601d860e53bc7bf5ea1ecf6cb07e53d30
+build	21-Jul-2015 15:28:35	Completed 117 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/09/9e38da0af2a27e811632872bc009aec0234516 to s3://wishbone-auitesting/.git/objects/09/9e38da0af2a27e811632872bc009aec0234516
+build	21-Jul-2015 15:28:35	Completed 118 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0a/773b6084701672db09cb663eedf716e99271ac to s3://wishbone-auitesting/.git/objects/0a/773b6084701672db09cb663eedf716e99271ac
+build	21-Jul-2015 15:28:35	Completed 119 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0a/941affb05e360a80e734afe540215e95919f91 to s3://wishbone-auitesting/.git/objects/0a/941affb05e360a80e734afe540215e95919f91
+build	21-Jul-2015 15:28:35	Completed 120 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0a/fe92a6be8e608c299971cc1917dd309f1ea5d3 to s3://wishbone-auitesting/.git/objects/0a/fe92a6be8e608c299971cc1917dd309f1ea5d3
+build	21-Jul-2015 15:28:35	Completed 121 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/000af5f62bba22c944ecc6ee77036ac23e876c to s3://wishbone-auitesting/.git/objects/0b/000af5f62bba22c944ecc6ee77036ac23e876c
+build	21-Jul-2015 15:28:35	Completed 122 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/0693de8b9bab27750ebeca2cdec81a5d451adf to s3://wishbone-auitesting/.git/objects/0b/0693de8b9bab27750ebeca2cdec81a5d451adf
+build	21-Jul-2015 15:28:35	Completed 123 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/1fc742f8ad96838a0aebb60f04e32a1313501a to s3://wishbone-auitesting/.git/objects/0b/1fc742f8ad96838a0aebb60f04e32a1313501a
+build	21-Jul-2015 15:28:35	Completed 124 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/2e333571eccdc9bd2d5dd58c7a84772603447b to s3://wishbone-auitesting/.git/objects/0b/2e333571eccdc9bd2d5dd58c7a84772603447b
+build	21-Jul-2015 15:28:35	Completed 125 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/2e7ac82a736dc34f0f3cc5c60ec88ea2fa3543 to s3://wishbone-auitesting/.git/objects/0b/2e7ac82a736dc34f0f3cc5c60ec88ea2fa3543
+build	21-Jul-2015 15:28:35	Completed 126 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/3ae3964da41fc4e6e6b3ec5b02a5dac9f00257 to s3://wishbone-auitesting/.git/objects/0b/3ae3964da41fc4e6e6b3ec5b02a5dac9f00257
+build	21-Jul-2015 15:28:35	Completed 127 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/50b10f88c0e567755c70a64509bcd1452ffce3 to s3://wishbone-auitesting/.git/objects/0b/50b10f88c0e567755c70a64509bcd1452ffce3
+build	21-Jul-2015 15:28:35	Completed 128 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/3cb04a033d7045bdddeee5ed52a6f929fa3f63 to s3://wishbone-auitesting/.git/objects/0b/3cb04a033d7045bdddeee5ed52a6f929fa3f63
+build	21-Jul-2015 15:28:35	Completed 129 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/83ac6c82685097dea37eb76ae1792caa31482b to s3://wishbone-auitesting/.git/objects/0b/83ac6c82685097dea37eb76ae1792caa31482b
+build	21-Jul-2015 15:28:35	Completed 130 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/b8d2eb5f59e106250608145c5b03e307e235f0 to s3://wishbone-auitesting/.git/objects/0b/b8d2eb5f59e106250608145c5b03e307e235f0
+build	21-Jul-2015 15:28:35	Completed 131 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/c7374dc87c136e96336d7af32fc393bce63101 to s3://wishbone-auitesting/.git/objects/0b/c7374dc87c136e96336d7af32fc393bce63101
+build	21-Jul-2015 15:28:35	Completed 132 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/c05b1f1c1f98e1e3497ae25b052bd0ef56a185 to s3://wishbone-auitesting/.git/objects/0b/c05b1f1c1f98e1e3497ae25b052bd0ef56a185
+build	21-Jul-2015 15:28:35	Completed 133 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/efcb0fd09550178e62027c8691d6906e93940a to s3://wishbone-auitesting/.git/objects/0b/efcb0fd09550178e62027c8691d6906e93940a
+build	21-Jul-2015 15:28:35	Completed 134 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0b/fc9beb9f1dfdb34a04c736a652972bf0b9aedf to s3://wishbone-auitesting/.git/objects/0b/fc9beb9f1dfdb34a04c736a652972bf0b9aedf
+build	21-Jul-2015 15:28:35	Completed 135 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0c/11c126f725fa53f60d421738d7ad471013ac24 to s3://wishbone-auitesting/.git/objects/0c/11c126f725fa53f60d421738d7ad471013ac24
+build	21-Jul-2015 15:28:35	Completed 136 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0c/40d5a07195d374b6daa66af11f18b7a7eceb4f to s3://wishbone-auitesting/.git/objects/0c/40d5a07195d374b6daa66af11f18b7a7eceb4f
+build	21-Jul-2015 15:28:35	Completed 137 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:35	upload: .git/objects/0c/51cb59c853d58d105688a70dec88b3f2bee651 to s3://wishbone-auitesting/.git/objects/0c/51cb59c853d58d105688a70dec88b3f2bee651
+build	21-Jul-2015 15:28:35	Completed 138 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0c/6cfc2bccabee1211746f91420134d5ec1fce79 to s3://wishbone-auitesting/.git/objects/0c/6cfc2bccabee1211746f91420134d5ec1fce79
+build	21-Jul-2015 15:28:36	Completed 139 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0c/8a80022eaad1406ec334ff3017890b48f80120 to s3://wishbone-auitesting/.git/objects/0c/8a80022eaad1406ec334ff3017890b48f80120
+build	21-Jul-2015 15:28:36	Completed 140 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0c/e15b80ae575daff09595c576c97d63b1578d4d to s3://wishbone-auitesting/.git/objects/0c/e15b80ae575daff09595c576c97d63b1578d4d
+build	21-Jul-2015 15:28:36	Completed 141 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0c/155a9a60e9207e4f7de310bd9e8bdbdff9f661 to s3://wishbone-auitesting/.git/objects/0c/155a9a60e9207e4f7de310bd9e8bdbdff9f661
+build	21-Jul-2015 15:28:36	Completed 142 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/0c49d33105ee302627cf13624e9a5a989bf8a2 to s3://wishbone-auitesting/.git/objects/0d/0c49d33105ee302627cf13624e9a5a989bf8a2
+build	21-Jul-2015 15:28:36	Completed 143 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/3f771cde34e97979a33942b17ede4cd2a02754 to s3://wishbone-auitesting/.git/objects/0d/3f771cde34e97979a33942b17ede4cd2a02754
+build	21-Jul-2015 15:28:36	Completed 144 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/21c281d8f48c51a176bb1c589d321a1c735188 to s3://wishbone-auitesting/.git/objects/0d/21c281d8f48c51a176bb1c589d321a1c735188
+build	21-Jul-2015 15:28:36	Completed 145 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/967245a468798e7ce2011b1297fd39c00fa565 to s3://wishbone-auitesting/.git/objects/0d/967245a468798e7ce2011b1297fd39c00fa565
+build	21-Jul-2015 15:28:36	Completed 146 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/aa4971db7c6954bd315e220515af84349f2af9 to s3://wishbone-auitesting/.git/objects/0d/aa4971db7c6954bd315e220515af84349f2af9
+build	21-Jul-2015 15:28:36	Completed 147 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/0fbf5a6d353e1f930e2244241d500f5bb77aa9 to s3://wishbone-auitesting/.git/objects/0d/0fbf5a6d353e1f930e2244241d500f5bb77aa9
+build	21-Jul-2015 15:28:36	Completed 148 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/b691fe42222748a4d69ff6a967ee6ec817f4dd to s3://wishbone-auitesting/.git/objects/0d/b691fe42222748a4d69ff6a967ee6ec817f4dd
+build	21-Jul-2015 15:28:36	Completed 149 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0d/f53ac6824e9e0fdbc2c26abca2988f009dd299 to s3://wishbone-auitesting/.git/objects/0d/f53ac6824e9e0fdbc2c26abca2988f009dd299
+build	21-Jul-2015 15:28:36	Completed 150 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0e/368bc548185bf9f7600001cfc536ad457adc63 to s3://wishbone-auitesting/.git/objects/0e/368bc548185bf9f7600001cfc536ad457adc63
+build	21-Jul-2015 15:28:36	Completed 151 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0e/4dcc30c4acca4af8e33288730bf23147b82103 to s3://wishbone-auitesting/.git/objects/0e/4dcc30c4acca4af8e33288730bf23147b82103
+build	21-Jul-2015 15:28:36	Completed 152 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0e/6d95c6ae0099279c73b622df887113f2fa819f to s3://wishbone-auitesting/.git/objects/0e/6d95c6ae0099279c73b622df887113f2fa819f
+build	21-Jul-2015 15:28:36	Completed 153 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0e/5c9e569fd591d69fe77b805a4c570de1588373 to s3://wishbone-auitesting/.git/objects/0e/5c9e569fd591d69fe77b805a4c570de1588373
+build	21-Jul-2015 15:28:36	Completed 154 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0f/21c32f6f0e686bf3e47e0faef293be6a4138dd to s3://wishbone-auitesting/.git/objects/0f/21c32f6f0e686bf3e47e0faef293be6a4138dd
+build	21-Jul-2015 15:28:36	Completed 155 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:36	upload: .git/objects/0e/dab8a8688c32e795125a10bb6f780f5109eae1 to s3://wishbone-auitesting/.git/objects/0e/dab8a8688c32e795125a10bb6f780f5109eae1
+build	21-Jul-2015 15:28:36	Completed 156 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/0f/9953010cfff65d9486dd77817788cba8bffe56 to s3://wishbone-auitesting/.git/objects/0f/9953010cfff65d9486dd77817788cba8bffe56
+build	21-Jul-2015 15:28:37	Completed 157 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/38edb2a54dbab29de6a69a055c8d18378aecd3 to s3://wishbone-auitesting/.git/objects/10/38edb2a54dbab29de6a69a055c8d18378aecd3
+build	21-Jul-2015 15:28:37	Completed 158 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/0f/42d60e316c0cb25c8a24b6c2b20918b132fd1d to s3://wishbone-auitesting/.git/objects/0f/42d60e316c0cb25c8a24b6c2b20918b132fd1d
+build	21-Jul-2015 15:28:37	Completed 159 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/3692bf3a2fce01c978860746f0f6dbe2c0ecdc to s3://wishbone-auitesting/.git/objects/10/3692bf3a2fce01c978860746f0f6dbe2c0ecdc
+build	21-Jul-2015 15:28:37	Completed 160 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/4f1c169badc0595c0f49c2947fdf9296551d41 to s3://wishbone-auitesting/.git/objects/10/4f1c169badc0595c0f49c2947fdf9296551d41
+build	21-Jul-2015 15:28:37	Completed 161 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/a2f78618a6f72641441ba2036209e1de70ca8a to s3://wishbone-auitesting/.git/objects/10/a2f78618a6f72641441ba2036209e1de70ca8a
+build	21-Jul-2015 15:28:37	Completed 162 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/bf15b69e9ffe8ad989fdead8e12982fefcac3e to s3://wishbone-auitesting/.git/objects/10/bf15b69e9ffe8ad989fdead8e12982fefcac3e
+build	21-Jul-2015 15:28:37	Completed 163 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/0f/f859f3fde98663c0dd6b5cee774f7d24e1afc9 to s3://wishbone-auitesting/.git/objects/0f/f859f3fde98663c0dd6b5cee774f7d24e1afc9
+build	21-Jul-2015 15:28:37	Completed 164 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/e8422cd7cf40939cb49d0d7363e22964bb2888 to s3://wishbone-auitesting/.git/objects/10/e8422cd7cf40939cb49d0d7363e22964bb2888
+build	21-Jul-2015 15:28:37	Completed 165 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/f430732606b0a0792b09c40341f55ebda91532 to s3://wishbone-auitesting/.git/objects/10/f430732606b0a0792b09c40341f55ebda91532
+build	21-Jul-2015 15:28:37	Completed 166 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/11/307af16243a64cd69bd6b7876cee6cbe835b28 to s3://wishbone-auitesting/.git/objects/11/307af16243a64cd69bd6b7876cee6cbe835b28
+build	21-Jul-2015 15:28:37	Completed 167 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/11/10f0aadeba873dea8b7c11914c6959c73ac2d3 to s3://wishbone-auitesting/.git/objects/11/10f0aadeba873dea8b7c11914c6959c73ac2d3
+build	21-Jul-2015 15:28:37	Completed 168 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/10/5a0ae16a31181bb51c4d72e7ec0250a27aa15b to s3://wishbone-auitesting/.git/objects/10/5a0ae16a31181bb51c4d72e7ec0250a27aa15b
+build	21-Jul-2015 15:28:37	Completed 169 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/11/944f6a1d8337ba74fcf9f31995e0ccab5bd1b8 to s3://wishbone-auitesting/.git/objects/11/944f6a1d8337ba74fcf9f31995e0ccab5bd1b8
+build	21-Jul-2015 15:28:37	Completed 170 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/11/87027d9b910df86295bf1cefee03f0a24bdb77 to s3://wishbone-auitesting/.git/objects/11/87027d9b910df86295bf1cefee03f0a24bdb77
+build	21-Jul-2015 15:28:37	Completed 171 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/11/f530aa69ecba3a920bd669c7948129108d7c24 to s3://wishbone-auitesting/.git/objects/11/f530aa69ecba3a920bd669c7948129108d7c24
+build	21-Jul-2015 15:28:37	Completed 172 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/12/0302e043c7e6bb7fe82bbc19cd206d66cb9c9a to s3://wishbone-auitesting/.git/objects/12/0302e043c7e6bb7fe82bbc19cd206d66cb9c9a
+build	21-Jul-2015 15:28:37	Completed 173 part(s) with ... file(s) remaining
+error	21-Jul-2015 15:28:37	upload failed: .git/objects/0c/fb9313a08fa0dcc9e7a085a4716f17b2ca849d to s3://wishbone-auitesting/.git/objects/0c/fb9313a08fa0dcc9e7a085a4716f17b2ca849d Unable to parse response (syntax error: line 1, column 0), invalid XML received:
+error	21-Jul-2015 15:28:37	x-amz-request-id: 8AD27D004C1C1B5C
+error	21-Jul-2015 15:28:37	x-amz-id-2: i4AGzOEFJ/mJ7tZcrUk2F/RltCmOnfaZQ6s3wQ8zEdjQtWuHWVbbTwq1p4UNgTW66JsMalN/eaw=
+error	21-Jul-2015 15:28:37	Location: https://wishbone-auitesting.s3-us-west-1.amazonaws.com/.git/objects/0c/fb9313a08fa0dcc9e7a085a4716f17b2ca849d
+error	21-Jul-2015 15:28:37	Content-Type: application/xml
+error	21-Jul-2015 15:28:37	Transfer-Encoding: chunked
+error	21-Jul-2015 15:28:37	Date: Tue, 21 Jul 2015 22:28:35 GMT
+error	21-Jul-2015 15:28:37	Connection: close
+error	21-Jul-2015 15:28:37	Server: AmazonS3
+error	21-Jul-2015 15:28:37	
+error	21-Jul-2015 15:28:37	1d5
+error	21-Jul-2015 15:28:37	<?xml version="1.0" encoding="UTF-8"?>
+error	21-Jul-2015 15:28:37	<Error><Code>TemporaryRedirect</Code><Message>Please re-send this request to the specified temporary endpoint. Continue to use the original request endpoint for future requests.</Message><Bucket>wishbone-auitesting</Bucket><Endpoint>wishbone-auitesting.s3-us-west-1.amazonaws.com</Endpoint><RequestId>8AD27D004C1C1B5C</RequestId><HostId>i4AGzOEFJ/mJ7tZcrUk2F/RltCmOnfaZQ6s3wQ8zEdjQtWuHWVbbTwq1p4UNgTW66JsMalN/eaw=</HostId></Error>
+error	21-Jul-2015 15:28:37	0
+error	21-Jul-2015 15:28:37	
+error	21-Jul-2015 15:28:37	
+build	21-Jul-2015 15:28:37	Completed 174 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:37	upload: .git/objects/12/189e678fc033c562717bb4b0e70ea8675b53f1 to s3://wishbone-auitesting/.git/objects/12/189e678fc033c562717bb4b0e70ea8675b53f1
+build	21-Jul-2015 15:28:37	Completed 175 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/3cea1b9b89699db699743b768c1d78992179e7 to s3://wishbone-auitesting/.git/objects/12/3cea1b9b89699db699743b768c1d78992179e7
+build	21-Jul-2015 15:28:38	Completed 176 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/5676708f9a94dcccd5c4de35cf3ce3ec1361e7 to s3://wishbone-auitesting/.git/objects/12/5676708f9a94dcccd5c4de35cf3ce3ec1361e7
+build	21-Jul-2015 15:28:38	Completed 177 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/5cb544dc67176da032f6284426869571f1a9ee to s3://wishbone-auitesting/.git/objects/12/5cb544dc67176da032f6284426869571f1a9ee
+build	21-Jul-2015 15:28:38	Completed 178 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/6a0b3764a8bec71721fe8fa38be3707d4ae7a1 to s3://wishbone-auitesting/.git/objects/12/6a0b3764a8bec71721fe8fa38be3707d4ae7a1
+build	21-Jul-2015 15:28:38	Completed 179 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/73cedfd6fc53f61c5a066b6e55d085f9be605f to s3://wishbone-auitesting/.git/objects/12/73cedfd6fc53f61c5a066b6e55d085f9be605f
+build	21-Jul-2015 15:28:38	Completed 180 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/ca095dd80911069548160d0d7dcb0ee28387a8 to s3://wishbone-auitesting/.git/objects/12/ca095dd80911069548160d0d7dcb0ee28387a8
+build	21-Jul-2015 15:28:38	Completed 181 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/b1ab8ece46694f63be262591babaabd51a46bb to s3://wishbone-auitesting/.git/objects/12/b1ab8ece46694f63be262591babaabd51a46bb
+build	21-Jul-2015 15:28:38	Completed 182 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/7442c096c38cace7462d59c770149e334d9203 to s3://wishbone-auitesting/.git/objects/12/7442c096c38cace7462d59c770149e334d9203
+build	21-Jul-2015 15:28:38	Completed 183 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/13/2d9a759be217794379dbf84ac4db88a429ab2d to s3://wishbone-auitesting/.git/objects/13/2d9a759be217794379dbf84ac4db88a429ab2d
+build	21-Jul-2015 15:28:38	Completed 184 part(s) with ... file(s) remaining
+build	21-Jul-2015 15:28:38	upload: .git/objects/12/d057ec9b21d28a5fec1fd4b992685a7d888e1c to s3://wishbone-auitesting/.git/objects/12/d057ec9b21d28a5fec1fd4b992685a7d888e1c
+build	21-Jul-2015 15:28:38	Completed 185 part(s) with ... file(s) remaining
+command	21-Jul-2015 15:28:38	Request to stop 'WUT-BT-JOB1-151' received from wtobey
+simple	21-Jul-2015 15:28:38	Failing task since return code of [/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-151-ScriptBuildTask-3374609053775095468.sh] was 143 while expected 0
+simple	21-Jul-2015 15:28:38	Finished task 'Build and Run' with result: Failed
+simple	21-Jul-2015 15:28:38	Running post build plugin 'npm Cache Cleanup'
+simple	21-Jul-2015 15:28:38	Running post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 15:28:38	Running post build plugin 'Clover Results Collector'
+simple	21-Jul-2015 15:28:38	Running post build plugin 'Docker Container Cleanup'
+simple	21-Jul-2015 15:28:38	Running post build plugin 'Artifact Copier'
+simple	21-Jul-2015 15:28:38	Finalising the build...
+simple	21-Jul-2015 15:28:38	Stopping timer.
+simple	21-Jul-2015 15:28:38	Build WUT-BT-JOB1-151 completed.
+simple	21-Jul-2015 15:28:38	Running on server: post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 15:28:38	Running on server: post build plugin 'Clover Delta Calculator'
+simple	21-Jul-2015 15:28:38	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	21-Jul-2015 15:28:38	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	21-Jul-2015 15:28:38	All post build plugins have finished
+simple	21-Jul-2015 15:28:38	Generating build results summary...
+simple	21-Jul-2015 15:28:38	Saving build results to disk...
+simple	21-Jul-2015 15:28:38	Logging substituted variables...
+simple	21-Jul-2015 15:28:38	Indexing build results...
+simple	21-Jul-2015 15:28:38	Finished building WUT-BT-JOB1-151.

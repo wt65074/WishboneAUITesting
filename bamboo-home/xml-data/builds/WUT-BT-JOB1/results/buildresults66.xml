@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-15 14:19:54.942 instruments[4645:1107913] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>delete.sh: line 1: /Users/wtobey//.Trash/Wishbone.app: is a directory</string>
+  </myBuildErrors>
+  <myBuildNumber>66</myBuildNumber>
+  <myBuildDate>1436995012117</myBuildDate>
+  <myBuildDuration>188157</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

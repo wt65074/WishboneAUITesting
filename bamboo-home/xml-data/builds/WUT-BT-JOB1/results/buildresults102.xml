@@ -1,0 +1,21 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-17 12:03:28.918 instruments[3612:735432] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 166, in &lt;module&gt;</string>
+    <string>    shutil.move(retrievedPath, path + &quot;/&quot; + subtest)</string>
+    <string>  File &quot;/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;, line 291, in move</string>
+    <string>    raise Error, &quot;Destination path &apos;%s&apos; already exists&quot; % real_dst</string>
+    <string>shutil.Error: Destination path &apos;/Users/wtobey/Desktop/AUITesting/Run 2015-07-17 19:02:11/Create View/Choose From Library/Create View &gt; Choose From Library Fri, 17 Jul 2015 19-02-41 GMT.png&apos; already exists</string>
+  </myBuildErrors>
+  <myBuildNumber>102</myBuildNumber>
+  <myBuildDate>1437159715641</myBuildDate>
+  <myBuildDuration>99441</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

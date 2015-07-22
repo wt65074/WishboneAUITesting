@@ -1,0 +1,20 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-16 14:47:37.485 instruments[7148:1071798] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>2015-07-16 14:47:37.485 instruments[7148:1071798] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>  File &quot;parser.py&quot;, line 74</string>
+    <string>    for subtestString in incompleteSubtests if string[1] in subtestString {</string>
+    <string>                                                                          ^</string>
+    <string>SyntaxError: invalid syntax</string>
+  </myBuildErrors>
+  <myBuildNumber>83</myBuildNumber>
+  <myBuildDate>1437083236287</myBuildDate>
+  <myBuildDuration>31030</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

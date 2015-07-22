@@ -1,0 +1,26 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 28, in &lt;module&gt;</string>
+    <string>    main(sys.argv[1:])</string>
+    <string>NameError: name &apos;sys&apos; is not defined</string>
+    <string>grep: RunSummary.txt: No such file or directory</string>
+    <string>sh: CoreTestingScript.sh: No such file or directory</string>
+    <string>diff: Run 1/RunSummary.txt: No such file or directory</string>
+    <string>diff: Run 1/RunSummary.txt: No such file or directory</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;mailer.py&quot;, line 33, in &lt;module&gt;</string>
+    <string>    summary = open(inputFile, &apos;r&apos;)</string>
+    <string>IOError: [Errno 2] No such file or directory: &apos;/Users/wtobey/Desktop/AUITesting/Run 1/RunSummary.txt&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>135</myBuildNumber>
+  <myBuildDate>1437500490651</myBuildDate>
+  <myBuildDuration>668964</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

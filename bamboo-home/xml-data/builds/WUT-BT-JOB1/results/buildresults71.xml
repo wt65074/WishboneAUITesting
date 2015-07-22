@@ -1,0 +1,33 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Jul 15 15:01:28 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:28 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:28 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:28 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:28 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:59 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:59 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:59 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:59 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:01:59 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:02:09 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:02:09 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:02:09 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:02:09 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:02:09 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 15 15:02:09 Wills-MacBook-Pro.local instruments[5014] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 750 x 750.</string>
+    <string>delete.sh: line 1: -n: command not found</string>
+    <string>delete.sh: line 2: /Users/wtobey//Library/Developer/CoreSimulator/Devices/895A471B-7581-47E8-A0F7-264E9BEB33E1/data/Containers/Bundle/Application/172FEB6A-5708-48ED-8532-B1FD343F31F0/Wishbone.app: is a directory</string>
+    <string>rm: instrumentscli0.trace: is a directory</string>
+  </myBuildErrors>
+  <myBuildNumber>71</myBuildNumber>
+  <myBuildDate>1436997433549</myBuildDate>
+  <myBuildDuration>350443</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

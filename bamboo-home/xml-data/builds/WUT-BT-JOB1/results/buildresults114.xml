@@ -1,0 +1,19 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-17 14:52:03.984 instruments[5682:1171902] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 28, in &lt;module&gt;</string>
+    <string>    if seperator in value[1][&apos;Message&apos;]:</string>
+    <string>KeyError: &apos;Message&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>114</myBuildNumber>
+  <myBuildDate>1437169485609</myBuildDate>
+  <myBuildDuration>459433</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

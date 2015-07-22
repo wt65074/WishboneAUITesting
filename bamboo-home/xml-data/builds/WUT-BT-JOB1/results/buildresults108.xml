@@ -1,0 +1,26 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Jul 17 13:59:36 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:59:36 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:59:36 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:59:36 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:59:49 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:59:49 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:59:49 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 13:59:49 Wills-MacBook-Pro.local instruments[4738] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 136, in &lt;module&gt;</string>
+    <string>    os.mkdir(dirPath)</string>
+    <string>OSError: [Errno 17] File exists: &apos;/Users/wtobey/Desktop/AUITesting/Run 2015-07-17 20:35:08&apos;</string>
+  </myBuildErrors>
+  <myBuildNumber>108</myBuildNumber>
+  <myBuildDate>1437166264321</myBuildDate>
+  <myBuildDuration>738344</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

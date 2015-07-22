@@ -1,0 +1,15 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>AUITestingScript.sh: line 74: FIRST_AWS_LINK: command not found</string>
+  </myBuildErrors>
+  <myBuildNumber>145</myBuildNumber>
+  <myBuildDate>1437515421210</myBuildDate>
+  <myBuildDuration>172445</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

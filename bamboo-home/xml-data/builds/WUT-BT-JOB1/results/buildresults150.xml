@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Unknown</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>upload failed: BambooTests/caches/plugins/transformed-plugins/stp-3.5.25_1435112950000.jar to s3://wishbone-auitesting/BambooTests/caches/plugins/transformed-plugins/stp-3.5.25_1435112950000.jar (32, &apos;Broken pipe&apos;)</string>
+    <string>Build was manually stopped.</string>
+  </myBuildErrors>
+  <myBuildNumber>150</myBuildNumber>
+  <myBuildDate>1437517302608</myBuildDate>
+  <myBuildDuration>306626</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

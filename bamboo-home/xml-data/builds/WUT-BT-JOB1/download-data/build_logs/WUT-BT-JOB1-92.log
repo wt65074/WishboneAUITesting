@@ -1,0 +1,105 @@
+simple	17-Jul-2015 10:52:34	Build Wishbone UI Testing - Build and Test - Default Job #92 (WUT-BT-JOB1-92) started building on agent Default Agent
+simple	17-Jul-2015 10:52:34	
+simple	17-Jul-2015 10:52:34	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	17-Jul-2015 10:52:34	Executing build Wishbone UI Testing - Build and Test - Default Job #92 (WUT-BT-JOB1-92)
+simple	17-Jul-2015 10:52:34	Running pre-build action: VCS Version Collector
+simple	17-Jul-2015 10:52:34	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	17-Jul-2015 10:52:34	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #92 (WUT-BT-JOB1-92)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-92-ScriptBuildTask-5880474100921583058.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-92\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=92\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-92\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-17T10:52:34.054-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-92\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	17-Jul-2015 10:52:34	===================================Building Wishbone.app===================================
+build	17-Jul-2015 10:52:37	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	17-Jul-2015 10:52:37	
+build	17-Jul-2015 10:52:37	Check dependencies
+build	17-Jul-2015 10:52:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 10:52:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 10:52:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 10:52:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 10:52:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 10:52:38	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	17-Jul-2015 10:52:38	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	17-Jul-2015 10:52:38	
+build	17-Jul-2015 10:52:38	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	17-Jul-2015 10:52:38	
+build	17-Jul-2015 10:52:38	Check dependencies
+build	17-Jul-2015 10:52:38	
+build	17-Jul-2015 10:52:50	** TEST SUCCEEDED **
+build	17-Jul-2015 10:52:50	
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.356 Wishbone[2122:471140] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.420 Wishbone[2122:471140] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=SQIixn9wZYoLzK5ra2Kdvg&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437155569.416035&usage_tracking_enabled=1&value=1.00.
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.437 Wishbone[2122:471140] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.518 Wishbone[2122:471752] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.738 Wishbone[2122:471140] AppsFlyer SDK version 2.5.3.15 started
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.740 Wishbone[2122:471771] Resolved media.playhaven.com -> 48.238.50.17
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.740 Wishbone[2122:471770] Resolved sdk-api-ssl.playhaven.com -> 48.238.50.17
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.849 Wishbone[2122:471140] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:49.954 Wishbone[2122:471140] <Google> ping successful.
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.012 Wishbone[2122:471140] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=SQIixn9wZYoLzK5ra2Kdvg&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437159170.010905&usage_tracking_enabled=1.
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.018 Wishbone[2122:471734] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	17-Jul-2015 10:52:50	    parameters =     {
+build	17-Jul-2015 10:52:50	        "&_u" = ".etno";
+build	17-Jul-2015 10:52:50	        "&_v" = "mi3.0.3c";
+build	17-Jul-2015 10:52:50	        "&an" = Wishbone;
+build	17-Jul-2015 10:52:50	        "&av" = "3.0.5";
+build	17-Jul-2015 10:52:50	        "&cd" = "Login View";
+build	17-Jul-2015 10:52:50	        "&cid" = "e520a6bc-65f1-47d6-b9de-339fab90e531";
+build	17-Jul-2015 10:52:50	        "&sr" = 320x568;
+build	17-Jul-2015 10:52:50	        "&t" = appview;
+build	17-Jul-2015 10:52:50	        "&tid" = "UA-48537804-1";
+build	17-Jul-2015 10:52:50	        "&ul" = en;
+build	17-Jul-2015 10:52:50	        "&v" = 1;
+build	17-Jul-2015 10:52:50	        "&z" = 6896872421833303562;
+build	17-Jul-2015 10:52:50	        gaiVersion = "3.03c";
+build	17-Jul-2015 10:52:50	    };
+build	17-Jul-2015 10:52:50	    timestamp = "2015-07-17 17:52:50 +0000";
+build	17-Jul-2015 10:52:50	}
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.035 Wishbone[2122:471752] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.043 Wishbone[2122:471140] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=B9692088-C0B7-486D-AC88-7E2FD85C70C5&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=Yrl-xEX65IskCqo1U_fpu7kgHXA&plugin=ios&nonce=pxSjfgXt6WFZo4aOXkWVY-2yF8s&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=CD2B0225-6B0C-47F0-9EF8-B64525043724&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	17-Jul-2015 10:52:50	Test Suite 'All tests' started at 2015-07-17 17:52:50 +0000
+build	17-Jul-2015 10:52:50	Test Suite 'WishboneTests.xctest' started at 2015-07-17 17:52:50 +0000
+build	17-Jul-2015 10:52:50	Test Suite 'WishboneTests' started at 2015-07-17 17:52:50 +0000
+build	17-Jul-2015 10:52:50	Test Case '-[WishboneTests testExample]' started.
+build	17-Jul-2015 10:52:50	Test Case '-[WishboneTests testExample]' passed (0.000 seconds).
+build	17-Jul-2015 10:52:50	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.126 Wishbone[2122:471140] <Google> ping successful.
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.153 Wishbone[2122:471752] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.345 Wishbone[2122:471140] [PlayHaven-2.0.2] Request recieved HTTP response: 200
+build	17-Jul-2015 10:52:50	2015-07-17 10:52:50.345 Wishbone[2122:471140] [PlayHaven-2.0.2] Request finished!
+build	17-Jul-2015 10:52:50	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 83.858%, values: [0.000003, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	17-Jul-2015 10:52:50	Test Case '-[WishboneTests testPerformanceExample]' passed (0.368 seconds).
+build	17-Jul-2015 10:52:50	Test Suite 'WishboneTests' passed at 2015-07-17 17:52:50 +0000.
+build	17-Jul-2015 10:52:50		 Executed 2 tests, with 0 failures (0 unexpected) in 0.368 (0.369) seconds
+build	17-Jul-2015 10:52:50	Test Suite 'WishboneTests.xctest' passed at 2015-07-17 17:52:50 +0000.
+build	17-Jul-2015 10:52:50		 Executed 2 tests, with 0 failures (0 unexpected) in 0.368 (0.370) seconds
+build	17-Jul-2015 10:52:50	Test Suite 'All tests' passed at 2015-07-17 17:52:50 +0000.
+build	17-Jul-2015 10:52:50		 Executed 2 tests, with 0 failures (0 unexpected) in 0.368 (0.372) seconds
+build	17-Jul-2015 10:52:50	===================================Building instruments.sh===================================
+build	17-Jul-2015 10:52:54	===================================Running instruments.sh===================================
+build	17-Jul-2015 10:52:57	2015-07-17 17:52:57 +0000 Error: Script threw an uncaught JavaScript error: Unexpected identifier 'options' on line 47 of Wishbone.js
+build	17-Jul-2015 10:52:57	Instruments Trace Complete (Duration : 2.162492s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+build	17-Jul-2015 10:52:57	===================================Running Parser.py===================================
+build	17-Jul-2015 10:52:57	The current working directory is /Users/wtobey/Desktop/AUITesting
+build	17-Jul-2015 10:52:57	[]
+build	17-Jul-2015 10:52:57	[]
+build	17-Jul-2015 10:52:57	['.DS_Store', '.git', 'Archived Runs', 'atlassian-bamboo-5.9.1', 'bamboo-home', 'BambooTests', 'instruments.sh', 'instrumentscli0.trace', 'parser.py', 'README.md', 'Run 1', 'Run 2015-07-15 21:26:31', 'Run 2015-07-15 21:40:12', 'Run 2015-07-15 21:57:29', 'Run 2015-07-16 17:50:14', 'Run 2015-07-16 18:22:38', 'Run 2015-07-16 18:43:44', 'Run 2015-07-16 19:13:06', 'Run 2015-07-16 21:49:14', 'Run 2015-07-16 22:22:17', 'Run 2015-07-17 01:06:57', 'Run 2015-07-17 16:57:11', 'Run 2015-07-17 17:14:59', 'Run 2015-07-17 17:16:49', 'Run 2015-07-17 17:17:39', 'Run 2015-07-17 17:32:06', 'RunSummary.txt', 'Wishbone.js', 'WishboneTemplate.tracetemplate']
+build	17-Jul-2015 10:52:57	===================================Removing Trace===================================
+build	17-Jul-2015 10:52:57	===================================Shutting Down Simulators===================================
+build	17-Jul-2015 10:53:03	===================================Erasing Simulators===================================
+build	17-Jul-2015 10:53:05	===================================Squitting Simulators===================================
+simple	17-Jul-2015 10:53:05	Finished task 'Build and Run' with result: Success
+simple	17-Jul-2015 10:53:05	Running post build plugin 'npm Cache Cleanup'
+simple	17-Jul-2015 10:53:05	Running post build plugin 'NCover Results Collector'
+simple	17-Jul-2015 10:53:05	Running post build plugin 'Clover Results Collector'
+simple	17-Jul-2015 10:53:05	Running post build plugin 'Docker Container Cleanup'
+simple	17-Jul-2015 10:53:05	Running post build plugin 'Artifact Copier'
+simple	17-Jul-2015 10:53:05	Finalising the build...
+simple	17-Jul-2015 10:53:05	Stopping timer.
+simple	17-Jul-2015 10:53:05	Build WUT-BT-JOB1-92 completed.
+simple	17-Jul-2015 10:53:05	Running on server: post build plugin 'NCover Results Collector'
+simple	17-Jul-2015 10:53:05	Running on server: post build plugin 'Clover Delta Calculator'
+simple	17-Jul-2015 10:53:05	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	17-Jul-2015 10:53:05	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	17-Jul-2015 10:53:05	All post build plugins have finished
+simple	17-Jul-2015 10:53:05	Generating build results summary...
+simple	17-Jul-2015 10:53:05	Saving build results to disk...
+simple	17-Jul-2015 10:53:05	Logging substituted variables...
+simple	17-Jul-2015 10:53:05	Indexing build results...
+simple	17-Jul-2015 10:53:05	Finished building WUT-BT-JOB1-92.

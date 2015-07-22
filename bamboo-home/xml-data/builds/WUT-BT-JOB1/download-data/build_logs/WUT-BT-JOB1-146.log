@@ -1,0 +1,983 @@
+simple	21-Jul-2015 14:54:36	Build Wishbone UI Testing - Build and Test - Default Job #146 (WUT-BT-JOB1-146) started building on agent Default Agent
+simple	21-Jul-2015 14:54:36	
+simple	21-Jul-2015 14:54:36	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	21-Jul-2015 14:54:36	Executing build Wishbone UI Testing - Build and Test - Default Job #146 (WUT-BT-JOB1-146)
+simple	21-Jul-2015 14:54:36	Running pre-build action: VCS Version Collector
+simple	21-Jul-2015 14:54:36	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	21-Jul-2015 14:54:36	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #146 (WUT-BT-JOB1-146)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-146-ScriptBuildTask-2026825251678106943.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-146\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=146\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-146\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-21T14:54:36.590-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-146\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	21-Jul-2015 14:54:36	===================================BuildingWishbone.app===================================
+build	21-Jul-2015 14:54:37	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 14:54:37	
+build	21-Jul-2015 14:54:37	Check dependencies
+build	21-Jul-2015 14:54:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 14:54:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 14:54:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 14:54:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 14:54:38	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	21-Jul-2015 14:54:38	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	21-Jul-2015 14:54:38	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	21-Jul-2015 14:54:38	
+build	21-Jul-2015 14:54:39	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	21-Jul-2015 14:54:39	
+build	21-Jul-2015 14:54:39	Check dependencies
+build	21-Jul-2015 14:54:39	
+build	21-Jul-2015 14:54:50	** TEST SUCCEEDED **
+build	21-Jul-2015 14:54:50	
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:48.570 Wishbone[5973:628816] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:48.635 Wishbone[5973:628816] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=SdaqJSkVw_3SxElu2a9dMQ&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437515688.631226&usage_tracking_enabled=1&value=1.00.
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:48.652 Wishbone[5973:628816] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:48.762 Wishbone[5973:629177] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:48.997 Wishbone[5973:629192] Resolved sdk-api-ssl.playhaven.com -> 48.190.233.12
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.001 Wishbone[5973:628816] AppsFlyer SDK version 2.5.3.15 started
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.001 Wishbone[5973:629193] Resolved media.playhaven.com -> 48.190.233.12
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.116 Wishbone[5973:628816] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.234 Wishbone[5973:629177] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.268 Wishbone[5973:629177] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.317 Wishbone[5973:628816] <Google> ping successful.
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.326 Wishbone[5973:628816] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=SdaqJSkVw_3SxElu2a9dMQ&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437519289.325273&usage_tracking_enabled=1.
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.330 Wishbone[5973:629168] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	21-Jul-2015 14:54:50	    parameters =     {
+build	21-Jul-2015 14:54:50	        "&_u" = ".etno";
+build	21-Jul-2015 14:54:50	        "&_v" = "mi3.0.3c";
+build	21-Jul-2015 14:54:50	        "&an" = Wishbone;
+build	21-Jul-2015 14:54:50	        "&av" = "3.0.5";
+build	21-Jul-2015 14:54:50	        "&cd" = "Login View";
+build	21-Jul-2015 14:54:50	        "&cid" = "88c4796c-59d4-41de-9937-7ec2209bc2fa";
+build	21-Jul-2015 14:54:50	        "&sr" = 320x568;
+build	21-Jul-2015 14:54:50	        "&t" = appview;
+build	21-Jul-2015 14:54:50	        "&tid" = "UA-48537804-1";
+build	21-Jul-2015 14:54:50	        "&ul" = en;
+build	21-Jul-2015 14:54:50	        "&v" = 1;
+build	21-Jul-2015 14:54:50	        "&z" = 7617270518389312942;
+build	21-Jul-2015 14:54:50	        gaiVersion = "3.03c";
+build	21-Jul-2015 14:54:50	    };
+build	21-Jul-2015 14:54:50	    timestamp = "2015-07-21 21:54:49 +0000";
+build	21-Jul-2015 14:54:50	}
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.363 Wishbone[5973:628816] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=91CDE363-23F8-470B-8B3D-46C0C7EF9732&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=neg995BNo_dX582XTK6UjpA3llk&plugin=ios&nonce=WVIoExTKd0o9V_3q4ZkZlM5OSSE&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=B36E0537-AECE-49EB-9D12-321E463E4BBB&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	21-Jul-2015 14:54:50	Test Suite 'All tests' started at 2015-07-21 21:54:49 +0000
+build	21-Jul-2015 14:54:50	Test Suite 'WishboneTests.xctest' started at 2015-07-21 21:54:49 +0000
+build	21-Jul-2015 14:54:50	Test Suite 'WishboneTests' started at 2015-07-21 21:54:49 +0000
+build	21-Jul-2015 14:54:50	Test Case '-[WishboneTests testExample]' started.
+build	21-Jul-2015 14:54:50	Test Case '-[WishboneTests testExample]' passed (0.000 seconds).
+build	21-Jul-2015 14:54:50	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	21-Jul-2015 14:54:50	2015-07-21 14:54:49.422 Wishbone[5973:628816] <Google> ping successful.
+build	21-Jul-2015 14:54:50	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 99.443%, values: [0.000004, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	21-Jul-2015 14:54:50	Test Case '-[WishboneTests testPerformanceExample]' passed (0.394 seconds).
+build	21-Jul-2015 14:54:50	Test Suite 'WishboneTests' passed at 2015-07-21 21:54:49 +0000.
+build	21-Jul-2015 14:54:50		 Executed 2 tests, with 0 failures (0 unexpected) in 0.394 (0.395) seconds
+build	21-Jul-2015 14:54:50	Test Suite 'WishboneTests.xctest' passed at 2015-07-21 21:54:49 +0000.
+build	21-Jul-2015 14:54:50		 Executed 2 tests, with 0 failures (0 unexpected) in 0.394 (0.396) seconds
+build	21-Jul-2015 14:54:50	Test Suite 'All tests' passed at 2015-07-21 21:54:49 +0000.
+build	21-Jul-2015 14:54:50		 Executed 2 tests, with 0 failures (0 unexpected) in 0.394 (0.396) seconds
+build	21-Jul-2015 14:54:50	===================================Building instruments.sh===================================
+build	21-Jul-2015 14:54:52	===================================Running instruments.sh===================================
+build	21-Jul-2015 14:54:56	2015-07-21 21:54:56 +0000 Start: First Screen
+build	21-Jul-2015 14:54:56	2015-07-21 21:54:56 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 21:54:56 GMT")
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Screenshot captured.
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Start: First Screen > Skip Login
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Skip Login"].tap()
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Pass: First Screen > Skip Login
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 21:54:56 GMT")
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Screenshot captured.
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 21:54:56 GMT")
+build	21-Jul-2015 14:54:57	2015-07-21 21:54:56 +0000 Screenshot captured.
+build	21-Jul-2015 14:54:58	2015-07-21 21:54:58 +0000 Debug: target.frontMostApp().alert().cancelButton().tap()
+build	21-Jul-2015 14:55:00	2015-07-21 21:54:59 +0000 Debug: target.frontMostApp().mainWindow().pageIndicators()[0].withValueForKey("1", "isVisible").selectPage("1")
+build	21-Jul-2015 14:55:01	2015-07-21 21:55:01 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Tue, 21 Jul 2015 21:55:01 GMT")
+build	21-Jul-2015 14:55:01	2015-07-21 21:55:01 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:01	2015-07-21 21:55:01 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].withValueForKey("1", "isVisible").scrollViews()[0].buttons()[0].tap()
+build	21-Jul-2015 14:55:03	2015-07-21 21:55:03 +0000 Pass: First Screen
+build	21-Jul-2015 14:55:03	2015-07-21 21:55:03 +0000 Start: Create View
+build	21-Jul-2015 14:55:03	2015-07-21 21:55:03 +0000 Debug: target.frontMostApp().mainWindow().buttons()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:03	2015-07-21 21:55:03 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:03 GMT")
+build	21-Jul-2015 14:55:03	2015-07-21 21:55:03 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:03	2015-07-21 21:55:03 +0000 Debug: target.frontMostApp().mainWindow().textViews()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:04	2015-07-21 21:55:04 +0000 Debug: target.frontMostApp().keyboard().typeString("Test Post")
+build	21-Jul-2015 14:55:07	2015-07-21 21:55:07 +0000 Debug: target.frontMostApp().mainWindow().tapWithOptions({x:"0.5", y:"0.5"})
+build	21-Jul-2015 14:55:07	2015-07-21 21:55:07 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:08	2015-07-21 21:55:08 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:08 GMT")
+build	21-Jul-2015 14:55:08	2015-07-21 21:55:08 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:08	2015-07-21 21:55:08 +0000 Start: Create View > Search Web
+build	21-Jul-2015 14:55:08	2015-07-21 21:55:08 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Search Web"].tap()
+build	21-Jul-2015 14:55:08	2015-07-21 21:55:08 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 21:55:08 GMT")
+build	21-Jul-2015 14:55:08	2015-07-21 21:55:08 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:09	2015-07-21 21:55:08 +0000 Debug: target.frontMostApp().keyboard().typeString("Cat\n")
+build	21-Jul-2015 14:55:10	2015-07-21 21:55:10 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Tue, 21 Jul 2015 21:55:10 GMT")
+build	21-Jul-2015 14:55:10	2015-07-21 21:55:10 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:10	2015-07-21 21:55:10 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:12	2015-07-21 21:55:12 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:12 GMT")
+build	21-Jul-2015 14:55:12	2015-07-21 21:55:12 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:12	2015-07-21 21:55:12 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	21-Jul-2015 14:55:17	2015-07-21 21:55:17 +0000 Pass: Create View > Search Web
+build	21-Jul-2015 14:55:17	2015-07-21 21:55:17 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:17	2015-07-21 21:55:17 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:17 GMT")
+build	21-Jul-2015 14:55:17	2015-07-21 21:55:17 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:17	2015-07-21 21:55:17 +0000 Start: Create View > Add Sticker
+build	21-Jul-2015 14:55:17	2015-07-21 21:55:17 +0000 Debug: target.frontMostApp().mainWindow().images()["add-sticker.png"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:19	2015-07-21 21:55:19 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:20	2015-07-21 21:55:19 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Add Sticker Tue, 21 Jul 2015 21:55:19 GMT")
+build	21-Jul-2015 14:55:20	2015-07-21 21:55:20 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:20	2015-07-21 21:55:20 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:20 GMT")
+build	21-Jul-2015 14:55:20	2015-07-21 21:55:20 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:20	2015-07-21 21:55:20 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	21-Jul-2015 14:55:25	2015-07-21 21:55:25 +0000 Pass: Create View > Add Sticker
+build	21-Jul-2015 14:55:25	2015-07-21 21:55:25 +0000 Debug: target.frontMostApp().mainWindow().buttons()[2].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:25	2015-07-21 21:55:25 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:25 GMT")
+build	21-Jul-2015 14:55:26	2015-07-21 21:55:25 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:26	2015-07-21 21:55:25 +0000 Start: Create View > Choose From Library
+build	21-Jul-2015 14:55:26	2015-07-21 21:55:25 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Choose from library"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:26	2015-07-21 21:55:26 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 21:55:26 GMT")
+build	21-Jul-2015 14:55:26	2015-07-21 21:55:26 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:28	2015-07-21 21:55:28 +0000 Debug: target.frontMostApp().alert().defaultButton().tap()
+build	21-Jul-2015 14:55:29	2015-07-21 21:55:29 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:29	2015-07-21 21:55:29 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 21:55:29 GMT")
+build	21-Jul-2015 14:55:29	2015-07-21 21:55:29 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:29	2015-07-21 21:55:29 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].visibleCells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:30	2015-07-21 21:55:30 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 21:55:30 GMT")
+build	21-Jul-2015 14:55:30	2015-07-21 21:55:30 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:40	2015-07-21 21:55:40 +0000 Pass: Create View > Choose From Library
+build	21-Jul-2015 14:55:40	2015-07-21 21:55:40 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:40 GMT")
+build	21-Jul-2015 14:55:40	2015-07-21 21:55:40 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:40	2015-07-21 21:55:40 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Done"].tap()
+build	21-Jul-2015 14:55:43	2015-07-21 21:55:43 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create share done"].tap()
+build	21-Jul-2015 14:55:44	2015-07-21 21:55:44 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Tue, 21 Jul 2015 21:55:44 GMT")
+build	21-Jul-2015 14:55:44	2015-07-21 21:55:44 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:44	2015-07-21 21:55:44 +0000 Pass: Create View
+build	21-Jul-2015 14:55:46	2015-07-21 21:55:44 +0000 logElementTree:
+build	21-Jul-2015 14:55:46	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	21-Jul-2015 14:55:46	elements: {
+build	21-Jul-2015 14:55:46		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	21-Jul-2015 14:55:46		elements: {
+build	21-Jul-2015 14:55:46			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	21-Jul-2015 14:55:46			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 14:55:46			elements: {
+build	21-Jul-2015 14:55:46				UIATableView "(null)" {{0, -224.3125}, {375, 283.59375}}
+build	21-Jul-2015 14:55:46				elements: {
+build	21-Jul-2015 14:55:46					UIATableCell "My Wishbones" {{0, -224.3125}, {375, 51.5625}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "My Wishbones" {{23.4375, -202.046875}, {328.125, 24.609375}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Find Friends" {{0, -172.75}, {375, 51.5625}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Find Friends" {{23.4375, -150.484375}, {328.125, 24.609375}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "About Wishbone" {{0, -121.1875}, {375, 51.5625}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "About Wishbone" {{23.4375, -98.921875}, {328.125, 24.609375}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Share with a Friend" {{0, -69.625}, {375, 51.5625}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Share with a Friend" {{23.4375, -47.359375}, {328.125, 24.609375}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Contact Us" {{0, -18.0625}, {375, 51.5625}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Contact Us" {{23.4375, 4.203125}, {328.125, 24.609375}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46				}
+build	21-Jul-2015 14:55:46				UIAImage "menu.png" {{17.578125, 39.359375}, {23.4375, 9.375}}
+build	21-Jul-2015 14:55:46				UIASegmentedControl "(null)" {{62.109375, 26.46875}, {251.953125, 33.984375}}
+build	21-Jul-2015 14:55:46				elements: {
+build	21-Jul-2015 14:55:46					UIAButton "Trending" {{62.109375, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 14:55:46					UIAButton "Friends" {{188.671875, 26.46875}, {125.390625, 33.984375}}
+build	21-Jul-2015 14:55:46				}
+build	21-Jul-2015 14:55:46				UIAImage "Nav-Header-Logo" {{179.296875, 33.5}, {17.578125, 21.09375}}
+build	21-Jul-2015 14:55:46				UIAButton "create card" {{314.0625, 26.46875}, {51.5625, 35.15625}}
+build	21-Jul-2015 14:55:46				UIATableView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46				elements: {
+build	21-Jul-2015 14:55:46					UIATableCell "Which disney princess set is better?" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Which disney princess set is better?" {{18.75, 94.4375}, {337.5, 22.5}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Films&TV " {{73.828125, 569.046875}, {168.75, 24.609375}}
+build	21-Jul-2015 14:55:46						UIAStaticText "1/12" {{169.921875, 142.484375}, {31.640625, 19.921875}}
+build	21-Jul-2015 14:55:46						UIAStaticText "422917 votes" {{250.78125, 567.875}, {105.46875, 24.609375}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{317.578125, 491.703125}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Do you have more fun with your family or friends?" {{0, 666.3125}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Do you have more fun with your family or friends?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 14:55:46						UIAStaticText "2/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "419033 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Would you rather go water rafting or cliff diving? " {{0, 1267.484375}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Would you rather go water rafting or cliff diving? " {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 14:55:46						UIAStaticText "3/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "416463 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Would you rather be a firefly or a butterfly?" {{0, 1868.65625}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Would you rather be a firefly or a butterfly?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 14:55:46						UIAStaticText "4/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Animal Friendly " {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "412849 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "What's worse, clumpy lashes or lipstick on teeth?" {{0, 2469.828125}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "What's worse, clumpy lashes or lipstick on teeth?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 14:55:46						UIAStaticText "5/12" {{0, 0}, {28, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Fashion" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "411118 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Sexy or classy?" {{0, 3071}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Sexy or classy?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 14:55:46						UIAStaticText "6/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Hot or Not" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "406035 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Who's hotter?" {{0, 3672.171875}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Who's hotter?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 14:55:46						UIAStaticText "7/12" {{0, 0}, {27.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Celeb Obsessed " {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "400127 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Neck or foot massages?" {{0, 4273.34375}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Neck or foot massages?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 14:55:46						UIAStaticText "8/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "403915 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "What's worse peeling or being burned? " {{0, 4874.515625}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "What's worse peeling or being burned? " {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 14:55:46						UIAStaticText "9/12" {{0, 0}, {28.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "401979 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Which mean girls quote?" {{0, 5475.6875}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Which mean girls quote?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 14:55:46						UIAStaticText "10/12" {{0, 0}, {35.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "398882 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Do you prefer humid or dry weather?" {{0, 6076.859375}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Do you prefer humid or dry weather?" {{0, 0}, {288, 19.200000000000003}}
+build	21-Jul-2015 14:55:46						UIAStaticText "11/12" {{0, 0}, {33.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "392055 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIATableCell "Be in a freezing bath or boiling hot bath?" {{0, 6678.03125}, {375, 601.171875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "Be in a freezing bath or boiling hot bath?" {{0, 0}, {288, 38.5}}
+build	21-Jul-2015 14:55:46						UIAStaticText "12/12" {{0, 0}, {34.5, 17}}
+build	21-Jul-2015 14:55:46						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	21-Jul-2015 14:55:46						UIAStaticText "384504 votes" {{0, 0}, {90, 21}}
+build	21-Jul-2015 14:55:46						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIAStaticText "Your Daily Dozen" {{56.25, 7362.40625}, {295.3125, 35.15625}}
+build	21-Jul-2015 14:55:46					UIAStaticText "0 of 12 complete" {{56.25, 7406.9375}, {295.3125, 24.609375}}
+build	21-Jul-2015 14:55:46					UIAButton "1   Not Filled" {{56.25, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "2   Not Filled" {{101.953125, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "3   Not Filled" {{147.65625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "4   Not Filled" {{193.359375, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "5   Not Filled" {{239.0625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "6   Not Filled" {{284.765625, 7480.765625}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "7   Not Filled" {{56.25, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "8   Not Filled" {{101.953125, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "9   Not Filled" {{147.65625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "10   Not Filled" {{193.359375, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "11   Not Filled" {{239.0625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "12   Not Filled" {{284.765625, 7526.46875}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					UIAButton "13   Not Filled" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAImage "13 - Not Filled.png" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIAButton "14   Not Filled" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAImage "14 - Not Filled.png" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIAButton "Share" {{56.25, 7643.65625}, {263.671875, 64.453125}}
+build	21-Jul-2015 14:55:46					UIAButton "watch a 10 seconds video" {{93.75, 7717.484375}, {215.625, 51.5625}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAStaticText "watch a 10 seconds video" {{98.4375, 7732.71875}, {206.8359375, 21.09375}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46					UIAStaticText "or" {{71.484375, 7731.546875}, {17.578125, 24.609375}}
+build	21-Jul-2015 14:55:46					UIAStaticText "to earn 2 bonus questions" {{56.25, 7743.265625}, {267.1875, 24.609375}}
+build	21-Jul-2015 14:55:46					UIAButton "gear" {{166.40625, 7772.5625}, {46.875, 46.875}}
+build	21-Jul-2015 14:55:46					elements: {
+build	21-Jul-2015 14:55:46						UIAImage "gear.png" {{174.0234375, 7780.1796875}, {31.0546875, 31.0546875}}
+build	21-Jul-2015 14:55:46					}
+build	21-Jul-2015 14:55:46				}
+build	21-Jul-2015 14:55:46				UIAStaticText "Daily Dozen" {{9.375, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 14:55:46				UIAStaticText "Community" {{196.875, 625.296875}, {168.75, 24.609375}}
+build	21-Jul-2015 14:55:46				UIAToolbar "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	21-Jul-2015 14:55:46				elements: {
+build	21-Jul-2015 14:55:46					UIAImage "(null)" {{0, 665.7265625}, {375, 0.5859375}}
+build	21-Jul-2015 14:55:46					UIAImage "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	21-Jul-2015 14:55:46				}
+build	21-Jul-2015 14:55:46				UIAImage "create-share-mark.png" {{164.0625, 738.96875}, {46.875, 44.53125}}
+build	21-Jul-2015 14:55:46				UIAStaticText "WISHBONE CREATED" {{46.875, 830.375}, {281.25, 24.609375}}
+build	21-Jul-2015 14:55:46				UIAStaticText "We get many cards submitted everyday, so cross your fingers we select yours to be featured!" {{21.09375, 877.25}, {333.984375, 59.765625}}
+build	21-Jul-2015 14:55:46				UIAStaticText "Poll your friends now to get instant votes and increase your odds of getting selected!" {{21.09375, 1012.015625}, {333.984375, 38.671875}}
+build	21-Jul-2015 14:55:46				UIAStaticText "POLL WITH" {{18.75, 1074.125}, {337.5, 24.609375}}
+build	21-Jul-2015 14:55:46				UIAButton "create share msg" {{21.09375, 1124.515625}, {105.46875, 105.46875}}
+build	21-Jul-2015 14:55:46				UIAButton "create share tw" {{134.765625, 1124.515625}, {105.46875, 105.46875}}
+build	21-Jul-2015 14:55:46				UIAButton "create share insta" {{249.609375, 1124.515625}, {106.640625, 105.46875}}
+build	21-Jul-2015 14:55:46				UIAButton "create share done" {{21.09375, 1244.046875}, {333.984375, 64.453125}}
+build	21-Jul-2015 14:55:46			}
+build	21-Jul-2015 14:55:46			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 14:55:46			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 14:55:46			elements: {
+build	21-Jul-2015 14:55:46				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	21-Jul-2015 14:55:46				elements: {
+build	21-Jul-2015 14:55:46					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	21-Jul-2015 14:55:46					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	21-Jul-2015 14:55:46					UIAElement "2:55 PM" {{160.546875, 0.6875}, {55.078125, 23.4375}}
+build	21-Jul-2015 14:55:46					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	21-Jul-2015 14:55:46				}
+build	21-Jul-2015 14:55:46			}
+build	21-Jul-2015 14:55:46		}
+build	21-Jul-2015 14:55:46	}
+build	21-Jul-2015 14:55:46	
+build	21-Jul-2015 14:55:46	2015-07-21 21:55:44 +0000 Start: Menu
+build	21-Jul-2015 14:55:49	2015-07-21 21:55:49 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	21-Jul-2015 14:55:54	2015-07-21 21:55:54 +0000 Start: Menu > My Wishbones
+build	21-Jul-2015 14:55:54	2015-07-21 21:55:54 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:55	2015-07-21 21:55:54 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:55:54 GMT")
+build	21-Jul-2015 14:55:55	2015-07-21 21:55:55 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:56	2015-07-21 21:55:56 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].buttons()["edit profile"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:56	2015-07-21 21:55:56 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:55:56 GMT")
+build	21-Jul-2015 14:55:56	2015-07-21 21:55:56 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:56	2015-07-21 21:55:56 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].buttons()["Edit"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:57	2015-07-21 21:55:57 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:55:57 GMT")
+build	21-Jul-2015 14:55:57	2015-07-21 21:55:57 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:57	2015-07-21 21:55:57 +0000 Start: Create View > Choose From Library
+build	21-Jul-2015 14:55:57	2015-07-21 21:55:57 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Choose from library"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:57	2015-07-21 21:55:57 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 21:55:57 GMT")
+build	21-Jul-2015 14:55:58	2015-07-21 21:55:57 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:58	2015-07-21 21:55:58 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:58	2015-07-21 21:55:58 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 21:55:58 GMT")
+build	21-Jul-2015 14:55:58	2015-07-21 21:55:58 +0000 Screenshot captured.
+build	21-Jul-2015 14:55:58	2015-07-21 21:55:58 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].visibleCells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:55:59	2015-07-21 21:55:59 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Tue, 21 Jul 2015 21:55:59 GMT")
+build	21-Jul-2015 14:55:59	2015-07-21 21:55:59 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:09	2015-07-21 21:56:09 +0000 Pass: Create View > Choose From Library
+build	21-Jul-2015 14:56:09	2015-07-21 21:56:09 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[4].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:09	2015-07-21 21:56:09 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:56:09 GMT")
+build	21-Jul-2015 14:56:09	2015-07-21 21:56:09 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:09	2015-07-21 21:56:09 +0000 Debug: target.frontMostApp().actionSheet().collectionViews()[0].cells()["Male"].buttons()["Male"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:13	2015-07-21 21:56:13 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[5].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:13	2015-07-21 21:56:13 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:56:13 GMT")
+build	21-Jul-2015 14:56:13	2015-07-21 21:56:13 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:14	2015-07-21 21:56:13 +0000 logElementTree:
+build	21-Jul-2015 14:56:14	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	21-Jul-2015 14:56:14	elements: {
+build	21-Jul-2015 14:56:14		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	21-Jul-2015 14:56:14		elements: {
+build	21-Jul-2015 14:56:14			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	21-Jul-2015 14:56:14			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 14:56:14			elements: {
+build	21-Jul-2015 14:56:14				UIAButton "create back" {{1.171875, 18.265625}, {46.875, 46.875}}
+build	21-Jul-2015 14:56:14				UIAStaticText "Edit Profile" {{80.859375, 28.8125}, {214.453125, 24.609375}}
+build	21-Jul-2015 14:56:14				UIAButton "Done" {{307.03125, 24.125}, {53.90625, 35.15625}}
+build	21-Jul-2015 14:56:14				UIAScrollView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	21-Jul-2015 14:56:14				elements: {
+build	21-Jul-2015 14:56:14					UIAImage "(null)" {{18.75, 38.7734375}, {70.3125, 70.3125}}
+build	21-Jul-2015 14:56:14					UIATextField "(null)" {{139.453125, 35.2578125}, {187.5, 35.15625}}
+build	21-Jul-2015 14:56:14					elements: {
+build	21-Jul-2015 14:56:14						UIATextField "(null)" {{139.453125, 26.46875}, {187.5, 35.15625}}
+build	21-Jul-2015 14:56:14					}
+build	21-Jul-2015 14:56:14					UIAImage "user-handle-img.png" {{117.1875, 45.21875}, {12.890625, 16.40625}}
+build	21-Jul-2015 14:56:14					UIAImage "available-mark.png" {{342.1875, 38.1875}, {10.546875, 10.546875}}
+build	21-Jul-2015 14:56:14					UIATextField "(null)" {{139.453125, 75.6875}, {216.796875, 35.15625}}
+build	21-Jul-2015 14:56:14					elements: {
+build	21-Jul-2015 14:56:14						UIATextField "(null)" {{139.453125, 75.6875}, {216.796875, 35.15625}}
+build	21-Jul-2015 14:56:14					}
+build	21-Jul-2015 14:56:14					UIAButton "Edit" {{26.953125, 101.46875}, {53.90625, 35.15625}}
+build	21-Jul-2015 14:56:14					UIAImage "user-name-img.png" {{117.1875, 95.609375}, {15.234375, 15.234375}}
+build	21-Jul-2015 14:56:14					UIAStaticText "Private Information" {{18.75, 155.375}, {337.5, 24.609375}}
+build	21-Jul-2015 14:56:14					UIATextField "(null)" {{46.875, 181.15625}, {309.375, 35.15625}}
+build	21-Jul-2015 14:56:14					elements: {
+build	21-Jul-2015 14:56:14						UIATextField "(null)" {{46.875, 181.15625}, {309.375, 35.15625}}
+build	21-Jul-2015 14:56:14					}
+build	21-Jul-2015 14:56:14					UIAImage "email-img.png" {{18.75, 203.421875}, {17.578125, 12.890625}}
+build	21-Jul-2015 14:56:14					UIATextField "(null)" {{46.875, 237.40625}, {308.203125, 35.15625}}
+build	21-Jul-2015 14:56:14					elements: {
+build	21-Jul-2015 14:56:14						UIATextField "(null)" {{46.875, 237.40625}, {308.203125, 35.15625}}
+build	21-Jul-2015 14:56:14					}
+build	21-Jul-2015 14:56:14					UIAImage "phone-img.png" {{18.75, 256.15625}, {11.71875, 16.40625}}
+build	21-Jul-2015 14:56:14					UIATextField "(null)" {{46.875, 293.65625}, {308.203125, 35.15625}}
+build	21-Jul-2015 14:56:14					elements: {
+build	21-Jul-2015 14:56:14						UIATextField "(null)" {{46.875, 293.65625}, {308.203125, 35.15625}}
+build	21-Jul-2015 14:56:14					}
+build	21-Jul-2015 14:56:14					UIAImage "gender-img.png" {{18.75, 312.40625}, {12.890625, 16.40625}}
+build	21-Jul-2015 14:56:14					UIATextField "(null)" {{46.875, 351.078125}, {308.203125, 35.15625}}
+build	21-Jul-2015 14:56:14					elements: {
+build	21-Jul-2015 14:56:14						UIATextField "(null)" {{46.875, 351.078125}, {308.203125, 35.15625}}
+build	21-Jul-2015 14:56:14					}
+build	21-Jul-2015 14:56:14					UIAImage "age-img.png" {{18.75, 368.65625}, {12.890625, 16.40625}}
+build	21-Jul-2015 14:56:14					UIAButton "profile gear" {{328.125, 560.84375}, {46.875, 46.875}}
+build	21-Jul-2015 14:56:14					UIAImage "(null)" {{366.796875, 594.2421875}, {8.203125, 2.9296875}}
+build	21-Jul-2015 14:56:14					UIAImage "(null)" {{372.0703125, 588.96875}, {2.9296875, 8.203125}}
+build	21-Jul-2015 14:56:14				}
+build	21-Jul-2015 14:56:14			}
+build	21-Jul-2015 14:56:14			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 14:56:14			elements: {
+build	21-Jul-2015 14:56:14				UIAToolbar "(null)" {{0, 361.625}, {375, 51.5625}}
+build	21-Jul-2015 14:56:14				elements: {
+build	21-Jul-2015 14:56:14					UIAImage "(null)" {{0, 361.0390625}, {375, 0.5859375}}
+build	21-Jul-2015 14:56:14					UIAImage "(null)" {{0, 361.625}, {375, 51.5625}}
+build	21-Jul-2015 14:56:14					UIAButton "Done" {{3.515625, 363.96875}, {59.765625, 46.875}}
+build	21-Jul-2015 14:56:14				}
+build	21-Jul-2015 14:56:14				UIAPicker "(null)" {{0, 413.1875}, {375, 253.125}}
+build	21-Jul-2015 14:56:14				elements: {
+build	21-Jul-2015 14:56:14					UIAPickerWheel "(null)" {{33.984375, 369.2421875}, {157.03125, 341.015625}}
+build	21-Jul-2015 14:56:14					UIAPickerWheel "(null)" {{196.875, 369.2421875}, {53.90625, 341.015625}}
+build	21-Jul-2015 14:56:14					UIAPickerWheel "(null)" {{256.640625, 369.2421875}, {84.375, 341.015625}}
+build	21-Jul-2015 14:56:14				}
+build	21-Jul-2015 14:56:14			}
+build	21-Jul-2015 14:56:14			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	21-Jul-2015 14:56:14			elements: {
+build	21-Jul-2015 14:56:14				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	21-Jul-2015 14:56:14				elements: {
+build	21-Jul-2015 14:56:14					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	21-Jul-2015 14:56:14					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	21-Jul-2015 14:56:14					UIAElement "2:56 PM" {{160.546875, 0.6875}, {55.078125, 23.4375}}
+build	21-Jul-2015 14:56:14					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	21-Jul-2015 14:56:14				}
+build	21-Jul-2015 14:56:14			}
+build	21-Jul-2015 14:56:14		}
+build	21-Jul-2015 14:56:14	}
+build	21-Jul-2015 14:56:14	
+build	21-Jul-2015 14:56:14	2015-07-21 21:56:13 +0000 Default: index 0
+build	21-Jul-2015 14:56:14	2015-07-21 21:56:13 +0000 Default: index 1
+build	21-Jul-2015 14:56:14	2015-07-21 21:56:13 +0000 Default: index 2
+build	21-Jul-2015 14:56:14	2015-07-21 21:56:13 +0000 Default: index 3
+build	21-Jul-2015 14:56:27	2015-07-21 21:56:27 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:56:27 GMT")
+build	21-Jul-2015 14:56:27	2015-07-21 21:56:27 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:27	2015-07-21 21:56:27 +0000 Debug: target.frontMostApp().windows()[2].toolbar().buttons()["Done"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:27	2015-07-21 21:56:27 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:56:27 GMT")
+build	21-Jul-2015 14:56:27	2015-07-21 21:56:27 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:27	2015-07-21 21:56:27 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[2].tap()
+build	21-Jul-2015 14:56:28	2015-07-21 21:56:28 +0000 Debug: target.frontMostApp().keyboard().typeString("wtobey@science-inc.com")
+build	21-Jul-2015 14:56:33	2015-07-21 21:56:33 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:56:33 GMT")
+build	21-Jul-2015 14:56:33	2015-07-21 21:56:33 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:33	2015-07-21 21:56:33 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Done"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:33	2015-07-21 21:56:33 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Tue, 21 Jul 2015 21:56:33 GMT")
+build	21-Jul-2015 14:56:33	2015-07-21 21:56:33 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:35	2015-07-21 21:56:35 +0000 Debug: target.frontMostApp().alert().buttons()[0].tap()
+build	21-Jul-2015 14:56:36	2015-07-21 21:56:36 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:36	2015-07-21 21:56:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu Tue, 21 Jul 2015 21:56:36 GMT")
+build	21-Jul-2015 14:56:37	2015-07-21 21:56:36 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:37	2015-07-21 21:56:36 +0000 Pass: Menu > My Wishbones
+build	21-Jul-2015 14:56:39	2015-07-21 21:56:38 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	21-Jul-2015 14:56:39	2015-07-21 21:56:38 +0000 Start: Menu > Find Friends
+build	21-Jul-2015 14:56:39	2015-07-21 21:56:39 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[1].tap()
+build	21-Jul-2015 14:56:44	2015-07-21 21:56:44 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 21:56:44 GMT")
+build	21-Jul-2015 14:56:44	2015-07-21 21:56:44 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:44	2015-07-21 21:56:44 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].searchBars()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:44	2015-07-21 21:56:44 +0000 Debug: target.frontMostApp().keyboard().withValueForKey("1", "isVisible").typeString("Abc\n")
+build	21-Jul-2015 14:56:48	2015-07-21 21:56:48 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 21:56:48 GMT")
+build	21-Jul-2015 14:56:48	2015-07-21 21:56:48 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:48	2015-07-21 21:56:48 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:55	2015-07-21 21:56:55 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 21:56:55 GMT")
+build	21-Jul-2015 14:56:55	2015-07-21 21:56:55 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:55	2015-07-21 21:56:55 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].buttons()["follow"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:55	2015-07-21 21:56:55 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 21:56:55 GMT")
+build	21-Jul-2015 14:56:55	2015-07-21 21:56:55 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:55	2015-07-21 21:56:55 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create back"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:56	2015-07-21 21:56:55 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Tue, 21 Jul 2015 21:56:55 GMT")
+build	21-Jul-2015 14:56:56	2015-07-21 21:56:55 +0000 Screenshot captured.
+build	21-Jul-2015 14:56:56	2015-07-21 21:56:56 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:56:56	2015-07-21 21:56:56 +0000 Pass: Menu > Find Friends
+build	21-Jul-2015 14:56:58	2015-07-21 21:56:58 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	21-Jul-2015 14:56:58	2015-07-21 21:56:58 +0000 Default: Select About Wishbone from dropdown menu
+build	21-Jul-2015 14:56:58	2015-07-21 21:56:58 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[2].tap()
+build	21-Jul-2015 14:57:00	2015-07-21 21:57:00 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	21-Jul-2015 14:57:00	2015-07-21 21:57:00 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu Tue, 21 Jul 2015 21:57:00 GMT")
+build	21-Jul-2015 14:57:00	2015-07-21 21:57:00 +0000 Screenshot captured.
+build	21-Jul-2015 14:57:00	2015-07-21 21:57:00 +0000 Pass: Menu
+build	21-Jul-2015 14:57:05	Instruments Trace Complete (Duration : 128.556992s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+build	21-Jul-2015 14:57:05	===================================Running Parser.py===================================
+build	21-Jul-2015 14:57:05	(0, 'First Screen > Skip Login')
+build	21-Jul-2015 14:57:05	(0, 'Create View > Search Web')
+build	21-Jul-2015 14:57:05	(1, 'Create View > Add Sticker')
+build	21-Jul-2015 14:57:05	(2, 'Create View > Choose From Library')
+build	21-Jul-2015 14:57:05	(3, 'Create View > Choose From Library')
+build	21-Jul-2015 14:57:05	(0, 'Menu > My Wishbones')
+build	21-Jul-2015 14:57:05	(1, 'Menu > Find Friends')
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 21-54-56 GMT 2.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 21-54-56 GMT 3.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 21-54-56 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/First Screen Tue, 21 Jul 2015 21-55-01 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Add Sticker Tue, 21 Jul 2015 21-55-19 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Add Sticker
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Add Sticker
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 21-55-26 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 21-55-29 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 21-55-30 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 21-55-57 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 21-55-58 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Choose From Library Tue, 21 Jul 2015 21-55-59 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	matchingCreate View > Choose From Library
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Choose From Library
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Search Web Tue, 21 Jul 2015 21-55-08 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Search Web
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Search Web
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View > Search Web Tue, 21 Jul 2015 21-55-10 GMT.png
+build	21-Jul-2015 14:57:05	matchingCreate View > Search Web
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Create View/Search Web
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-03 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-08 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-12 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-17 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-20 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-25 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-40 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Create View Tue, 21 Jul 2015 21-55-44 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 21-56-44 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > Find Friends
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/Find Friends
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 21-56-48 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > Find Friends
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/Find Friends
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT 2.png
+build	21-Jul-2015 14:57:05	matchingMenu > Find Friends
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/Find Friends
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT 3.png
+build	21-Jul-2015 14:57:05	matchingMenu > Find Friends
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/Find Friends
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > Find Friends
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/Find Friends
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-55-54 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-55-56 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-55-57 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-56-09 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-56-13 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-56-27 GMT 2.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-56-27 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-56-33 GMT 2.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu > My Wishbones Tue, 21 Jul 2015 21-56-33 GMT.png
+build	21-Jul-2015 14:57:05	matchingMenu > My Wishbones
+build	21-Jul-2015 14:57:05	NEW PATH:/Users/wtobey/Desktop/AUITesting/Run 2015-07-21 21:54:56/Menu/My Wishbones
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu Tue, 21 Jul 2015 21-56-36 GMT.png
+build	21-Jul-2015 14:57:05	retrievedPath/Users/wtobey/Desktop/AUITesting/Run 1/Menu Tue, 21 Jul 2015 21-57-00 GMT.png
+build	21-Jul-2015 14:57:05	===================================Removing Trace===================================
+build	21-Jul-2015 14:57:05	===================================Shutting Down Simulators===================================
+build	21-Jul-2015 14:57:07	===================================Erasing Simulators===================================
+build	21-Jul-2015 14:57:09	===================================Quitting Simulators===================================
+build	21-Jul-2015 14:57:09	TESTS SUCCEEDED
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/Automation Results.plist to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/Automation Results.plist
+build	21-Jul-2015 14:57:11	Completed 1 of 175 part(s) with 174 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-create back rect-{{1, 18}, {47, 47}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-create back rect-{{1, 18}, {47, 47}}.png
+build	21-Jul-2015 14:57:11	Completed 2 of 175 part(s) with 173 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-Done rect-{{4, 364}, {60, 47}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-Done rect-{{4, 364}, {60, 47}}.png
+build	21-Jul-2015 14:57:11	Completed 3 of 175 part(s) with 172 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-Edit rect-{{27, 101}, {54, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-Edit rect-{{27, 101}, {54, 35}}.png
+build	21-Jul-2015 14:57:11	Completed 4 of 175 part(s) with 171 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-Done rect-{{307, 24}, {54, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-Done rect-{{307, 24}, {54, 35}}.png
+build	21-Jul-2015 14:57:11	Completed 5 of 175 part(s) with 170 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-profile gear rect-{{328, 561}, {47, 47}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAButton- name-profile gear rect-{{328, 561}, {47, 47}}.png
+build	21-Jul-2015 14:57:11	Completed 6 of 175 part(s) with 169 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-2-56 PM rect-{{161, 1}, {55, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-2-56 PM rect-{{161, 1}, {55, 23}}.png
+build	21-Jul-2015 14:57:11	Completed 7 of 175 part(s) with 168 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-100% battery power rect-{{340, 1}, {29, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-100% battery power rect-{{340, 1}, {29, 23}}.png
+build	21-Jul-2015 14:57:11	Completed 8 of 175 part(s) with 167 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2.png
+build	21-Jul-2015 14:57:11	Completed 9 of 175 part(s) with 166 file(s) remaining
+build	21-Jul-2015 14:57:11	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAApplication- name-Wishbone rect-{{0, 24}, {375, 642}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAApplication- name-Wishbone rect-{{0, 24}, {375, 642}}.png
+build	21-Jul-2015 14:57:11	Completed 10 of 175 part(s) with 165 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-3 of 3 Wi-Fi bars rect-{{57, 1}, {15, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-3 of 3 Wi-Fi bars rect-{{57, 1}, {15, 23}}.png
+build	21-Jul-2015 14:57:12	Completed 11 of 175 part(s) with 164 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top rect-{{7, 1}, {45, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAElement- name-Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top rect-{{7, 1}, {45, 23}}.png
+build	21-Jul-2015 14:57:12	Completed 12 of 175 part(s) with 163 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-age-img.png rect-{{19, 369}, {13, 16}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-age-img.png rect-{{19, 369}, {13, 16}}.png
+build	21-Jul-2015 14:57:12	Completed 13 of 175 part(s) with 162 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-available-mark.png rect-{{342, 38}, {11, 11}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-available-mark.png rect-{{342, 38}, {11, 11}}.png
+build	21-Jul-2015 14:57:12	Completed 14 of 175 part(s) with 161 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-email-img.png rect-{{19, 203}, {18, 13}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-email-img.png rect-{{19, 203}, {18, 13}}.png
+build	21-Jul-2015 14:57:12	Completed 15 of 175 part(s) with 160 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-gender-img.png rect-{{19, 312}, {13, 16}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-gender-img.png rect-{{19, 312}, {13, 16}}.png
+build	21-Jul-2015 14:57:12	Completed 16 of 175 part(s) with 159 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-user-handle-img.png rect-{{117, 45}, {13, 16}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-user-handle-img.png rect-{{117, 45}, {13, 16}}.png
+build	21-Jul-2015 14:57:12	Completed 17 of 175 part(s) with 158 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-phone-img.png rect-{{19, 256}, {12, 16}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-phone-img.png rect-{{19, 256}, {12, 16}}.png
+build	21-Jul-2015 14:57:12	Completed 18 of 175 part(s) with 157 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{0, 361}, {375, 1}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{0, 361}, {375, 1}}.png
+build	21-Jul-2015 14:57:12	Completed 19 of 175 part(s) with 156 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-user-name-img.png rect-{{117, 96}, {15, 15}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- name-user-name-img.png rect-{{117, 96}, {15, 15}}.png
+build	21-Jul-2015 14:57:12	Completed 20 of 175 part(s) with 155 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{0, 362}, {375, 52}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{0, 362}, {375, 52}}.png
+build	21-Jul-2015 14:57:12	Completed 21 of 175 part(s) with 154 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{19, 39}, {70, 70}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{19, 39}, {70, 70}}.png
+build	21-Jul-2015 14:57:12	Completed 22 of 175 part(s) with 153 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{367, 594}, {8, 3}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{367, 594}, {8, 3}}.png
+build	21-Jul-2015 14:57:12	Completed 23 of 175 part(s) with 152 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{372, 589}, {3, 8}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAImage- rect-{{372, 589}, {3, 8}}.png
+build	21-Jul-2015 14:57:12	Completed 24 of 175 part(s) with 151 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPicker- rect-{{0, 413}, {375, 253}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPicker- rect-{{0, 413}, {375, 253}}.png
+build	21-Jul-2015 14:57:12	Completed 25 of 175 part(s) with 150 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPickerWheel- value-21 rect-{{197, 369}, {54, 341}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPickerWheel- value-21 rect-{{197, 369}, {54, 341}}.png
+build	21-Jul-2015 14:57:12	Completed 26 of 175 part(s) with 149 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPickerWheel- value-2015 rect-{{257, 369}, {84, 341}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPickerWheel- value-2015 rect-{{257, 369}, {84, 341}}.png
+build	21-Jul-2015 14:57:12	Completed 27 of 175 part(s) with 148 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPickerWheel- value-July rect-{{34, 369}, {157, 341}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAPickerWheel- value-July rect-{{34, 369}, {157, 341}}.png
+build	21-Jul-2015 14:57:12	Completed 28 of 175 part(s) with 147 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAScrollView- rect-{{0, 65}, {375, 601}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAScrollView- rect-{{0, 65}, {375, 601}}.png
+build	21-Jul-2015 14:57:12	Completed 29 of 175 part(s) with 146 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAStaticText- name-Private Information value-Private Information rect-{{19, 155}, {338, 25}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAStaticText- name-Private Information value-Private Information rect-{{19, 155}, {338, 25}}.png
+build	21-Jul-2015 14:57:12	Completed 30 of 175 part(s) with 145 file(s) remaining
+build	21-Jul-2015 14:57:12	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAStaticText- name-Edit Profile value-Edit Profile rect-{{81, 29}, {214, 25}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAStaticText- name-Edit Profile value-Edit Profile rect-{{81, 29}, {214, 25}}.png
+build	21-Jul-2015 14:57:12	Completed 31 of 175 part(s) with 144 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAStatusBar- rect-{{0, 1}, {375, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAStatusBar- rect-{{0, 1}, {375, 23}}.png
+build	21-Jul-2015 14:57:13	Completed 32 of 175 part(s) with 143 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-0000-00-00 rect-{{47, 351}, {308, 35}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-0000-00-00 rect-{{47, 351}, {308, 35}} 2.png
+build	21-Jul-2015 14:57:13	Completed 33 of 175 part(s) with 142 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-0000-00-00 rect-{{47, 351}, {308, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-0000-00-00 rect-{{47, 351}, {308, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 34 of 175 part(s) with 141 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Email rect-{{47, 181}, {309, 35}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Email rect-{{47, 181}, {309, 35}} 2.png
+build	21-Jul-2015 14:57:13	Completed 35 of 175 part(s) with 140 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Email rect-{{47, 181}, {309, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Email rect-{{47, 181}, {309, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 36 of 175 part(s) with 139 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Male rect-{{47, 294}, {308, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Male rect-{{47, 294}, {308, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 37 of 175 part(s) with 138 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Male rect-{{47, 294}, {308, 35}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Male rect-{{47, 294}, {308, 35}} 2.png
+build	21-Jul-2015 14:57:13	Completed 38 of 175 part(s) with 137 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Name rect-{{139, 76}, {217, 35}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Name rect-{{139, 76}, {217, 35}} 2.png
+build	21-Jul-2015 14:57:13	Completed 39 of 175 part(s) with 136 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Name rect-{{139, 76}, {217, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Name rect-{{139, 76}, {217, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 40 of 175 part(s) with 135 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Phone rect-{{47, 237}, {308, 35}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Phone rect-{{47, 237}, {308, 35}} 2.png
+build	21-Jul-2015 14:57:13	Completed 41 of 175 part(s) with 134 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Phone rect-{{47, 237}, {308, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Phone rect-{{47, 237}, {308, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 42 of 175 part(s) with 133 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Wb_User rect-{{139, 26}, {188, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Wb_User rect-{{139, 26}, {188, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 43 of 175 part(s) with 132 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Wb_User rect-{{139, 35}, {188, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIATextField- value-Wb_User rect-{{139, 35}, {188, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 44 of 175 part(s) with 131 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAToolbar- rect-{{0, 362}, {375, 52}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAToolbar- rect-{{0, 362}, {375, 52}}.png
+build	21-Jul-2015 14:57:13	Completed 45 of 175 part(s) with 130 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 1}, {375, 666}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 1}, {375, 666}} 2.png
+build	21-Jul-2015 14:57:13	Completed 46 of 175 part(s) with 129 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 1}, {375, 666}} 3.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 1}, {375, 666}} 3.png
+build	21-Jul-2015 14:57:13	Completed 47 of 175 part(s) with 128 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 0}, {375, 667}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 0}, {375, 667}}.png
+build	21-Jul-2015 14:57:13	Completed 48 of 175 part(s) with 127 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 1}, {375, 666}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}} 2/UIAWindow- rect-{{0, 1}, {375, 666}}.png
+build	21-Jul-2015 14:57:13	Completed 49 of 175 part(s) with 126 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Friends value- rect-{{189, 26}, {125, 34}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Friends value- rect-{{189, 26}, {125, 34}}.png
+build	21-Jul-2015 14:57:13	Completed 50 of 175 part(s) with 125 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-create card rect-{{314, 26}, {52, 35}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-create card rect-{{314, 26}, {52, 35}}.png
+build	21-Jul-2015 14:57:13	Completed 51 of 175 part(s) with 124 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAApplication- name-Wishbone rect-{{0, 24}, {375, 642}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAApplication- name-Wishbone rect-{{0, 24}, {375, 642}}.png
+build	21-Jul-2015 14:57:13	Completed 52 of 175 part(s) with 123 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Trending value- rect-{{62, 26}, {125, 34}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-Trending value- rect-{{62, 26}, {125, 34}}.png
+build	21-Jul-2015 14:57:13	Completed 53 of 175 part(s) with 122 file(s) remaining
+build	21-Jul-2015 14:57:13	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}.png
+build	21-Jul-2015 14:57:13	Completed 54 of 175 part(s) with 121 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 10.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 10.png
+build	21-Jul-2015 14:57:14	Completed 55 of 175 part(s) with 120 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 11.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 11.png
+build	21-Jul-2015 14:57:14	Completed 56 of 175 part(s) with 119 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 2.png
+build	21-Jul-2015 14:57:14	Completed 57 of 175 part(s) with 118 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 3.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 3.png
+build	21-Jul-2015 14:57:14	Completed 58 of 175 part(s) with 117 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 4.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 4.png
+build	21-Jul-2015 14:57:14	Completed 59 of 175 part(s) with 116 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 5.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 5.png
+build	21-Jul-2015 14:57:14	Completed 60 of 175 part(s) with 115 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 6.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 6.png
+build	21-Jul-2015 14:57:14	Completed 61 of 175 part(s) with 114 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 7.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 7.png
+build	21-Jul-2015 14:57:14	Completed 62 of 175 part(s) with 113 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 8.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 8.png
+build	21-Jul-2015 14:57:14	Completed 63 of 175 part(s) with 112 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 9.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}} 9.png
+build	21-Jul-2015 14:57:14	Completed 64 of 175 part(s) with 111 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{0, 1}, {48, 48}}.png
+build	21-Jul-2015 14:57:14	Completed 65 of 175 part(s) with 110 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{318, 492}, {48, 48}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAButton- name-new share rect-{{318, 492}, {48, 48}}.png
+build	21-Jul-2015 14:57:14	Completed 66 of 175 part(s) with 109 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-100% battery power rect-{{340, 1}, {29, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-100% battery power rect-{{340, 1}, {29, 23}}.png
+build	21-Jul-2015 14:57:14	Completed 67 of 175 part(s) with 108 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-2-55 PM rect-{{161, 1}, {55, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-2-55 PM rect-{{161, 1}, {55, 23}}.png
+build	21-Jul-2015 14:57:14	Completed 68 of 175 part(s) with 107 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-3 of 3 Wi-Fi bars rect-{{57, 1}, {15, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-3 of 3 Wi-Fi bars rect-{{57, 1}, {15, 23}}.png
+build	21-Jul-2015 14:57:14	Completed 69 of 175 part(s) with 106 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top rect-{{7, 1}, {45, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAElement- name-Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top rect-{{7, 1}, {45, 23}}.png
+build	21-Jul-2015 14:57:14	Completed 70 of 175 part(s) with 105 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-Nav-Header-Logo rect-{{179, 34}, {18, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-Nav-Header-Logo rect-{{179, 34}, {18, 21}}.png
+build	21-Jul-2015 14:57:14	Completed 71 of 175 part(s) with 104 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-menu.png rect-{{18, 39}, {23, 9}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- name-menu.png rect-{{18, 39}, {23, 9}}.png
+build	21-Jul-2015 14:57:14	Completed 72 of 175 part(s) with 103 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- rect-{{0, 666}, {375, 1}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- rect-{{0, 666}, {375, 1}}.png
+build	21-Jul-2015 14:57:14	Completed 73 of 175 part(s) with 102 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIASegmentedControl- rect-{{62, 26}, {252, 34}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIASegmentedControl- rect-{{62, 26}, {252, 34}}.png
+build	21-Jul-2015 14:57:14	Completed 74 of 175 part(s) with 101 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- rect-{{0, 666}, {375, 52}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAImage- rect-{{0, 666}, {375, 52}}.png
+build	21-Jul-2015 14:57:14	Completed 75 of 175 part(s) with 100 file(s) remaining
+build	21-Jul-2015 14:57:14	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-10:12 value-10:12 rect-{{0, 0}, {36, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-10:12 value-10:12 rect-{{0, 0}, {36, 17}}.png
+build	21-Jul-2015 14:57:14	Completed 76 of 175 part(s) with 99 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-11:12 value-11:12 rect-{{0, 0}, {34, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-11:12 value-11:12 rect-{{0, 0}, {34, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 77 of 175 part(s) with 98 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-12:12 value-12:12 rect-{{0, 0}, {34, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-12:12 value-12:12 rect-{{0, 0}, {34, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 78 of 175 part(s) with 97 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-1:12 value-1:12 rect-{{170, 142}, {32, 20}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-1:12 value-1:12 rect-{{170, 142}, {32, 20}}.png
+build	21-Jul-2015 14:57:15	Completed 79 of 175 part(s) with 96 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-384504 votes value-384504 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-384504 votes value-384504 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 80 of 175 part(s) with 95 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-2:12 value-2:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-2:12 value-2:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 81 of 175 part(s) with 94 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-3:12 value-3:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-3:12 value-3:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 82 of 175 part(s) with 93 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-392055 votes value-392055 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-392055 votes value-392055 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 83 of 175 part(s) with 92 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-398882 votes value-398882 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-398882 votes value-398882 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 84 of 175 part(s) with 91 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-400127 votes value-400127 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-400127 votes value-400127 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 85 of 175 part(s) with 90 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-401979 votes value-401979 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-401979 votes value-401979 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 86 of 175 part(s) with 89 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-406035 votes value-406035 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-406035 votes value-406035 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 87 of 175 part(s) with 88 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-403915 votes value-403915 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-403915 votes value-403915 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 88 of 175 part(s) with 87 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-411118 votes value-411118 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-411118 votes value-411118 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 89 of 175 part(s) with 86 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-412849 votes value-412849 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-412849 votes value-412849 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 90 of 175 part(s) with 85 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-416463 votes value-416463 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-416463 votes value-416463 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 91 of 175 part(s) with 84 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-419033 votes value-419033 votes rect-{{0, 0}, {90, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-419033 votes value-419033 votes rect-{{0, 0}, {90, 21}}.png
+build	21-Jul-2015 14:57:15	Completed 92 of 175 part(s) with 83 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-4:12 value-4:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-4:12 value-4:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 93 of 175 part(s) with 82 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-422917 votes value-422917 votes rect-{{251, 568}, {105, 25}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-422917 votes value-422917 votes rect-{{251, 568}, {105, 25}}.png
+build	21-Jul-2015 14:57:15	Completed 94 of 175 part(s) with 81 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-5:12 value-5:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-5:12 value-5:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 95 of 175 part(s) with 80 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-6:12 value-6:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-6:12 value-6:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 96 of 175 part(s) with 79 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-7:12 value-7:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-7:12 value-7:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 97 of 175 part(s) with 78 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-8:12 value-8:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-8:12 value-8:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 98 of 175 part(s) with 77 file(s) remaining
+build	21-Jul-2015 14:57:15	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-9:12 value-9:12 rect-{{0, 0}, {28, 17}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-9:12 value-9:12 rect-{{0, 0}, {28, 17}}.png
+build	21-Jul-2015 14:57:15	Completed 99 of 175 part(s) with 76 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Animal Friendly  value-Animal Friendly  rect-{{0, 0}, {144, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Animal Friendly  value-Animal Friendly  rect-{{0, 0}, {144, 21}}.png
+build	21-Jul-2015 14:57:16	Completed 100 of 175 part(s) with 75 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Celeb Obsessed  value-Celeb Obsessed  rect-{{0, 0}, {144, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Celeb Obsessed  value-Celeb Obsessed  rect-{{0, 0}, {144, 21}}.png
+build	21-Jul-2015 14:57:16	Completed 101 of 175 part(s) with 74 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Be in a freezing bath or boiling hot bath? value-Be in a freezing bath or boiling hot bath? rect-{{0, 0}, {288, 38}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Be in a freezing bath or boiling hot bath? value-Be in a freezing bath or boiling hot bath? rect-{{0, 0}, {288, 38}}.png
+build	21-Jul-2015 14:57:16	Completed 102 of 175 part(s) with 73 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Community value-Community rect-{{197, 625}, {169, 25}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Community value-Community rect-{{197, 625}, {169, 25}}.png
+build	21-Jul-2015 14:57:16	Completed 103 of 175 part(s) with 72 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Contact Us value-Contact Us rect-{{23, 4}, {328, 25}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Contact Us value-Contact Us rect-{{23, 4}, {328, 25}}.png
+build	21-Jul-2015 14:57:16	Completed 104 of 175 part(s) with 71 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Daily Dozen value-Daily Dozen rect-{{9, 625}, {169, 25}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Daily Dozen value-Daily Dozen rect-{{9, 625}, {169, 25}}.png
+build	21-Jul-2015 14:57:16	Completed 105 of 175 part(s) with 70 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Do you have more fun with your family or friends? value-Do you have more fun with your family or friends? rect-{{0, 0}, {288, 38}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Do you have more fun with your family or friends? value-Do you have more fun with your family or friends? rect-{{0, 0}, {288, 38}}.png
+build	21-Jul-2015 14:57:16	Completed 106 of 175 part(s) with 69 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Do you prefer humid or dry weather? value-Do you prefer humid or dry weather? rect-{{0, 0}, {288, 19}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Do you prefer humid or dry weather? value-Do you prefer humid or dry weather? rect-{{0, 0}, {288, 19}}.png
+build	21-Jul-2015 14:57:16	Completed 107 of 175 part(s) with 68 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Fashion value-Fashion rect-{{0, 0}, {144, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Fashion value-Fashion rect-{{0, 0}, {144, 21}}.png
+build	21-Jul-2015 14:57:16	Completed 108 of 175 part(s) with 67 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{0, 0}, {144, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{0, 0}, {144, 21}}.png
+build	21-Jul-2015 14:57:16	Completed 109 of 175 part(s) with 66 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{74, 569}, {169, 25}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Films&TV  value-Films&TV  rect-{{74, 569}, {169, 25}}.png
+build	21-Jul-2015 14:57:16	Completed 110 of 175 part(s) with 65 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 2.png
+build	21-Jul-2015 14:57:16	Completed 111 of 175 part(s) with 64 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Hot or Not value-Hot or Not rect-{{0, 0}, {144, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Hot or Not value-Hot or Not rect-{{0, 0}, {144, 21}}.png
+build	21-Jul-2015 14:57:16	Completed 112 of 175 part(s) with 63 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 3.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 3.png
+build	21-Jul-2015 14:57:16	Completed 113 of 175 part(s) with 62 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 4.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}} 4.png
+build	21-Jul-2015 14:57:16	Completed 114 of 175 part(s) with 61 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Life Posts value-Life Posts rect-{{0, 0}, {144, 21}}.png
+build	21-Jul-2015 14:57:16	Completed 115 of 175 part(s) with 60 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Neck or foot massages? value-Neck or foot massages? rect-{{0, 0}, {288, 19}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Neck or foot massages? value-Neck or foot massages? rect-{{0, 0}, {288, 19}}.png
+build	21-Jul-2015 14:57:16	Completed 116 of 175 part(s) with 59 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Sexy or classy? value-Sexy or classy? rect-{{0, 0}, {288, 19}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Sexy or classy? value-Sexy or classy? rect-{{0, 0}, {288, 19}}.png
+build	21-Jul-2015 14:57:16	Completed 117 of 175 part(s) with 58 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-What's worse peeling or being burned?  value-What's worse peeling or being burned?  rect-{{0, 0}, {288, 38}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-What's worse peeling or being burned?  value-What's worse peeling or being burned?  rect-{{0, 0}, {288, 38}}.png
+build	21-Jul-2015 14:57:16	Completed 118 of 175 part(s) with 57 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-What's worse, clumpy lashes or lipstick on teeth? value-What's worse, clumpy lashes or lipstick on teeth? rect-{{0, 0}, {288, 38}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-What's worse, clumpy lashes or lipstick on teeth? value-What's worse, clumpy lashes or lipstick on teeth? rect-{{0, 0}, {288, 38}}.png
+build	21-Jul-2015 14:57:16	Completed 119 of 175 part(s) with 56 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which disney princess set is better? value-Which disney princess set is better? rect-{{19, 94}, {338, 22}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which disney princess set is better? value-Which disney princess set is better? rect-{{19, 94}, {338, 22}}.png
+build	21-Jul-2015 14:57:16	Completed 120 of 175 part(s) with 55 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which mean girls quote? value-Which mean girls quote? rect-{{0, 0}, {288, 19}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Which mean girls quote? value-Which mean girls quote? rect-{{0, 0}, {288, 19}}.png
+build	21-Jul-2015 14:57:16	Completed 121 of 175 part(s) with 54 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Who's hotter? value-Who's hotter? rect-{{0, 0}, {288, 19}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Who's hotter? value-Who's hotter? rect-{{0, 0}, {288, 19}}.png
+build	21-Jul-2015 14:57:16	Completed 122 of 175 part(s) with 53 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}}.png
+build	21-Jul-2015 14:57:16	Completed 123 of 175 part(s) with 52 file(s) remaining
+build	21-Jul-2015 14:57:16	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would You Rather value-Would You Rather rect-{{0, 0}, {144, 21}} 2.png
+build	21-Jul-2015 14:57:16	Completed 124 of 175 part(s) with 51 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather be a firefly or a butterfly? value-Would you rather be a firefly or a butterfly? rect-{{0, 0}, {288, 38}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather be a firefly or a butterfly? value-Would you rather be a firefly or a butterfly? rect-{{0, 0}, {288, 38}}.png
+build	21-Jul-2015 14:57:17	Completed 125 of 175 part(s) with 50 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStatusBar- rect-{{0, 1}, {375, 23}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStatusBar- rect-{{0, 1}, {375, 23}}.png
+build	21-Jul-2015 14:57:17	Completed 126 of 175 part(s) with 49 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather go water rafting or cliff diving?  value-Would you rather go water rafting or cliff diving?  rect-{{0, 0}, {288, 38}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAStaticText- name-Would you rather go water rafting or cliff diving?  value-Would you rather go water rafting or cliff diving?  rect-{{0, 0}, {288, 38}}.png
+build	21-Jul-2015 14:57:17	Completed 127 of 175 part(s) with 48 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Contact Us value- rect-{{0, -18}, {375, 52}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Contact Us value- rect-{{0, -18}, {375, 52}}.png
+build	21-Jul-2015 14:57:17	Completed 128 of 175 part(s) with 47 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Do you have more fun with your family or friends? value- rect-{{0, 666}, {375, 601}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Do you have more fun with your family or friends? value- rect-{{0, 666}, {375, 601}}.png
+build	21-Jul-2015 14:57:17	Completed 129 of 175 part(s) with 46 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAToolbar- rect-{{0, 666}, {375, 52}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAToolbar- rect-{{0, 666}, {375, 52}}.png
+build	21-Jul-2015 14:57:17	Completed 130 of 175 part(s) with 45 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-rows 1 to 5 of 5 rect-{{0, -224}, {375, 284}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-rows 1 to 5 of 5 rect-{{0, -224}, {375, 284}}.png
+build	21-Jul-2015 14:57:17	Completed 131 of 175 part(s) with 44 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-moved to row 1 of 12 rect-{{0, 65}, {375, 601}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableView- value-moved to row 1 of 12 rect-{{0, 65}, {375, 601}}.png
+build	21-Jul-2015 14:57:17	Completed 132 of 175 part(s) with 43 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Which disney princess set is better? value- rect-{{0, 65}, {375, 601}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIATableCell- name-Which disney princess set is better? value- rect-{{0, 65}, {375, 601}}.png
+build	21-Jul-2015 14:57:17	Completed 133 of 175 part(s) with 42 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 0}, {375, 667}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 0}, {375, 667}}.png
+build	21-Jul-2015 14:57:17	Completed 134 of 175 part(s) with 41 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}} 3.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}} 3.png
+build	21-Jul-2015 14:57:17	Completed 135 of 175 part(s) with 40 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}} 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}} 2.png
+build	21-Jul-2015 14:57:17	Completed 136 of 175 part(s) with 39 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/Create View/Add Sticker/Create View > Add Sticker Tue, 21 Jul 2015 21-55-19 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Add Sticker/Create View > Add Sticker Tue, 21 Jul 2015 21-55-19 GMT.png
+build	21-Jul-2015 14:57:17	Completed 137 of 175 part(s) with 38 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-26 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-26 GMT.png
+build	21-Jul-2015 14:57:17	Completed 138 of 175 part(s) with 37 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-29 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-29 GMT.png
+build	21-Jul-2015 14:57:17	Completed 139 of 175 part(s) with 36 file(s) remaining
+build	21-Jul-2015 14:57:17	upload: Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}}.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/ArchivedRun 2015-07-21 21:54:56/UIATarget- name-iPhone Simulator rect-{{0, 0}, {375, 667}}/UIAWindow- rect-{{0, 1}, {375, 666}}.png
+build	21-Jul-2015 14:57:17	Completed 140 of 175 part(s) with 35 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-30 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-30 GMT.png
+build	21-Jul-2015 14:57:18	Completed 141 of 175 part(s) with 34 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-57 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-57 GMT.png
+build	21-Jul-2015 14:57:18	Completed 142 of 175 part(s) with 33 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-58 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-58 GMT.png
+build	21-Jul-2015 14:57:18	Completed 143 of 175 part(s) with 32 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-59 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Choose From Library/Create View > Choose From Library Tue, 21 Jul 2015 21-55-59 GMT.png
+build	21-Jul-2015 14:57:18	Completed 144 of 175 part(s) with 31 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-08 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-08 GMT.png
+build	21-Jul-2015 14:57:18	Completed 145 of 175 part(s) with 30 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-12 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-12 GMT.png
+build	21-Jul-2015 14:57:18	Completed 146 of 175 part(s) with 29 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-03 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-03 GMT.png
+build	21-Jul-2015 14:57:18	Completed 147 of 175 part(s) with 28 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-17 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-17 GMT.png
+build	21-Jul-2015 14:57:18	Completed 148 of 175 part(s) with 27 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-25 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-25 GMT.png
+build	21-Jul-2015 14:57:18	Completed 149 of 175 part(s) with 26 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-20 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-20 GMT.png
+build	21-Jul-2015 14:57:18	Completed 150 of 175 part(s) with 25 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-44 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-44 GMT.png
+build	21-Jul-2015 14:57:18	Completed 151 of 175 part(s) with 24 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-40 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Create View Tue, 21 Jul 2015 21-55-40 GMT.png
+build	21-Jul-2015 14:57:18	Completed 152 of 175 part(s) with 23 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Search Web/Create View > Search Web Tue, 21 Jul 2015 21-55-08 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Search Web/Create View > Search Web Tue, 21 Jul 2015 21-55-08 GMT.png
+build	21-Jul-2015 14:57:18	Completed 153 of 175 part(s) with 22 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/Create View/Search Web/Create View > Search Web Tue, 21 Jul 2015 21-55-10 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Create View/Search Web/Create View > Search Web Tue, 21 Jul 2015 21-55-10 GMT.png
+build	21-Jul-2015 14:57:18	Completed 154 of 175 part(s) with 21 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-54-56 GMT 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-54-56 GMT 2.png
+build	21-Jul-2015 14:57:18	Completed 155 of 175 part(s) with 20 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-54-56 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-54-56 GMT.png
+build	21-Jul-2015 14:57:18	Completed 156 of 175 part(s) with 19 file(s) remaining
+build	21-Jul-2015 14:57:18	upload: Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-54-56 GMT 3.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-54-56 GMT 3.png
+build	21-Jul-2015 14:57:18	Completed 157 of 175 part(s) with 18 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-44 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-44 GMT.png
+build	21-Jul-2015 14:57:19	Completed 158 of 175 part(s) with 17 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-48 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-48 GMT.png
+build	21-Jul-2015 14:57:19	Completed 159 of 175 part(s) with 16 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-55-01 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/First Screen/First Screen Tue, 21 Jul 2015 21-55-01 GMT.png
+build	21-Jul-2015 14:57:19	Completed 160 of 175 part(s) with 15 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT 2.png
+build	21-Jul-2015 14:57:19	Completed 161 of 175 part(s) with 14 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT 3.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT 3.png
+build	21-Jul-2015 14:57:19	Completed 162 of 175 part(s) with 13 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/Find Friends/Menu > Find Friends Tue, 21 Jul 2015 21-56-55 GMT.png
+build	21-Jul-2015 14:57:19	Completed 163 of 175 part(s) with 12 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/Menu Tue, 21 Jul 2015 21-56-36 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/Menu Tue, 21 Jul 2015 21-56-36 GMT.png
+build	21-Jul-2015 14:57:19	Completed 164 of 175 part(s) with 11 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/Menu Tue, 21 Jul 2015 21-57-00 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/Menu Tue, 21 Jul 2015 21-57-00 GMT.png
+build	21-Jul-2015 14:57:19	Completed 165 of 175 part(s) with 10 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-55-56 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-55-56 GMT.png
+build	21-Jul-2015 14:57:19	Completed 166 of 175 part(s) with 9 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-55-54 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-55-54 GMT.png
+build	21-Jul-2015 14:57:19	Completed 167 of 175 part(s) with 8 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-55-57 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-55-57 GMT.png
+build	21-Jul-2015 14:57:19	Completed 168 of 175 part(s) with 7 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-09 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-09 GMT.png
+build	21-Jul-2015 14:57:19	Completed 169 of 175 part(s) with 6 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-13 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-13 GMT.png
+build	21-Jul-2015 14:57:19	Completed 170 of 175 part(s) with 5 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-27 GMT 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-27 GMT 2.png
+build	21-Jul-2015 14:57:19	Completed 171 of 175 part(s) with 4 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-27 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-27 GMT.png
+build	21-Jul-2015 14:57:19	Completed 172 of 175 part(s) with 3 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-33 GMT 2.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-33 GMT 2.png
+build	21-Jul-2015 14:57:19	Completed 173 of 175 part(s) with 2 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-33 GMT.png to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/Menu/My Wishbones/Menu > My Wishbones Tue, 21 Jul 2015 21-56-33 GMT.png
+build	21-Jul-2015 14:57:19	Completed 174 of 175 part(s) with 1 file(s) remaining
+build	21-Jul-2015 14:57:19	upload: Run 2015-07-21 21:54:56/RunSummary.txt to s3://wishbone-auitesting/Run 2015-07-21 21:54:56/RunSummary.txt
+build	21-Jul-2015 14:57:19	===================================Running Mailer.py===================================
+simple	21-Jul-2015 14:57:22	Finished task 'Build and Run' with result: Success
+simple	21-Jul-2015 14:57:22	Running post build plugin 'npm Cache Cleanup'
+simple	21-Jul-2015 14:57:22	Running post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 14:57:22	Running post build plugin 'Clover Results Collector'
+simple	21-Jul-2015 14:57:22	Running post build plugin 'Docker Container Cleanup'
+simple	21-Jul-2015 14:57:22	Running post build plugin 'Artifact Copier'
+simple	21-Jul-2015 14:57:22	Finalising the build...
+simple	21-Jul-2015 14:57:22	Stopping timer.
+simple	21-Jul-2015 14:57:22	Build WUT-BT-JOB1-146 completed.
+simple	21-Jul-2015 14:57:22	Running on server: post build plugin 'NCover Results Collector'
+simple	21-Jul-2015 14:57:22	Running on server: post build plugin 'Clover Delta Calculator'
+simple	21-Jul-2015 14:57:22	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	21-Jul-2015 14:57:22	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	21-Jul-2015 14:57:22	All post build plugins have finished
+simple	21-Jul-2015 14:57:22	Generating build results summary...
+simple	21-Jul-2015 14:57:22	Saving build results to disk...
+simple	21-Jul-2015 14:57:22	Logging substituted variables...
+simple	21-Jul-2015 14:57:22	Indexing build results...
+simple	21-Jul-2015 14:57:22	Finished building WUT-BT-JOB1-146.

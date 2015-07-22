@@ -1,0 +1,17 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>usage: rm [-f | -i] [-dPRrvW] file ...</string>
+    <string>       unlink file</string>
+    <string>delete.sh: line 2: /Users/wtobey//Library/Developer/CoreSimulator/Devices/895A471B-7581-47E8-A0F7-264E9BEB33E1/data/Containers/Bundle/Application/2D060A89-7AA0-4914-AAE2-7EFBA7A2721C/Wishbone.app: is a directory</string>
+  </myBuildErrors>
+  <myBuildNumber>69</myBuildNumber>
+  <myBuildDate>1436996397169</myBuildDate>
+  <myBuildDuration>690751</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

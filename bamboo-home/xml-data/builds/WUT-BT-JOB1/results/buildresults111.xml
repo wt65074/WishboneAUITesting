@@ -1,0 +1,26 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>Jul 17 14:30:40 Wills-MacBook-Pro.local instruments[5241] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:30:40 Wills-MacBook-Pro.local instruments[5241] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:30:40 Wills-MacBook-Pro.local instruments[5241] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>Jul 17 14:30:40 Wills-MacBook-Pro.local instruments[5241] &lt;Error&gt;: CGImageCreateWithImageProvider: invalid image size: 0 x 0.</string>
+    <string>2015-07-17 14:31:10.986 instruments[5241:1116777] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>2015-07-17 14:31:10.986 instruments[5241:1111898] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>Traceback (most recent call last):</string>
+    <string>  File &quot;parser.py&quot;, line 171, in &lt;module&gt;</string>
+    <string>    shutil.move(retrievedPath, path + &quot;/&quot; + subtest)</string>
+    <string>  File &quot;/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py&quot;, line 291, in move</string>
+    <string>    raise Error, &quot;Destination path &apos;%s&apos; already exists&quot; % real_dst</string>
+    <string>shutil.Error: Destination path &apos;/Users/wtobey/Desktop/AUITesting/Run 2015-07-17 21:24:21/Create View/Choose From Library/Create View &gt; Choose From Library Fri, 17 Jul 2015 21-24-51 GMT.png&apos; already exists</string>
+  </myBuildErrors>
+  <myBuildNumber>111</myBuildNumber>
+  <myBuildDate>1437168241952</myBuildDate>
+  <myBuildDuration>450596</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

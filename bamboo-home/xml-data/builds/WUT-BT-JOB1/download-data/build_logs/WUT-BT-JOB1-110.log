@@ -1,0 +1,921 @@
+simple	17-Jul-2015 14:18:16	Build Wishbone UI Testing - Build and Test - Default Job #110 (WUT-BT-JOB1-110) started building on agent Default Agent
+simple	17-Jul-2015 14:18:16	
+simple	17-Jul-2015 14:18:16	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	17-Jul-2015 14:18:16	Executing build Wishbone UI Testing - Build and Test - Default Job #110 (WUT-BT-JOB1-110)
+simple	17-Jul-2015 14:18:16	Running pre-build action: VCS Version Collector
+simple	17-Jul-2015 14:18:16	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	17-Jul-2015 14:18:16	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #110 (WUT-BT-JOB1-110)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-110-ScriptBuildTask-4007986646281807408.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-110\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=110\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-110\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-17T14:18:16.422-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-110\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	17-Jul-2015 14:18:16	===================================Building Wishbone.app===================================
+build	17-Jul-2015 14:18:17	=== BUILD TARGET Wishbone OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	17-Jul-2015 14:18:17	
+build	17-Jul-2015 14:18:17	Check dependencies
+build	17-Jul-2015 14:18:18	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Millennial/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 14:18:18	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 14:18:18	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Chartboost/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 14:18:18	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/SDWebImage/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 14:18:18	warning: no rule to process file '/Users/wtobey/Desktop/Wishbone/Wishbone/Shared/MoPubSDK/AdNetworkSupport/Vungle/SDK/README.md' of type net.daringfireball.markdown for architecture x86_64
+build	17-Jul-2015 14:18:18	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/LICENSE
+build	17-Jul-2015 14:18:18	Warning: Multiple build commands for output file /Users/wtobey/Library/Developer/Xcode/DerivedData/Wishbone-eekgnurymbvwimgmkjagwaqhgzyt/Build/Products/Debug-iphonesimulator/Wishbone.app/Line@2x.png
+build	17-Jul-2015 14:18:18	
+build	17-Jul-2015 14:18:19	=== BUILD TARGET WishboneTests OF PROJECT Wishbone WITH CONFIGURATION Debug ===
+build	17-Jul-2015 14:18:19	
+build	17-Jul-2015 14:18:19	Check dependencies
+build	17-Jul-2015 14:18:19	
+build	17-Jul-2015 14:18:29	** TEST SUCCEEDED **
+build	17-Jul-2015 14:18:29	
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:27.774 Wishbone[5079:1082369] Flurry: Starting session on Agent Version [Flurry_iOS_142_6.0.0] 
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:27.837 Wishbone[5079:1082369] <Google> ACTConversionIDReporter: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&bundleid=com.Science.Cyclops&label=ZhphCPH6g1YQzqa60AM&lat=0&muid=DPqKuzUXz6Q181bVAlF-Mw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437167907.833356&usage_tracking_enabled=1&value=1.00.
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:27.853 Wishbone[5079:1082369] ADCOLONY 2.4.13.11 [info] AdColony library version: 2.4.13.11 64-bit production
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:27.938 Wishbone[5079:1082954] ADCOLONY 2.4.13.11 [info] Developer logging enabled
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.128 Wishbone[5079:1082369] AppsFlyer SDK version 2.5.3.15 started
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.129 Wishbone[5079:1082981] Resolved media.playhaven.com -> 48.190.2.15
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.133 Wishbone[5079:1082980] Resolved sdk-api-ssl.playhaven.com -> 48.190.2.15
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.257 Wishbone[5079:1082369] INFO: GoogleAnalytics 3.03c -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.263 Wishbone[5079:1082369] <Google> ACTAutomatedUsageReporterPrivate: sending ping: https://www.googleadservices.com/pagead/conversion/974033742/?appversion=2.8.7&auto=1&bundleid=com.Science.Cyclops&lat=0&muid=DPqKuzUXz6Q181bVAlF-Mw&osversion=8.4&sdkversion=ct-sdk-i-v3.1.1&timestamp=1437171508.262194&usage_tracking_enabled=1.
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.288 Wishbone[5079:1082369] [PlayHaven-2.0.2] Sending request: https://sdk-api-ssl.playhaven.com/v3/publisher/open/?ifa=47C9912D-1CA6-4525-8C70-24BF0A58F8CE&tz=-7.0&app_version=2.8.7&scount=1&os=iPhone+OS+8.4&sig4=58fPYGWsuq5Gdc7y77vrdOhK_nI&plugin=ios&nonce=ecqcpV-9Efd-EFDxESrt0ePNDHM&sdk-ios=2.0.2&token=6b9f6fb7b24d47128221cc82c3b43553&hardware=iPhone+Simulator&connection=2&idfv=2352BCAC-2561-4CBE-8E88-BC2D74DB6AFC&scale=2&height=568&tracking=1&width=320&opt_out=0&ssum=0&languages=en&idiom=0&app=com.Science.Cyclops
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.422 Wishbone[5079:1082954] ADCOLONY 2.4.13.11 [trace] Configuration succeeded!
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.443 Wishbone[5079:1082954] ADCOLONY 2.4.13.11 [info] Ads are not ready for zone vz28b7f3058a8a4bbb94
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.488 Wishbone[5079:1082944] VERBOSE: GoogleAnalytics 3.03c -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:418): Saved hit: {
+build	17-Jul-2015 14:18:29	    parameters =     {
+build	17-Jul-2015 14:18:29	        "&_u" = ".etno";
+build	17-Jul-2015 14:18:29	        "&_v" = "mi3.0.3c";
+build	17-Jul-2015 14:18:29	        "&an" = Wishbone;
+build	17-Jul-2015 14:18:29	        "&av" = "3.0.5";
+build	17-Jul-2015 14:18:29	        "&cd" = "Login View";
+build	17-Jul-2015 14:18:29	        "&cid" = "1e7aadd8-5918-4626-b883-7c0b18fdc6ae";
+build	17-Jul-2015 14:18:29	        "&sr" = 320x568;
+build	17-Jul-2015 14:18:29	        "&t" = appview;
+build	17-Jul-2015 14:18:29	        "&tid" = "UA-48537804-1";
+build	17-Jul-2015 14:18:29	        "&ul" = en;
+build	17-Jul-2015 14:18:29	        "&v" = 1;
+build	17-Jul-2015 14:18:29	        "&z" = 6710744049485861298;
+build	17-Jul-2015 14:18:29	        gaiVersion = "3.03c";
+build	17-Jul-2015 14:18:29	    };
+build	17-Jul-2015 14:18:29	    timestamp = "2015-07-17 21:18:28 +0000";
+build	17-Jul-2015 14:18:29	}
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.534 Wishbone[5079:1082369] <Google> ping successful.
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.537 Wishbone[5079:1082369] <Google> ping successful.
+build	17-Jul-2015 14:18:29	Test Suite 'All tests' started at 2015-07-17 21:18:28 +0000
+build	17-Jul-2015 14:18:29	Test Suite 'WishboneTests.xctest' started at 2015-07-17 21:18:28 +0000
+build	17-Jul-2015 14:18:29	Test Suite 'WishboneTests' started at 2015-07-17 21:18:28 +0000
+build	17-Jul-2015 14:18:29	Test Case '-[WishboneTests testExample]' started.
+build	17-Jul-2015 14:18:29	Test Case '-[WishboneTests testExample]' passed (0.001 seconds).
+build	17-Jul-2015 14:18:29	Test Case '-[WishboneTests testPerformanceExample]' started.
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.637 Wishbone[5079:1082369] [PlayHaven-2.0.2] Request recieved HTTP response: 200
+build	17-Jul-2015 14:18:29	2015-07-17 14:18:28.638 Wishbone[5079:1082369] [PlayHaven-2.0.2] Request finished!
+build	17-Jul-2015 14:18:29	/Users/wtobey/Desktop/Wishbone/WishboneTests/WishboneTests.m:35: Test Case '-[WishboneTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 83.900%, values: [0.000003, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+build	17-Jul-2015 14:18:29	Test Case '-[WishboneTests testPerformanceExample]' passed (0.370 seconds).
+build	17-Jul-2015 14:18:29	Test Suite 'WishboneTests' passed at 2015-07-17 21:18:28 +0000.
+build	17-Jul-2015 14:18:29		 Executed 2 tests, with 0 failures (0 unexpected) in 0.371 (0.373) seconds
+build	17-Jul-2015 14:18:29	Test Suite 'WishboneTests.xctest' passed at 2015-07-17 21:18:28 +0000.
+build	17-Jul-2015 14:18:29		 Executed 2 tests, with 0 failures (0 unexpected) in 0.371 (0.380) seconds
+build	17-Jul-2015 14:18:29	Test Suite 'All tests' passed at 2015-07-17 21:18:28 +0000.
+build	17-Jul-2015 14:18:29		 Executed 2 tests, with 0 failures (0 unexpected) in 0.371 (0.382) seconds
+build	17-Jul-2015 14:18:29	===================================Building instruments.sh===================================
+build	17-Jul-2015 14:18:31	===================================Running instruments.sh===================================
+build	17-Jul-2015 14:18:36	2015-07-17 21:18:36 +0000 Start: First Screen
+build	17-Jul-2015 14:18:36	2015-07-17 21:18:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Fri, 17 Jul 2015 21:18:36 GMT")
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Start: First Screen > Skip Login
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Skip Login"].tap()
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Pass: First Screen > Skip Login
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Fri, 17 Jul 2015 21:18:36 GMT")
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Fri, 17 Jul 2015 21:18:36 GMT")
+build	17-Jul-2015 14:18:37	2015-07-17 21:18:36 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:38	2015-07-17 21:18:38 +0000 Debug: target.frontMostApp().alert().cancelButton().tap()
+build	17-Jul-2015 14:18:39	2015-07-17 21:18:39 +0000 Debug: target.frontMostApp().mainWindow().pageIndicators()[0].withValueForKey("1", "isVisible").selectPage("1")
+build	17-Jul-2015 14:18:41	2015-07-17 21:18:41 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "First Screen Fri, 17 Jul 2015 21:18:41 GMT")
+build	17-Jul-2015 14:18:41	2015-07-17 21:18:41 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:41	2015-07-17 21:18:41 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].withValueForKey("1", "isVisible").scrollViews()[0].buttons()[0].tap()
+build	17-Jul-2015 14:18:43	2015-07-17 21:18:43 +0000 Pass: First Screen
+build	17-Jul-2015 14:18:43	2015-07-17 21:18:43 +0000 Start: Create View
+build	17-Jul-2015 14:18:43	2015-07-17 21:18:43 +0000 Debug: target.frontMostApp().mainWindow().buttons()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:18:43	2015-07-17 21:18:43 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:18:43 GMT")
+build	17-Jul-2015 14:18:43	2015-07-17 21:18:43 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:43	2015-07-17 21:18:43 +0000 Debug: target.frontMostApp().mainWindow().textViews()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:18:44	2015-07-17 21:18:44 +0000 Debug: target.frontMostApp().keyboard().typeString("Test Post")
+build	17-Jul-2015 14:18:47	2015-07-17 21:18:47 +0000 Debug: target.frontMostApp().mainWindow().tapWithOptions({x:"0.5", y:"0.5"})
+build	17-Jul-2015 14:18:47	2015-07-17 21:18:47 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:18:48	2015-07-17 21:18:48 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:18:48 GMT")
+build	17-Jul-2015 14:18:48	2015-07-17 21:18:48 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:48	2015-07-17 21:18:48 +0000 Start: Create View > Search Web
+build	17-Jul-2015 14:18:48	2015-07-17 21:18:48 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Search Web"].tap()
+build	17-Jul-2015 14:18:48	2015-07-17 21:18:48 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Fri, 17 Jul 2015 21:18:48 GMT")
+build	17-Jul-2015 14:18:48	2015-07-17 21:18:48 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:48	2015-07-17 21:18:48 +0000 Debug: target.frontMostApp().keyboard().typeString("Cat\n")
+build	17-Jul-2015 14:18:50	2015-07-17 21:18:50 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Search Web Fri, 17 Jul 2015 21:18:50 GMT")
+build	17-Jul-2015 14:18:50	2015-07-17 21:18:50 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:50	2015-07-17 21:18:50 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:18:52	2015-07-17 21:18:52 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:18:52 GMT")
+build	17-Jul-2015 14:18:52	2015-07-17 21:18:52 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:52	2015-07-17 21:18:52 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	17-Jul-2015 14:18:57	2015-07-17 21:18:57 +0000 Pass: Create View > Search Web
+build	17-Jul-2015 14:18:57	2015-07-17 21:18:57 +0000 Debug: target.frontMostApp().mainWindow().buttons()[1].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:18:57	2015-07-17 21:18:57 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:18:57 GMT")
+build	17-Jul-2015 14:18:57	2015-07-17 21:18:57 +0000 Screenshot captured.
+build	17-Jul-2015 14:18:57	2015-07-17 21:18:57 +0000 Start: Create View > Add Sticker
+build	17-Jul-2015 14:18:57	2015-07-17 21:18:57 +0000 Debug: target.frontMostApp().mainWindow().images()["add-sticker.png"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:18:59	2015-07-17 21:18:59 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:18:59	2015-07-17 21:18:59 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Add Sticker Fri, 17 Jul 2015 21:18:59 GMT")
+build	17-Jul-2015 14:19:00	2015-07-17 21:18:59 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:00	2015-07-17 21:18:59 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:18:59 GMT")
+build	17-Jul-2015 14:19:00	2015-07-17 21:19:00 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:00	2015-07-17 21:19:00 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Ok red"].tap()
+build	17-Jul-2015 14:19:05	2015-07-17 21:19:05 +0000 Pass: Create View > Add Sticker
+build	17-Jul-2015 14:19:05	2015-07-17 21:19:05 +0000 Debug: target.frontMostApp().mainWindow().buttons()[2].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:05	2015-07-17 21:19:05 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:19:05 GMT")
+build	17-Jul-2015 14:19:06	2015-07-17 21:19:05 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:06	2015-07-17 21:19:05 +0000 Start: Create View > Choose From Library
+build	17-Jul-2015 14:19:06	2015-07-17 21:19:05 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Choose from library"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:06	2015-07-17 21:19:06 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Fri, 17 Jul 2015 21:19:06 GMT")
+build	17-Jul-2015 14:19:06	2015-07-17 21:19:06 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:08	2015-07-17 21:19:08 +0000 Debug: target.frontMostApp().alert().defaultButton().tap()
+build	17-Jul-2015 14:19:09	2015-07-17 21:19:09 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:09	2015-07-17 21:19:09 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Fri, 17 Jul 2015 21:19:09 GMT")
+build	17-Jul-2015 14:19:09	2015-07-17 21:19:09 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:09	2015-07-17 21:19:09 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].visibleCells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:10	2015-07-17 21:19:10 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Fri, 17 Jul 2015 21:19:10 GMT")
+build	17-Jul-2015 14:19:10	2015-07-17 21:19:10 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:20	2015-07-17 21:19:20 +0000 Pass: Create View > Choose From Library
+build	17-Jul-2015 14:19:20	2015-07-17 21:19:20 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:19:20 GMT")
+build	17-Jul-2015 14:19:20	2015-07-17 21:19:20 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:20	2015-07-17 21:19:20 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Done"].tap()
+build	17-Jul-2015 14:19:22	2015-07-17 21:19:22 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create share done"].tap()
+build	17-Jul-2015 14:19:23	2015-07-17 21:19:23 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View Fri, 17 Jul 2015 21:19:23 GMT")
+build	17-Jul-2015 14:19:23	2015-07-17 21:19:23 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:23	2015-07-17 21:19:23 +0000 Pass: Create View
+build	17-Jul-2015 14:19:24	2015-07-17 21:19:23 +0000 logElementTree:
+build	17-Jul-2015 14:19:24	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	17-Jul-2015 14:19:24	elements: {
+build	17-Jul-2015 14:19:24		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	17-Jul-2015 14:19:24		elements: {
+build	17-Jul-2015 14:19:24			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	17-Jul-2015 14:19:24			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:19:24			elements: {
+build	17-Jul-2015 14:19:24				UIATableView "(null)" {{0, -224.3125}, {375, 283.59375}}
+build	17-Jul-2015 14:19:24				elements: {
+build	17-Jul-2015 14:19:24					UIATableCell "My Wishbones" {{0, -224.3125}, {375, 51.5625}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "My Wishbones" {{23.4375, -202.046875}, {328.125, 24.609375}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Find Friends" {{0, -172.75}, {375, 51.5625}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Find Friends" {{23.4375, -150.484375}, {328.125, 24.609375}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "About Wishbone" {{0, -121.1875}, {375, 51.5625}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "About Wishbone" {{23.4375, -98.921875}, {328.125, 24.609375}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Share with a Friend" {{0, -69.625}, {375, 51.5625}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Share with a Friend" {{23.4375, -47.359375}, {328.125, 24.609375}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Contact Us" {{0, -18.0625}, {375, 51.5625}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Contact Us" {{23.4375, 4.203125}, {328.125, 24.609375}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24				}
+build	17-Jul-2015 14:19:24				UIAImage "menu.png" {{17.578125, 39.359375}, {23.4375, 9.375}}
+build	17-Jul-2015 14:19:24				UIASegmentedControl "(null)" {{62.109375, 26.46875}, {251.953125, 33.984375}}
+build	17-Jul-2015 14:19:24				elements: {
+build	17-Jul-2015 14:19:24					UIAButton "Trending" {{62.109375, 26.46875}, {125.390625, 33.984375}}
+build	17-Jul-2015 14:19:24					UIAButton "Friends" {{188.671875, 26.46875}, {125.390625, 33.984375}}
+build	17-Jul-2015 14:19:24				}
+build	17-Jul-2015 14:19:24				UIAImage "Nav-Header-Logo" {{179.296875, 33.5}, {17.578125, 21.09375}}
+build	17-Jul-2015 14:19:24				UIAButton "create card" {{314.0625, 26.46875}, {51.5625, 35.15625}}
+build	17-Jul-2015 14:19:24				UIATableView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24				elements: {
+build	17-Jul-2015 14:19:24					UIATableCell "Knee High Socks or Tights?" {{0, 65.140625}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Knee High Socks or Tights?" {{18.75, 94.4375}, {337.5, 22.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Fashion" {{73.828125, 569.046875}, {168.75, 24.609375}}
+build	17-Jul-2015 14:19:24						UIAStaticText "1/12" {{169.921875, 142.484375}, {31.640625, 19.921875}}
+build	17-Jul-2015 14:19:24						UIAStaticText "378102 votes" {{250.78125, 567.875}, {105.46875, 24.609375}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{317.578125, 491.703125}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Alone or overcrowded?" {{0, 666.3125}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Alone or overcrowded?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:19:24						UIAStaticText "2/12" {{0, 0}, {28, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "374877 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Who wore it best?" {{0, 1267.484375}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Who wore it best?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:19:24						UIAStaticText "3/12" {{0, 0}, {28, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Fashion Police" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "369475 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Go a week without food or without sleep?" {{0, 1868.65625}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Go a week without food or without sleep?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "4/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "368541 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Have a baby or adopt a baby?" {{0, 2469.828125}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Have a baby or adopt a baby?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:19:24						UIAStaticText "5/12" {{0, 0}, {28, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "366647 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Which date is more generic? Movies or Starbucks?" {{0, 3071}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Which date is more generic? Movies or Starbucks?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "6/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Romance & Love" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "365341 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Old Mickey or New Mickey?" {{0, 3672.171875}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Old Mickey or New Mickey?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:19:24						UIAStaticText "7/12" {{0, 0}, {27.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "363713 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Do you prefer the movie version or book version of a story?" {{0, 4273.34375}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Do you prefer the movie version or book version of a story?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "8/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "356156 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Whose beard do you like more? Leonardo or Brad?" {{0, 4874.515625}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Whose beard do you like more? Leonardo or Brad?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "9/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Celeb Obsessed " {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "353281 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Be a celebrity and ugly  OR average person and attractive?" {{0, 5475.6875}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Be a celebrity and ugly  OR average person and attractive?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "10/12" {{0, 0}, {35.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "356887 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Have your portrait digitally done or hand painted?" {{0, 6076.859375}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Have your portrait digitally done or hand painted?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "11/12" {{0, 0}, {33.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "348885 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIATableCell "Never have to shave or never have to workout?" {{0, 6678.03125}, {375, 601.171875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "Never have to shave or never have to workout?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:19:24						UIAStaticText "12/12" {{0, 0}, {34.5, 17}}
+build	17-Jul-2015 14:19:24						UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:19:24						UIAStaticText "341452 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:19:24						UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIAStaticText "Your Daily Dozen" {{56.25, 7362.40625}, {295.3125, 35.15625}}
+build	17-Jul-2015 14:19:24					UIAStaticText "0 of 12 complete" {{56.25, 7406.9375}, {295.3125, 24.609375}}
+build	17-Jul-2015 14:19:24					UIAButton "1   Not Filled" {{56.25, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "2   Not Filled" {{101.953125, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "3   Not Filled" {{147.65625, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "4   Not Filled" {{193.359375, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "5   Not Filled" {{239.0625, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "6   Not Filled" {{284.765625, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "7   Not Filled" {{56.25, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "8   Not Filled" {{101.953125, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "9   Not Filled" {{147.65625, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "10   Not Filled" {{193.359375, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "11   Not Filled" {{239.0625, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "12   Not Filled" {{284.765625, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					UIAButton "13   Not Filled" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAImage "13 - Not Filled.png" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIAButton "14   Not Filled" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAImage "14 - Not Filled.png" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIAButton "Share" {{56.25, 7643.65625}, {263.671875, 64.453125}}
+build	17-Jul-2015 14:19:24					UIAButton "watch a 10 seconds video" {{93.75, 7717.484375}, {215.625, 51.5625}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAStaticText "watch a 10 seconds video" {{98.4375, 7732.71875}, {206.8359375, 21.09375}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24					UIAStaticText "or" {{71.484375, 7731.546875}, {17.578125, 24.609375}}
+build	17-Jul-2015 14:19:24					UIAStaticText "to earn 2 bonus questions" {{56.25, 7743.265625}, {267.1875, 24.609375}}
+build	17-Jul-2015 14:19:24					UIAButton "gear" {{166.40625, 7772.5625}, {46.875, 46.875}}
+build	17-Jul-2015 14:19:24					elements: {
+build	17-Jul-2015 14:19:24						UIAImage "gear.png" {{174.0234375, 7780.1796875}, {31.0546875, 31.0546875}}
+build	17-Jul-2015 14:19:24					}
+build	17-Jul-2015 14:19:24				}
+build	17-Jul-2015 14:19:24				UIAStaticText "Daily Dozen" {{9.375, 625.296875}, {168.75, 24.609375}}
+build	17-Jul-2015 14:19:24				UIAStaticText "Community" {{196.875, 625.296875}, {168.75, 24.609375}}
+build	17-Jul-2015 14:19:24				UIAToolbar "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	17-Jul-2015 14:19:24				elements: {
+build	17-Jul-2015 14:19:24					UIAImage "(null)" {{0, 665.7265625}, {375, 0.5859375}}
+build	17-Jul-2015 14:19:24					UIAImage "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	17-Jul-2015 14:19:24				}
+build	17-Jul-2015 14:19:24				UIAImage "create-share-mark.png" {{164.0625, 738.96875}, {46.875, 44.53125}}
+build	17-Jul-2015 14:19:24				UIAStaticText "WISHBONE CREATED" {{46.875, 830.375}, {281.25, 24.609375}}
+build	17-Jul-2015 14:19:24				UIAStaticText "We get many cards submitted everyday, so cross your fingers we select yours to be featured!" {{21.09375, 877.25}, {333.984375, 59.765625}}
+build	17-Jul-2015 14:19:24				UIAStaticText "Poll your friends now to get instant votes and increase your odds of getting selected!" {{21.09375, 1012.015625}, {333.984375, 38.671875}}
+build	17-Jul-2015 14:19:24				UIAStaticText "POLL WITH" {{18.75, 1074.125}, {337.5, 24.609375}}
+build	17-Jul-2015 14:19:24				UIAButton "create share msg" {{21.09375, 1124.515625}, {105.46875, 105.46875}}
+build	17-Jul-2015 14:19:24				UIAButton "create share tw" {{134.765625, 1124.515625}, {105.46875, 105.46875}}
+build	17-Jul-2015 14:19:24				UIAButton "create share insta" {{249.609375, 1124.515625}, {106.640625, 105.46875}}
+build	17-Jul-2015 14:19:24				UIAButton "create share done" {{21.09375, 1244.046875}, {333.984375, 64.453125}}
+build	17-Jul-2015 14:19:24			}
+build	17-Jul-2015 14:19:24			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:19:24			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:19:24			elements: {
+build	17-Jul-2015 14:19:24				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	17-Jul-2015 14:19:24				elements: {
+build	17-Jul-2015 14:19:24					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	17-Jul-2015 14:19:24					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	17-Jul-2015 14:19:24					UIAElement "2:19 PM" {{161.71875, 0.6875}, {52.734375, 23.4375}}
+build	17-Jul-2015 14:19:24					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	17-Jul-2015 14:19:24				}
+build	17-Jul-2015 14:19:24			}
+build	17-Jul-2015 14:19:24		}
+build	17-Jul-2015 14:19:24	}
+build	17-Jul-2015 14:19:24	
+build	17-Jul-2015 14:19:24	2015-07-17 21:19:23 +0000 Start: Menu
+build	17-Jul-2015 14:19:28	2015-07-17 21:19:28 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	17-Jul-2015 14:19:33	2015-07-17 21:19:33 +0000 Start: Menu > My Wishbones
+build	17-Jul-2015 14:19:33	2015-07-17 21:19:33 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:34	2015-07-17 21:19:34 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:19:34 GMT")
+build	17-Jul-2015 14:19:34	2015-07-17 21:19:34 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:35	2015-07-17 21:19:35 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].buttons()["edit profile"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:35	2015-07-17 21:19:35 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:19:35 GMT")
+build	17-Jul-2015 14:19:35	2015-07-17 21:19:35 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:35	2015-07-17 21:19:35 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].buttons()["Edit"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:36	2015-07-17 21:19:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:19:36 GMT")
+build	17-Jul-2015 14:19:36	2015-07-17 21:19:36 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:36	2015-07-17 21:19:36 +0000 Start: Create View > Choose From Library
+build	17-Jul-2015 14:19:36	2015-07-17 21:19:36 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Choose from library"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:36	2015-07-17 21:19:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Fri, 17 Jul 2015 21:19:36 GMT")
+build	17-Jul-2015 14:19:37	2015-07-17 21:19:36 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:37	2015-07-17 21:19:37 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:38	2015-07-17 21:19:37 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Fri, 17 Jul 2015 21:19:37 GMT")
+build	17-Jul-2015 14:19:38	2015-07-17 21:19:37 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:38	2015-07-17 21:19:38 +0000 Debug: target.frontMostApp().mainWindow().collectionViews()[0].visibleCells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:39	2015-07-17 21:19:38 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Create View > Choose From Library Fri, 17 Jul 2015 21:19:38 GMT")
+build	17-Jul-2015 14:19:39	2015-07-17 21:19:39 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:49	2015-07-17 21:19:49 +0000 Pass: Create View > Choose From Library
+build	17-Jul-2015 14:19:49	2015-07-17 21:19:49 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[4].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:49	2015-07-17 21:19:49 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:19:49 GMT")
+build	17-Jul-2015 14:19:49	2015-07-17 21:19:49 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:49	2015-07-17 21:19:49 +0000 Debug: target.frontMostApp().actionSheet().collectionViews()[0].cells()["Male"].buttons()["Male"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:53	2015-07-17 21:19:53 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[5].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:19:53	2015-07-17 21:19:53 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:19:53 GMT")
+build	17-Jul-2015 14:19:53	2015-07-17 21:19:53 +0000 Screenshot captured.
+build	17-Jul-2015 14:19:54	2015-07-17 21:19:53 +0000 logElementTree:
+build	17-Jul-2015 14:19:54	UIATarget "iPhone Simulator" {{0, 0}, {375, 667}}
+build	17-Jul-2015 14:19:54	elements: {
+build	17-Jul-2015 14:19:54		UIAApplication "Wishbone" {{0, 24.125}, {375, 642.1875}}
+build	17-Jul-2015 14:19:54		elements: {
+build	17-Jul-2015 14:19:54			UIAWindow "(null)" {{0, 0}, {375, 667}}
+build	17-Jul-2015 14:19:54			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:19:54			elements: {
+build	17-Jul-2015 14:19:54				UIAButton "create back" {{1.171875, 18.265625}, {46.875, 46.875}}
+build	17-Jul-2015 14:19:54				UIAStaticText "Edit Profile" {{80.859375, 28.8125}, {214.453125, 24.609375}}
+build	17-Jul-2015 14:19:54				UIAButton "Done" {{307.03125, 24.125}, {53.90625, 35.15625}}
+build	17-Jul-2015 14:19:54				UIAScrollView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	17-Jul-2015 14:19:54				elements: {
+build	17-Jul-2015 14:19:54					UIAImage "(null)" {{18.75, -0.484375}, {70.3125, 70.3125}}
+build	17-Jul-2015 14:19:54					UIATextField "(null)" {{139.453125, -4}, {187.5, 35.15625}}
+build	17-Jul-2015 14:19:54					elements: {
+build	17-Jul-2015 14:19:54						UIATextField "(null)" {{139.453125, -4}, {187.5, 35.15625}}
+build	17-Jul-2015 14:19:54					}
+build	17-Jul-2015 14:19:54					UIAImage "user-handle-img.png" {{117.1875, 14.75}, {12.890625, 16.40625}}
+build	17-Jul-2015 14:19:54					UIAImage "available-mark.png" {{342.1875, 7.71875}, {10.546875, 10.546875}}
+build	17-Jul-2015 14:19:54					UIATextField "(null)" {{139.453125, 45.21875}, {216.796875, 35.15625}}
+build	17-Jul-2015 14:19:54					elements: {
+build	17-Jul-2015 14:19:54						UIATextField "(null)" {{139.453125, 45.21875}, {216.796875, 35.15625}}
+build	17-Jul-2015 14:19:54					}
+build	17-Jul-2015 14:19:54					UIAButton "Edit" {{26.953125, 71}, {53.90625, 35.15625}}
+build	17-Jul-2015 14:19:54					UIAImage "user-name-img.png" {{117.1875, 65.140625}, {15.234375, 15.234375}}
+build	17-Jul-2015 14:19:54					UIAStaticText "Private Information" {{18.75, 124.90625}, {337.5, 24.609375}}
+build	17-Jul-2015 14:19:54					UIATextField "(null)" {{46.875, 150.6875}, {309.375, 35.15625}}
+build	17-Jul-2015 14:19:54					elements: {
+build	17-Jul-2015 14:19:54						UIATextField "(null)" {{46.875, 143.65625}, {309.375, 35.15625}}
+build	17-Jul-2015 14:19:54					}
+build	17-Jul-2015 14:19:54					UIAImage "email-img.png" {{18.75, 165.921875}, {17.578125, 12.890625}}
+build	17-Jul-2015 14:19:54					UIATextField "(null)" {{46.875, 199.90625}, {308.203125, 35.15625}}
+build	17-Jul-2015 14:19:54					elements: {
+build	17-Jul-2015 14:19:54						UIATextField "(null)" {{46.875, 199.90625}, {308.203125, 35.15625}}
+build	17-Jul-2015 14:19:54					}
+build	17-Jul-2015 14:19:54					UIAImage "phone-img.png" {{18.75, 218.65625}, {11.71875, 16.40625}}
+build	17-Jul-2015 14:19:54					UIATextField "(null)" {{46.875, 256.15625}, {308.203125, 35.15625}}
+build	17-Jul-2015 14:19:54					elements: {
+build	17-Jul-2015 14:19:54						UIATextField "(null)" {{46.875, 256.15625}, {308.203125, 35.15625}}
+build	17-Jul-2015 14:19:54					}
+build	17-Jul-2015 14:19:54					UIAImage "gender-img.png" {{18.75, 274.90625}, {12.890625, 16.40625}}
+build	17-Jul-2015 14:19:54					UIATextField "(null)" {{46.875, 313.578125}, {308.203125, 35.15625}}
+build	17-Jul-2015 14:19:54					elements: {
+build	17-Jul-2015 14:19:54						UIATextField "(null)" {{46.875, 313.578125}, {308.203125, 35.15625}}
+build	17-Jul-2015 14:19:54					}
+build	17-Jul-2015 14:19:54					UIAImage "age-img.png" {{18.75, 331.15625}, {12.890625, 16.40625}}
+build	17-Jul-2015 14:19:54					UIAButton "profile gear" {{328.125, 523.34375}, {46.875, 46.875}}
+build	17-Jul-2015 14:19:54					UIAImage "(null)" {{366.796875, 567.2890625}, {8.203125, 2.9296875}}
+build	17-Jul-2015 14:19:54					UIAImage "(null)" {{372.0703125, 562.015625}, {2.9296875, 8.203125}}
+build	17-Jul-2015 14:19:54				}
+build	17-Jul-2015 14:19:54			}
+build	17-Jul-2015 14:19:54			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:19:54			elements: {
+build	17-Jul-2015 14:19:54				UIAToolbar "(null)" {{0, 361.625}, {375, 51.5625}}
+build	17-Jul-2015 14:19:54				elements: {
+build	17-Jul-2015 14:19:54					UIAImage "(null)" {{0, 361.0390625}, {375, 0.5859375}}
+build	17-Jul-2015 14:19:54					UIAImage "(null)" {{0, 361.625}, {375, 51.5625}}
+build	17-Jul-2015 14:19:54					UIAButton "Done" {{3.515625, 363.96875}, {59.765625, 46.875}}
+build	17-Jul-2015 14:19:54				}
+build	17-Jul-2015 14:19:54				UIAPicker "(null)" {{0, 413.1875}, {375, 253.125}}
+build	17-Jul-2015 14:19:54				elements: {
+build	17-Jul-2015 14:19:54					UIAPickerWheel "(null)" {{33.984375, 369.2421875}, {157.03125, 341.015625}}
+build	17-Jul-2015 14:19:54					UIAPickerWheel "(null)" {{196.875, 369.2421875}, {53.90625, 341.015625}}
+build	17-Jul-2015 14:19:54					UIAPickerWheel "(null)" {{256.640625, 369.2421875}, {84.375, 341.015625}}
+build	17-Jul-2015 14:19:54				}
+build	17-Jul-2015 14:19:54			}
+build	17-Jul-2015 14:19:54			UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:19:54			elements: {
+build	17-Jul-2015 14:19:54				UIAStatusBar "(null)" {{0, 0.6875}, {375, 23.4375}}
+build	17-Jul-2015 14:19:54				elements: {
+build	17-Jul-2015 14:19:54					UIAElement "Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" {{7.03125, 0.6875}, {44.53125, 23.4375}}
+build	17-Jul-2015 14:19:54					UIAElement "3 of 3 Wi-Fi bars" {{57.421875, 0.6875}, {15.234375, 23.4375}}
+build	17-Jul-2015 14:19:54					UIAElement "2:19 PM" {{161.71875, 0.6875}, {52.734375, 23.4375}}
+build	17-Jul-2015 14:19:54					UIAElement "100% battery power" {{339.84375, 0.6875}, {29.296875, 23.4375}}
+build	17-Jul-2015 14:19:54				}
+build	17-Jul-2015 14:19:54			}
+build	17-Jul-2015 14:19:54		}
+build	17-Jul-2015 14:19:54	}
+build	17-Jul-2015 14:19:54	
+build	17-Jul-2015 14:19:54	2015-07-17 21:19:53 +0000 Default: index 0
+build	17-Jul-2015 14:19:54	2015-07-17 21:19:53 +0000 Default: index 1
+build	17-Jul-2015 14:19:54	2015-07-17 21:19:53 +0000 Default: index 2
+build	17-Jul-2015 14:19:54	2015-07-17 21:19:53 +0000 Default: index 3
+build	17-Jul-2015 14:20:05	2015-07-17 21:20:05 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:20:05 GMT")
+build	17-Jul-2015 14:20:05	2015-07-17 21:20:05 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:05	2015-07-17 21:20:05 +0000 Debug: target.frontMostApp().windows()[2].toolbar().buttons()["Done"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:05	2015-07-17 21:20:05 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:20:05 GMT")
+build	17-Jul-2015 14:20:05	2015-07-17 21:20:05 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:06	2015-07-17 21:20:05 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[2].tap()
+build	17-Jul-2015 14:20:06	2015-07-17 21:20:06 +0000 Debug: target.frontMostApp().keyboard().typeString("wtobey@science-inc.com")
+build	17-Jul-2015 14:20:11	2015-07-17 21:20:11 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:20:11 GMT")
+build	17-Jul-2015 14:20:11	2015-07-17 21:20:11 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:11	2015-07-17 21:20:11 +0000 Debug: target.frontMostApp().mainWindow().buttons()["Done"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:11	2015-07-17 21:20:11 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > My Wishbones Fri, 17 Jul 2015 21:20:11 GMT")
+build	17-Jul-2015 14:20:11	2015-07-17 21:20:11 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:13	2015-07-17 21:20:13 +0000 Debug: target.frontMostApp().alert().buttons()[0].tap()
+build	17-Jul-2015 14:20:14	2015-07-17 21:20:14 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:14	2015-07-17 21:20:14 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu Fri, 17 Jul 2015 21:20:14 GMT")
+build	17-Jul-2015 14:20:15	2015-07-17 21:20:15 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:15	2015-07-17 21:20:15 +0000 Pass: Menu > My Wishbones
+build	17-Jul-2015 14:20:17	2015-07-17 21:20:17 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	17-Jul-2015 14:20:17	2015-07-17 21:20:17 +0000 Start: Menu > Find Friends
+build	17-Jul-2015 14:20:17	2015-07-17 21:20:17 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[1].tap()
+build	17-Jul-2015 14:20:22	2015-07-17 21:20:22 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Fri, 17 Jul 2015 21:20:22 GMT")
+build	17-Jul-2015 14:20:22	2015-07-17 21:20:22 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:22	2015-07-17 21:20:22 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].searchBars()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:23	2015-07-17 21:20:22 +0000 Debug: target.frontMostApp().keyboard().withValueForKey("1", "isVisible").typeString("Abc\n")
+build	17-Jul-2015 14:20:26	2015-07-17 21:20:26 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Fri, 17 Jul 2015 21:20:26 GMT")
+build	17-Jul-2015 14:20:26	2015-07-17 21:20:26 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:26	2015-07-17 21:20:26 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].cells()[0].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:33	2015-07-17 21:20:33 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Fri, 17 Jul 2015 21:20:33 GMT")
+build	17-Jul-2015 14:20:33	2015-07-17 21:20:33 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:33	2015-07-17 21:20:33 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].buttons()["follow"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:33	2015-07-17 21:20:33 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Fri, 17 Jul 2015 21:20:33 GMT")
+build	17-Jul-2015 14:20:34	2015-07-17 21:20:33 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:34	2015-07-17 21:20:33 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create back"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:34	2015-07-17 21:20:34 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu > Find Friends Fri, 17 Jul 2015 21:20:34 GMT")
+build	17-Jul-2015 14:20:34	2015-07-17 21:20:34 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:34	2015-07-17 21:20:34 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:34	2015-07-17 21:20:34 +0000 Pass: Menu > Find Friends
+build	17-Jul-2015 14:20:36	2015-07-17 21:20:36 +0000 Debug: target.tap({x:"16.5", y:"26.5"})
+build	17-Jul-2015 14:20:36	2015-07-17 21:20:36 +0000 Default: Select About Wishbone from dropdown menu
+build	17-Jul-2015 14:20:36	2015-07-17 21:20:36 +0000 Debug: target.frontMostApp().mainWindow().tableViews().firstWithPredicate("value like 'rows 1 to 5 of 5'").withValueForKey("1", "isVisible").cells()[2].tap()
+build	17-Jul-2015 14:20:38	2015-07-17 21:20:38 +0000 Debug: target.frontMostApp().mainWindow().buttons()["create close"].withValueForKey("1", "isVisible").tap()
+build	17-Jul-2015 14:20:38	2015-07-17 21:20:38 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Menu Fri, 17 Jul 2015 21:20:38 GMT")
+build	17-Jul-2015 14:20:39	2015-07-17 21:20:38 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:39	2015-07-17 21:20:38 +0000 Pass: Menu
+build	17-Jul-2015 14:20:39	2015-07-17 21:20:39 +0000 logElementTree:
+build	17-Jul-2015 14:20:39	UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:20:39	elements: {
+build	17-Jul-2015 14:20:39		UIATableView "(null)" {{0, -165.71875}, {375, 225}}
+build	17-Jul-2015 14:20:39		elements: {
+build	17-Jul-2015 14:20:39			UIATableCell "My Wishbones" {{0, -165.71875}, {375, 51.5625}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "My Wishbones" {{23.4375, -143.453125}, {328.125, 24.609375}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Find Friends" {{0, -114.15625}, {375, 51.5625}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Find Friends" {{23.4375, -91.890625}, {328.125, 24.609375}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "About Wishbone" {{0, -62.59375}, {375, 51.5625}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "About Wishbone" {{23.4375, -40.328125}, {328.125, 24.609375}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Share with a Friend" {{0, -11.03125}, {375, 51.5625}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Share with a Friend" {{23.4375, 11.234375}, {328.125, 24.609375}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Contact Us" {{0, 40.53125}, {375, 51.5625}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Contact Us" {{23.4375, 62.796875}, {328.125, 24.609375}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39		}
+build	17-Jul-2015 14:20:39		UIAImage "menu.png" {{17.578125, 39.359375}, {23.4375, 9.375}}
+build	17-Jul-2015 14:20:39		UIASegmentedControl "(null)" {{62.109375, 26.46875}, {251.953125, 33.984375}}
+build	17-Jul-2015 14:20:39		elements: {
+build	17-Jul-2015 14:20:39			UIAButton "Trending" {{62.109375, 26.46875}, {125.390625, 33.984375}}
+build	17-Jul-2015 14:20:39			UIAButton "Friends" {{188.671875, 26.46875}, {125.390625, 33.984375}}
+build	17-Jul-2015 14:20:39		}
+build	17-Jul-2015 14:20:39		UIAImage "Nav-Header-Logo" {{179.296875, 33.5}, {17.578125, 21.09375}}
+build	17-Jul-2015 14:20:39		UIAButton "create card" {{314.0625, 26.46875}, {51.5625, 35.15625}}
+build	17-Jul-2015 14:20:39		UIATableView "(null)" {{0, 65.140625}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39		elements: {
+build	17-Jul-2015 14:20:39			UIATableCell "Knee High Socks or Tights?" {{0, 65.140625}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Knee High Socks or Tights?" {{18.75, 94.4375}, {337.5, 22.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Fashion" {{73.828125, 569.046875}, {168.75, 24.609375}}
+build	17-Jul-2015 14:20:39				UIAStaticText "1/12" {{169.921875, 142.484375}, {31.640625, 19.921875}}
+build	17-Jul-2015 14:20:39				UIAStaticText "378102 votes" {{250.78125, 567.875}, {105.46875, 24.609375}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{317.578125, 491.703125}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Alone or overcrowded?" {{0, 666.3125}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Alone or overcrowded?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:20:39				UIAStaticText "2/12" {{0, 0}, {28, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Life Posts" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "374877 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Who wore it best?" {{0, 1267.484375}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Who wore it best?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:20:39				UIAStaticText "3/12" {{0, 0}, {28, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Fashion Police" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "369475 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Go a week without food or without sleep?" {{0, 1868.65625}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Go a week without food or without sleep?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "4/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "368541 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Have a baby or adopt a baby?" {{0, 2469.828125}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Have a baby or adopt a baby?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:20:39				UIAStaticText "5/12" {{0, 0}, {28, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "366647 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Which date is more generic? Movies or Starbucks?" {{0, 3071}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Which date is more generic? Movies or Starbucks?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "6/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Romance & Love" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "365341 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Old Mickey or New Mickey?" {{0, 3672.171875}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Old Mickey or New Mickey?" {{0, 0}, {288, 19.200000000000003}}
+build	17-Jul-2015 14:20:39				UIAStaticText "7/12" {{0, 0}, {27.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "363713 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Do you prefer the movie version or book version of a story?" {{0, 4273.34375}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Do you prefer the movie version or book version of a story?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "8/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Films&TV " {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "356156 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Whose beard do you like more? Leonardo or Brad?" {{0, 4874.515625}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Whose beard do you like more? Leonardo or Brad?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "9/12" {{0, 0}, {28.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Celeb Obsessed " {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "353281 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Be a celebrity and ugly  OR average person and attractive?" {{0, 5475.6875}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Be a celebrity and ugly  OR average person and attractive?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "10/12" {{0, 0}, {35.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "356887 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Have your portrait digitally done or hand painted?" {{0, 6076.859375}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Have your portrait digitally done or hand painted?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "11/12" {{0, 0}, {33.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "348885 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIATableCell "Never have to shave or never have to workout?" {{0, 6678.03125}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Never have to shave or never have to workout?" {{0, 0}, {288, 38.5}}
+build	17-Jul-2015 14:20:39				UIAStaticText "12/12" {{0, 0}, {34.5, 17}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Would You Rather" {{0, 0}, {144, 21}}
+build	17-Jul-2015 14:20:39				UIAStaticText "341452 votes" {{0, 0}, {90, 21}}
+build	17-Jul-2015 14:20:39				UIAButton "new share" {{0, 0.6875}, {48.046875, 48.046875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIAStaticText "Your Daily Dozen" {{56.25, 7362.40625}, {295.3125, 35.15625}}
+build	17-Jul-2015 14:20:39			UIAStaticText "0 of 12 complete" {{56.25, 7406.9375}, {295.3125, 24.609375}}
+build	17-Jul-2015 14:20:39			UIAButton "1   Not Filled" {{56.25, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "2   Not Filled" {{101.953125, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "3   Not Filled" {{147.65625, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "4   Not Filled" {{193.359375, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "5   Not Filled" {{239.0625, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "6   Not Filled" {{284.765625, 7480.765625}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "7   Not Filled" {{56.25, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "8   Not Filled" {{101.953125, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "9   Not Filled" {{147.65625, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "10   Not Filled" {{193.359375, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "11   Not Filled" {{239.0625, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "12   Not Filled" {{284.765625, 7526.46875}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			UIAButton "13   Not Filled" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAImage "13 - Not Filled.png" {{147.65625, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIAButton "14   Not Filled" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAImage "14 - Not Filled.png" {{193.359375, 7597.953125}, {36.328125, 36.328125}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIAButton "Share" {{56.25, 7643.65625}, {263.671875, 64.453125}}
+build	17-Jul-2015 14:20:39			UIAButton "watch a 10 seconds video" {{93.75, 7717.484375}, {215.625, 51.5625}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "watch a 10 seconds video" {{98.4375, 7732.71875}, {206.8359375, 21.09375}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIAStaticText "or" {{71.484375, 7731.546875}, {17.578125, 24.609375}}
+build	17-Jul-2015 14:20:39			UIAStaticText "to earn 2 bonus questions" {{56.25, 7743.265625}, {267.1875, 24.609375}}
+build	17-Jul-2015 14:20:39			UIAButton "gear" {{166.40625, 7772.5625}, {46.875, 46.875}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAImage "gear.png" {{174.0234375, 7780.1796875}, {31.0546875, 31.0546875}}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39		}
+build	17-Jul-2015 14:20:39		UIAStaticText "Daily Dozen" {{9.375, 625.296875}, {168.75, 24.609375}}
+build	17-Jul-2015 14:20:39		UIAStaticText "Community" {{196.875, 625.296875}, {168.75, 24.609375}}
+build	17-Jul-2015 14:20:39		UIAToolbar "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	17-Jul-2015 14:20:39		elements: {
+build	17-Jul-2015 14:20:39			UIAImage "(null)" {{0, 665.7265625}, {375, 0.5859375}}
+build	17-Jul-2015 14:20:39			UIAImage "(null)" {{0, 666.3125}, {375, 51.5625}}
+build	17-Jul-2015 14:20:39		}
+build	17-Jul-2015 14:20:39		UIAStaticText "About Wishbone" {{105.46875, 696.78125}, {164.0625, 24.609375}}
+build	17-Jul-2015 14:20:39		UIAButton "create close" {{328.125, 689.75}, {46.875, 35.15625}}
+build	17-Jul-2015 14:20:39		UIAScrollView "(null)" {{0, 730.765625}, {375, 601.171875}}
+build	17-Jul-2015 14:20:39		elements: {
+build	17-Jul-2015 14:20:39			UIAWebView "(null)" {{0, 730.765625}, {375, 1415.625}}
+build	17-Jul-2015 14:20:39			elements: {
+build	17-Jul-2015 14:20:39				UIAStaticText "Wishbone" {{9.375, 740.140625}, {103.125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "is your home for comparing and creating social content.  Every morning you vote on 12 trending topics via the “Daily Dozen” and every night we send you 12 more with the “Nightly Dozen.  Additionally, the “Community Feed” gets updated 4 times a day. So check back often for new content" {{9.375, 740.140625}, {344.53125, 178.125}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Frequently Asked Questions:" {{9.375, 937.015625}, {280.078125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "I love this app, so how can I help?" {{9.375, 978.03125}, {332.8125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAElement "•" {{35.15625, 1019.046875}, {8.203125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Give us a" {{56.25, 1019.046875}, {83.203125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIALink "great review" {{138.28125, 1019.046875}, {105.46875, 22.265625}}
+build	17-Jul-2015 14:20:39				elements: {
+build	17-Jul-2015 14:20:39					UIAStaticText "great review" {{138.28125, 1019.046875}, {105.46875, 22.265625}}
+build	17-Jul-2015 14:20:39				}
+build	17-Jul-2015 14:20:39				UIAStaticText "and tell your friends!" {{56.25, 1019.046875}, {298.828125, 44.53125}}
+build	17-Jul-2015 14:20:39				UIAStaticText "I created a Wishbone card…now what?" {{9.375, 1082.328125}, {312.890625, 44.53125}}
+build	17-Jul-2015 14:20:39				UIAElement "•" {{35.15625, 1145.609375}, {8.203125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "If your card is awesome, we will feature it in the Community Feed. If it’s extra awesome, we might put it in the Daily Dozen.  To poll your friends and see live stats go to “My Wishbones” in the drop-down menu." {{56.25, 1145.609375}, {303.515625, 155.859375}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Why don’t I get notified when new wishbone cards are ready?" {{9.375, 1320.21875}, {335.15625, 44.53125}}
+build	17-Jul-2015 14:20:39				UIAElement "•" {{35.15625, 1383.5}, {8.203125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Make sure your notifications are turned on! Go to your phone’s Settings > Notifications > Wishbone > Allow Notifications." {{56.25, 1383.5}, {303.515625, 89.0625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "How often does the Community feed get updated with new cards?" {{9.375, 1491.3125}, {331.640625, 44.53125}}
+build	17-Jul-2015 14:20:39				UIAElement "•" {{35.15625, 1554.59375}, {8.203125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "We update the feed 4 times a day. So - 200 new cards each day!" {{56.25, 1554.59375}, {289.453125, 44.53125}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Why are there so many ads?" {{9.375, 1617.875}, {273.046875, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "We hate ads too, but it super expensive to build a business for free.  Just close your eyes a little." {{9.375, 1658.890625}, {335.15625, 66.796875}}
+build	17-Jul-2015 14:20:39				UIAStaticText "I think some of the cards are stupid / offensive / duplicates.  What should I do?" {{9.375, 1744.4375}, {348.046875, 66.796875}}
+build	17-Jul-2015 14:20:39				UIAElement "•" {{35.15625, 1829.984375}, {8.203125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIAStaticText "Sorry to hear that. Please swipe left on any card to flag what you don’t like. We closely monitor your preferences and try to improve the content everyday." {{56.25, 1829.984375}, {300, 111.328125}}
+build	17-Jul-2015 14:20:39				UIAStaticText "How can I tell the Wishbone team something very important?" {{9.375, 1960.0625}, {331.640625, 44.53125}}
+build	17-Jul-2015 14:20:39				UIAElement "•" {{35.15625, 2023.34375}, {8.203125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIALink "Email us right now" {{56.25, 2023.34375}, {159.375, 22.265625}}
+build	17-Jul-2015 14:20:39				elements: {
+build	17-Jul-2015 14:20:39					UIAStaticText "Email us right now" {{56.25, 2023.34375}, {159.375, 22.265625}}
+build	17-Jul-2015 14:20:39				}
+build	17-Jul-2015 14:20:39				UIAStaticText "Terms of Service:" {{9.375, 2064.359375}, {174.609375, 22.265625}}
+build	17-Jul-2015 14:20:39				UIALink "Click Here." {{182.8125, 2064.359375}, {107.8125, 22.265625}}
+build	17-Jul-2015 14:20:39				elements: {
+build	17-Jul-2015 14:20:39					UIAStaticText "Click Here." {{182.8125, 2064.359375}, {107.8125, 22.265625}}
+build	17-Jul-2015 14:20:39				}
+build	17-Jul-2015 14:20:39				UIAStaticText "Privacy Policy:" {{9.375, 2105.375}, {148.828125, 22.265625}}
+build	17-Jul-2015 14:20:39				UIALink "Click Here." {{157.03125, 2105.375}, {107.8125, 22.265625}}
+build	17-Jul-2015 14:20:39				elements: {
+build	17-Jul-2015 14:20:39					UIAStaticText "Click Here." {{157.03125, 2105.375}, {107.8125, 22.265625}}
+build	17-Jul-2015 14:20:39				}
+build	17-Jul-2015 14:20:39			}
+build	17-Jul-2015 14:20:39			UIAImage "(null)" {{372.0703125, 730.765625}, {2.9296875, 601.171875}}
+build	17-Jul-2015 14:20:39			UIAImage "(null)" {{0, 1329.0078125}, {375, 2.9296875}}
+build	17-Jul-2015 14:20:39		}
+build	17-Jul-2015 14:20:39	}
+build	17-Jul-2015 14:20:39	
+build	17-Jul-2015 14:20:39	2015-07-17 21:20:39 +0000 Start: Community
+build	17-Jul-2015 14:20:39	2015-07-17 21:20:39 +0000 Start: Community > Select Feed
+build	17-Jul-2015 14:20:39	2015-07-17 21:20:39 +0000 Debug: target.frontMostApp().mainWindow().staticTexts()["Community"].tap()
+build	17-Jul-2015 14:20:39	2015-07-17 21:20:39 +0000 Pass: Community > Select Feed
+build	17-Jul-2015 14:20:46	2015-07-17 21:20:46 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 0 Unvoted")
+build	17-Jul-2015 14:20:46	2015-07-17 21:20:46 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:46	2015-07-17 21:20:46 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[0].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:20:46	2015-07-17 21:20:46 +0000 Default: Tested cell 0
+build	17-Jul-2015 14:20:47	2015-07-17 21:20:47 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 0 Voted")
+build	17-Jul-2015 14:20:47	2015-07-17 21:20:47 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:49	2015-07-17 21:20:49 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 1 Unvoted")
+build	17-Jul-2015 14:20:49	2015-07-17 21:20:49 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:49	2015-07-17 21:20:49 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[1].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:20:49	2015-07-17 21:20:49 +0000 Default: Tested cell 1
+build	17-Jul-2015 14:20:50	2015-07-17 21:20:50 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 1 Voted")
+build	17-Jul-2015 14:20:50	2015-07-17 21:20:50 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:52	2015-07-17 21:20:52 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 2 Unvoted")
+build	17-Jul-2015 14:20:52	2015-07-17 21:20:52 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:52	2015-07-17 21:20:52 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[2].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:20:52	2015-07-17 21:20:52 +0000 Default: Tested cell 2
+build	17-Jul-2015 14:20:53	2015-07-17 21:20:53 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 2 Voted")
+build	17-Jul-2015 14:20:53	2015-07-17 21:20:53 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:55	2015-07-17 21:20:55 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 3 Unvoted")
+build	17-Jul-2015 14:20:55	2015-07-17 21:20:55 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:55	2015-07-17 21:20:55 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[3].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:20:55	2015-07-17 21:20:55 +0000 Default: Tested cell 3
+build	17-Jul-2015 14:20:56	2015-07-17 21:20:55 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 3 Voted")
+build	17-Jul-2015 14:20:56	2015-07-17 21:20:56 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:58	2015-07-17 21:20:58 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 4 Unvoted")
+build	17-Jul-2015 14:20:58	2015-07-17 21:20:58 +0000 Screenshot captured.
+build	17-Jul-2015 14:20:58	2015-07-17 21:20:58 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[4].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:20:58	2015-07-17 21:20:58 +0000 Default: Tested cell 4
+build	17-Jul-2015 14:20:58	2015-07-17 21:20:58 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 4 Voted")
+build	17-Jul-2015 14:20:59	2015-07-17 21:20:58 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:00	2015-07-17 21:21:00 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 5 Unvoted")
+build	17-Jul-2015 14:21:01	2015-07-17 21:21:01 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:01	2015-07-17 21:21:01 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[5].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:21:01	2015-07-17 21:21:01 +0000 Default: Tested cell 5
+build	17-Jul-2015 14:21:01	2015-07-17 21:21:01 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 5 Voted")
+build	17-Jul-2015 14:21:01	2015-07-17 21:21:01 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:03	2015-07-17 21:21:03 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 6 Unvoted")
+build	17-Jul-2015 14:21:04	2015-07-17 21:21:03 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:04	2015-07-17 21:21:03 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[6].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:21:04	2015-07-17 21:21:04 +0000 Default: Tested cell 6
+build	17-Jul-2015 14:21:04	2015-07-17 21:21:04 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 6 Voted")
+build	17-Jul-2015 14:21:04	2015-07-17 21:21:04 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:06	2015-07-17 21:21:06 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 7 Unvoted")
+build	17-Jul-2015 14:21:07	2015-07-17 21:21:06 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:07	2015-07-17 21:21:06 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[7].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:07	2015-07-17 21:21:06 +0000 Default: Tested cell 7
+build	17-Jul-2015 14:21:07	2015-07-17 21:21:07 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 7 Voted")
+build	17-Jul-2015 14:21:07	2015-07-17 21:21:07 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:09	2015-07-17 21:21:09 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 8 Unvoted")
+build	17-Jul-2015 14:21:09	2015-07-17 21:21:09 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:09	2015-07-17 21:21:09 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[8].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:10	2015-07-17 21:21:09 +0000 Default: Tested cell 8
+build	17-Jul-2015 14:21:10	2015-07-17 21:21:10 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 8 Voted")
+build	17-Jul-2015 14:21:10	2015-07-17 21:21:10 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:12	2015-07-17 21:21:12 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 9 Unvoted")
+build	17-Jul-2015 14:21:12	2015-07-17 21:21:12 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:12	2015-07-17 21:21:12 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[9].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:12	2015-07-17 21:21:12 +0000 Default: Tested cell 9
+build	17-Jul-2015 14:21:13	2015-07-17 21:21:13 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 9 Voted")
+build	17-Jul-2015 14:21:13	2015-07-17 21:21:13 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:15	2015-07-17 21:21:15 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 10 Unvoted")
+build	17-Jul-2015 14:21:15	2015-07-17 21:21:15 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:15	2015-07-17 21:21:15 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[10].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:15	2015-07-17 21:21:15 +0000 Default: Tested cell 10
+build	17-Jul-2015 14:21:16	2015-07-17 21:21:16 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 10 Voted")
+build	17-Jul-2015 14:21:16	2015-07-17 21:21:16 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:18	2015-07-17 21:21:18 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 11 Unvoted")
+build	17-Jul-2015 14:21:18	2015-07-17 21:21:18 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:18	2015-07-17 21:21:18 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[11].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:21:18	2015-07-17 21:21:18 +0000 Default: Tested cell 11
+build	17-Jul-2015 14:21:19	2015-07-17 21:21:18 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 11 Voted")
+build	17-Jul-2015 14:21:19	2015-07-17 21:21:18 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:21	2015-07-17 21:21:20 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 12 Unvoted")
+build	17-Jul-2015 14:21:21	2015-07-17 21:21:21 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:21	2015-07-17 21:21:21 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[12].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:21	2015-07-17 21:21:21 +0000 Default: Tested cell 12
+build	17-Jul-2015 14:21:21	2015-07-17 21:21:21 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 12 Voted")
+build	17-Jul-2015 14:21:21	2015-07-17 21:21:21 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:23	2015-07-17 21:21:23 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 13 Unvoted")
+build	17-Jul-2015 14:21:24	2015-07-17 21:21:23 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:24	2015-07-17 21:21:23 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[13].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:24	2015-07-17 21:21:24 +0000 Default: Tested cell 13
+build	17-Jul-2015 14:21:24	2015-07-17 21:21:24 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 13 Voted")
+build	17-Jul-2015 14:21:24	2015-07-17 21:21:24 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:26	2015-07-17 21:21:26 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 14 Unvoted")
+build	17-Jul-2015 14:21:27	2015-07-17 21:21:26 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:27	2015-07-17 21:21:26 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[14].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:27	2015-07-17 21:21:26 +0000 Default: Tested cell 14
+build	17-Jul-2015 14:21:27	2015-07-17 21:21:27 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 14 Voted")
+build	17-Jul-2015 14:21:27	2015-07-17 21:21:27 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:29	2015-07-17 21:21:29 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 15 Unvoted")
+build	17-Jul-2015 14:21:29	2015-07-17 21:21:29 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:29	2015-07-17 21:21:29 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[15].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:30	2015-07-17 21:21:29 +0000 Default: Tested cell 15
+build	17-Jul-2015 14:21:30	2015-07-17 21:21:30 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 15 Voted")
+build	17-Jul-2015 14:21:30	2015-07-17 21:21:30 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:32	2015-07-17 21:21:32 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 16 Unvoted")
+build	17-Jul-2015 14:21:32	2015-07-17 21:21:32 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:32	2015-07-17 21:21:32 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[16].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:21:32	2015-07-17 21:21:32 +0000 Default: Tested cell 16
+build	17-Jul-2015 14:21:33	2015-07-17 21:21:33 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 16 Voted")
+build	17-Jul-2015 14:21:33	2015-07-17 21:21:33 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:35	2015-07-17 21:21:35 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 17 Unvoted")
+build	17-Jul-2015 14:21:35	2015-07-17 21:21:35 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:35	2015-07-17 21:21:35 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[17].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:35	2015-07-17 21:21:35 +0000 Default: Tested cell 17
+build	17-Jul-2015 14:21:36	2015-07-17 21:21:36 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 17 Voted")
+build	17-Jul-2015 14:21:36	2015-07-17 21:21:36 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:38	2015-07-17 21:21:38 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 18 Unvoted")
+build	17-Jul-2015 14:21:38	2015-07-17 21:21:38 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:38	2015-07-17 21:21:38 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[18].tapWithOptions({tapOffset:{x:"0.25", y:"0.5"}})
+build	17-Jul-2015 14:21:38	2015-07-17 21:21:38 +0000 Default: Tested cell 18
+build	17-Jul-2015 14:21:39	2015-07-17 21:21:38 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 18 Voted")
+build	17-Jul-2015 14:21:39	2015-07-17 21:21:38 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:41	2015-07-17 21:21:40 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 19 Unvoted")
+build	17-Jul-2015 14:21:41	2015-07-17 21:21:41 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:41	2015-07-17 21:21:41 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[1].cells()[19].tapWithOptions({tapOffset:{x:"0.75", y:"0.5"}})
+build	17-Jul-2015 14:21:41	2015-07-17 21:21:41 +0000 Default: Tested cell 19
+build	17-Jul-2015 14:21:41	2015-07-17 21:21:41 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 19 Voted")
+build	17-Jul-2015 14:21:42	2015-07-17 21:21:41 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:54	2015-07-17 21:21:53 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community Card 20 Unvoted")
+build	17-Jul-2015 14:21:54	2015-07-17 21:21:53 +0000 Screenshot captured.
+build	17-Jul-2015 14:21:54	2015-07-17 21:21:53 +0000 Debug: Cannot perform action on invalid element: UIAElementNil from target.frontMostApp().mainWindow().tableViews()[1].cells()[20]
+build	17-Jul-2015 14:21:54	2015-07-17 21:21:54 +0000 Start: Community > Ad
+build	17-Jul-2015 14:21:54	2015-07-17 21:21:54 +0000 logElementTree:
+build	17-Jul-2015 14:21:54	UIAWindow "(null)" {{0, 0.6875}, {375, 665.625}}
+build	17-Jul-2015 14:21:54	elements: {
+build	17-Jul-2015 14:21:54		UIAElement "Close Advertisement" {{8.203125, -5.171875}, {55.664061801508069, 55.664061801508069}}
+build	17-Jul-2015 14:21:54		UIAElement "Close Advertisement" {{324.609375, -5.171875}, {55.664061801508069, 55.664061801508069}}
+build	17-Jul-2015 14:21:54	}
+build	17-Jul-2015 14:21:54	
+build	17-Jul-2015 14:21:54	2015-07-17 21:21:54 +0000 Default: Waiting for video to play T-30s
+build	17-Jul-2015 14:22:24	2015-07-17 21:22:24 +0000 Debug: target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "Community > Ad at index 20")
+build	17-Jul-2015 14:22:24	2015-07-17 21:22:24 +0000 Screenshot captured.
+build	17-Jul-2015 14:22:34	2015-07-17 21:22:34 +0000 Debug: Cannot perform action on invalid element: UIAElementNil from target.frontMostApp().mainWindow().elements()["vg close"]
+build	17-Jul-2015 14:22:34	2015-07-17 21:22:34 +0000 Default: Tested cell 20
+build	17-Jul-2015 14:22:34	2015-07-17 21:22:34 +0000 Error: Script threw an uncaught JavaScript error: Cannot perform action on invalid element: UIAElementNil from target.frontMostApp().mainWindow().elements()["vg close"] on line 194 of Wishbone.js
+build	17-Jul-2015 14:22:34	2015-07-17 21:22:34 +0000 Stopped: Script was stopped by the user
+error	17-Jul-2015 14:22:34	2015-07-17 14:22:34.474 instruments[5098:1092510] Attempting to set event horizon when core is not engaged, request ignored
+error	17-Jul-2015 14:22:34	2015-07-17 14:22:34.476 instruments[5098:1092510] Attempting to set event horizon when core is not engaged, request ignored
+build	17-Jul-2015 14:22:43	Instruments Trace Complete (Duration : 242.673431s; Output : /Users/wtobey/Desktop/AUITesting/instrumentscli0.trace)
+build	17-Jul-2015 14:22:44	===================================Running Parser.py===================================
+build	17-Jul-2015 14:22:44	The current working directory is /Users/wtobey/Desktop/AUITesting
+build	17-Jul-2015 14:22:44	['First Screen', 'Create View', 'Menu', 'Community']
+build	17-Jul-2015 14:22:44	['First Screen', 'Create View', 'Menu']
+build	17-Jul-2015 14:22:44	(0, 'First Screen > Skip Login')
+build	17-Jul-2015 14:22:44	(0, 'Create View > Search Web')
+build	17-Jul-2015 14:22:44	(1, 'Create View > Add Sticker')
+build	17-Jul-2015 14:22:44	(2, 'Create View > Choose From Library')
+build	17-Jul-2015 14:22:44	(3, 'Create View > Choose From Library')
+build	17-Jul-2015 14:22:44	(0, 'Menu > My Wishbones')
+build	17-Jul-2015 14:22:44	(1, 'Menu > Find Friends')
+build	17-Jul-2015 14:22:44	(0, 'Community > Select Feed')
+build	17-Jul-2015 14:22:44	(1, 'Community > Ad')
+build	17-Jul-2015 14:22:44	(0, 'Community > Ad')
+build	17-Jul-2015 14:22:44	(1, 'Community > Ad')
+build	17-Jul-2015 14:22:44	['.DS_Store', '.git', 'Archived Runs', 'atlassian-bamboo-5.9.1', 'bamboo-home', 'BambooTests', 'instruments.sh', 'instrumentscli0.trace', 'parser.py', 'README.md', 'Run 1', 'Run 1 (2)', 'Run 2015-07-15 21:26:31', 'Run 2015-07-15 21:40:12', 'Run 2015-07-15 21:57:29', 'Run 2015-07-16 17:50:14', 'Run 2015-07-16 18:22:38', 'Run 2015-07-16 18:43:44', 'Run 2015-07-16 19:13:06', 'Run 2015-07-16 21:49:14', 'Run 2015-07-16 22:22:17', 'Run 2015-07-17 01:06:57', 'Run 2015-07-17 16:57:11', 'Run 2015-07-17 17:14:59', 'Run 2015-07-17 17:16:49', 'Run 2015-07-17 17:17:39', 'Run 2015-07-17 17:32:06', 'Run 2015-07-17 17:52:57', 'Run 2015-07-17 17:56:31', 'Run 2015-07-17 18:28:00', 'Run 2015-07-17 18:56:01', 'Run 2015-07-17 18:57:10', 'Run 2015-07-17 18:58:14', 'Run 2015-07-17 18:59:27', 'Run 2015-07-17 19:00:36', 'Run 2015-07-17 19:02:11', 'Run 2015-07-17 19:06:34', 'Run 2015-07-17 20:35:08', 'Run 2015-07-17 21:04:58', 'RunSummary.txt', 'Wishbone.js', 'WishboneTemplate.tracetemplate']
+error	17-Jul-2015 14:22:44	Traceback (most recent call last):
+error	17-Jul-2015 14:22:44	  File "parser.py", line 136, in <module>
+error	17-Jul-2015 14:22:44	    os.mkdir(dirPath)
+error	17-Jul-2015 14:22:44	OSError: [Errno 17] File exists: '/Users/wtobey/Desktop/AUITesting/Run 2015-07-17 21:04:58'
+build	17-Jul-2015 14:22:44	===================================Removing Trace===================================
+build	17-Jul-2015 14:22:44	===================================Shutting Down Simulators===================================
+build	17-Jul-2015 14:22:45	===================================Erasing Simulators===================================
+build	17-Jul-2015 14:22:47	===================================Squitting Simulators===================================
+simple	17-Jul-2015 14:22:48	Finished task 'Build and Run' with result: Success
+simple	17-Jul-2015 14:22:48	Running post build plugin 'npm Cache Cleanup'
+simple	17-Jul-2015 14:22:48	Running post build plugin 'NCover Results Collector'
+simple	17-Jul-2015 14:22:48	Running post build plugin 'Clover Results Collector'
+simple	17-Jul-2015 14:22:48	Running post build plugin 'Docker Container Cleanup'
+simple	17-Jul-2015 14:22:48	Running post build plugin 'Artifact Copier'
+simple	17-Jul-2015 14:22:48	Finalising the build...
+simple	17-Jul-2015 14:22:48	Stopping timer.
+simple	17-Jul-2015 14:22:48	Build WUT-BT-JOB1-110 completed.
+simple	17-Jul-2015 14:22:48	Running on server: post build plugin 'NCover Results Collector'
+simple	17-Jul-2015 14:22:48	Running on server: post build plugin 'Clover Delta Calculator'
+simple	17-Jul-2015 14:22:48	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	17-Jul-2015 14:22:48	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	17-Jul-2015 14:22:48	All post build plugins have finished
+simple	17-Jul-2015 14:22:48	Generating build results summary...
+simple	17-Jul-2015 14:22:48	Saving build results to disk...
+simple	17-Jul-2015 14:22:48	Logging substituted variables...
+simple	17-Jul-2015 14:22:48	Indexing build results...
+simple	17-Jul-2015 14:22:48	Finished building WUT-BT-JOB1-110.

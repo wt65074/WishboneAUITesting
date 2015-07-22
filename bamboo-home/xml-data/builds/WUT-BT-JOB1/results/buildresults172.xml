@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>rm: ZIP_ONE: No such file or directory</string>
+    <string>mv: rename FIRST_RUN to Runs/FIRST_RUN: No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>172</myBuildNumber>
+  <myBuildDate>1437587153124</myBuildDate>
+  <myBuildDuration>568305</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

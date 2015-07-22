@@ -1,0 +1,31 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Unknown</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>upload failed: .git/objects/0c/fb9313a08fa0dcc9e7a085a4716f17b2ca849d to s3://wishbone-auitesting/.git/objects/0c/fb9313a08fa0dcc9e7a085a4716f17b2ca849d Unable to parse response (syntax error: line 1, column 0), invalid XML received:</string>
+    <string>x-amz-request-id: 8AD27D004C1C1B5C</string>
+    <string>x-amz-id-2: i4AGzOEFJ/mJ7tZcrUk2F/RltCmOnfaZQ6s3wQ8zEdjQtWuHWVbbTwq1p4UNgTW66JsMalN/eaw=</string>
+    <string>Location: https://wishbone-auitesting.s3-us-west-1.amazonaws.com/.git/objects/0c/fb9313a08fa0dcc9e7a085a4716f17b2ca849d</string>
+    <string>Content-Type: application/xml</string>
+    <string>Transfer-Encoding: chunked</string>
+    <string>Date: Tue, 21 Jul 2015 22:28:35 GMT</string>
+    <string>Connection: close</string>
+    <string>Server: AmazonS3</string>
+    <string></string>
+    <string>1d5</string>
+    <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</string>
+    <string>&lt;Error&gt;&lt;Code&gt;TemporaryRedirect&lt;/Code&gt;&lt;Message&gt;Please re-send this request to the specified temporary endpoint. Continue to use the original request endpoint for future requests.&lt;/Message&gt;&lt;Bucket&gt;wishbone-auitesting&lt;/Bucket&gt;&lt;Endpoint&gt;wishbone-auitesting.s3-us-west-1.amazonaws.com&lt;/Endpoint&gt;&lt;RequestId&gt;8AD27D004C1C1B5C&lt;/RequestId&gt;&lt;HostId&gt;i4AGzOEFJ/mJ7tZcrUk2F/RltCmOnfaZQ6s3wQ8zEdjQtWuHWVbbTwq1p4UNgTW66JsMalN/eaw=&lt;/HostId&gt;&lt;/Error&gt;</string>
+    <string>0</string>
+    <string></string>
+    <string></string>
+    <string>Build was manually stopped.</string>
+  </myBuildErrors>
+  <myBuildNumber>151</myBuildNumber>
+  <myBuildDate>1437517666372</myBuildDate>
+  <myBuildDuration>52275</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

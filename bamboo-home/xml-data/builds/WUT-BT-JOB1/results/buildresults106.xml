@@ -1,0 +1,15 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>python: can&apos;t open file &apos;parser.py&apos;: [Errno 2] No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>106</myBuildNumber>
+  <myBuildDate>1437163883817</myBuildDate>
+  <myBuildDuration>716236</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

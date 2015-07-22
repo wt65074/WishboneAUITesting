@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>delete.sh: line 1: -n: command not found</string>
+    <string>delete.sh: line 2: /Users/wtobey//.Trash/7BBD2A11-27E0-4C07-9C0F-69743A3E8730/Wishbone.app: is a directory</string>
+  </myBuildErrors>
+  <myBuildNumber>74</myBuildNumber>
+  <myBuildDate>1437068996066</myBuildDate>
+  <myBuildDuration>685318</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

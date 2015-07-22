@@ -1,0 +1,16 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string></string>
+    <string>Unknown options: 22:16:11.zip,s3://wishbone-auitesting</string>
+  </myBuildErrors>
+  <myBuildNumber>148</myBuildNumber>
+  <myBuildDate>1437516952102</myBuildDate>
+  <myBuildDuration>119083</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

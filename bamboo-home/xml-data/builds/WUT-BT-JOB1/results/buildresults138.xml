@@ -1,0 +1,18 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Successful</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-21 11:11:00.431 instruments[3790:436159] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>2015-07-21 11:11:00.431 instruments[3790:436158] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>CoreTestingScript.sh: line 29: instruments.sh: command not found</string>
+    <string>sh: CoreTestingScript.sh: No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>138</myBuildNumber>
+  <myBuildDate>1437502198579</myBuildDate>
+  <myBuildDuration>69047</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

@@ -1,0 +1,17 @@
+<BuildResults>
+  <myReasonForBuild>
+    <myReason>Manual build</myReason>
+  </myReasonForBuild>
+  <myBuildState>
+    <myState>Failed</myState>
+  </myBuildState>
+  <myBuildErrors>
+    <string>2015-07-15 14:25:26.689 instruments[4723:1132432] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>2015-07-15 14:25:26.690 instruments[4723:1132432] Attempting to set event horizon when core is not engaged, request ignored</string>
+    <string>delete.sh: line 1: /Users/wtobey//.Trash/Wishbone.app/Users/wtobey//Library/Developer/CoreSimulator/Devices/895A471B-7581-47E8-A0F7-264E9BEB33E1/data/Containers/Bundle/Application/2D8CB2CA-358A-48F7-B218-728993B77D16/Wishbone.app: No such file or directory</string>
+  </myBuildErrors>
+  <myBuildNumber>67</myBuildNumber>
+  <myBuildDate>1436995380543</myBuildDate>
+  <myBuildDuration>152463</myBuildDuration>
+  <mySuccessfulTestResults class="empty-list"/>
+</BuildResults>

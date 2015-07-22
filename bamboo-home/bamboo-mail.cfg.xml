@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mail-servers>
+  <smtp-server>
+    <name>Bamboo</name>
+    <username>wtobey@science-inc.com</username>
+    <password>OBwnnWizkoIHk7uo6x6log==</password>
+    <defaultFrom>wtobey@science-inc.com</defaultFrom>
+    <prefix>[Bamboo]</prefix>
+    <hostname>smtp.gmail.com</hostname>
+    <sessionServer>false</sessionServer>
+    <port>25</port>
+    <tlsRequired>true</tlsRequired>
+  </smtp-server>
+</mail-servers>

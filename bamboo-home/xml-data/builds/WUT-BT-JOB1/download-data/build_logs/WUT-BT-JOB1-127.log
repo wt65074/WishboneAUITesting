@@ -1,0 +1,27 @@
+simple	20-Jul-2015 14:05:38	Build Wishbone UI Testing - Build and Test - Default Job #127 (WUT-BT-JOB1-127) started building on agent Default Agent
+simple	20-Jul-2015 14:05:38	
+simple	20-Jul-2015 14:05:38	Build working directory is /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1
+simple	20-Jul-2015 14:05:38	Executing build Wishbone UI Testing - Build and Test - Default Job #127 (WUT-BT-JOB1-127)
+simple	20-Jul-2015 14:05:38	Running pre-build action: VCS Version Collector
+simple	20-Jul-2015 14:05:38	Starting task 'Build and Run' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	20-Jul-2015 14:05:38	Beginning to execute external process for build 'Wishbone UI Testing - Build and Test - Default Job #127 (WUT-BT-JOB1-127)'\n ... running command line: \n/bin/sh /Users/wtobey/Desktop/AUITesting/atlassian-bamboo-5.9.1/temp/WUT-BT-JOB1-127-ScriptBuildTask-7417738812963798367.sh\n ... in: /Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\n ... using extra environment variables: \nbamboo_planRepository_1_branch=V-3.0.6\nbamboo_repository_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_resultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-127\nbamboo_repository_983041_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_name=Wishbone\nbamboo_repository_983041_branch_name=V-3.0.6\nbamboo_build_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_buildKey=WUT-BT-JOB1\nbamboo_shortPlanName=Build and Test\nbamboo_planRepository_name=Wishbone\nbamboo_buildNumber=127\nbamboo_shortJobName=Default Job\nbamboo_buildResultsUrl=http://172.16.34.157:8085/browse/WUT-BT-JOB1-127\nbamboo_planRepository_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_agentId=131073\nbamboo_planName=Wishbone UI Testing - Build and Test\nbamboo_shortPlanKey=BT\nbamboo_shortJobKey=JOB1\nbamboo_planRepository_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildTimeStamp=2015-07-20T14:05:38.309-07:00\nbamboo_planRepository_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_buildResultKey=WUT-BT-JOB1-127\nbamboo_repository_git_branch=V-3.0.6\nbamboo_repository_branch_name=V-3.0.6\nbamboo_buildPlanName=Wishbone UI Testing - Build and Test - Default Job\nbamboo_repository_983041_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_1_revision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_983041_git_username=wt65074\nbamboo_repository_name=Wishbone\nbamboo_repository_983041_name=Wishbone\nbamboo_dependenciesDisabled=false\nbamboo_planRepository_branch=V-3.0.6\nbamboo_agentWorkingDirectory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073\nbamboo_capability_system_git_executable=/usr/bin/git\nbamboo_planRepository_1_previousRevision=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_repository_git_username=wt65074\nbamboo_repository_983041_previous_revision_number=6c2c123a812e361046a86aa5b844b0eb0220564c\nbamboo_planRepository_1_type=gh\nbamboo_planRepository_branchName=V-3.0.6\nbamboo_capability_system_jdk_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_capability_system_jdk_JDK_1_8_0_20=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_type=gh\nbamboo_planRepository_1_username=wt65074\nbamboo_ManualBuildTriggerReason_userName=wtobey\nbamboo_repository_git_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_repository_983041_git_branch=V-3.0.6\nbamboo_working_directory=/Users/wtobey/Desktop/AUITesting/bamboo-home/xml-data/build-dir/131073/WUT-BT-JOB1\nbamboo_planKey=WUT-BT\nbamboo_planRepository_1_repositoryUrl=https://github.com/SciDevs/wishbone.git\nbamboo_planRepository_username=wt65074\nbamboo_capability_system_jdk_JDK_1_8=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home\nbamboo_planRepository_1_branchName=V-3.0.6\n
+build	20-Jul-2015 14:05:38	TESTS SUCCEEDED
+simple	20-Jul-2015 14:05:38	Finished task 'Build and Run' with result: Success
+simple	20-Jul-2015 14:05:38	Running post build plugin 'npm Cache Cleanup'
+simple	20-Jul-2015 14:05:38	Running post build plugin 'NCover Results Collector'
+simple	20-Jul-2015 14:05:38	Running post build plugin 'Clover Results Collector'
+simple	20-Jul-2015 14:05:38	Running post build plugin 'Docker Container Cleanup'
+simple	20-Jul-2015 14:05:38	Running post build plugin 'Artifact Copier'
+simple	20-Jul-2015 14:05:38	Finalising the build...
+simple	20-Jul-2015 14:05:38	Stopping timer.
+simple	20-Jul-2015 14:05:38	Build WUT-BT-JOB1-127 completed.
+simple	20-Jul-2015 14:05:38	Running on server: post build plugin 'NCover Results Collector'
+simple	20-Jul-2015 14:05:38	Running on server: post build plugin 'Clover Delta Calculator'
+simple	20-Jul-2015 14:05:38	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	20-Jul-2015 14:05:38	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	20-Jul-2015 14:05:38	All post build plugins have finished
+simple	20-Jul-2015 14:05:38	Generating build results summary...
+simple	20-Jul-2015 14:05:38	Saving build results to disk...
+simple	20-Jul-2015 14:05:38	Logging substituted variables...
+simple	20-Jul-2015 14:05:38	Indexing build results...
+simple	20-Jul-2015 14:05:38	Finished building WUT-BT-JOB1-127.
