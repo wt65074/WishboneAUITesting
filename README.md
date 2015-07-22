@@ -2,7 +2,7 @@
 
 #How To Use
 
-In Terminal:
+#In Terminal:
 
 cd to this directory\ncd to atlassian-bamboo-5.9.1
 type "sh bin/start-bamboo.sh"
